@@ -34,3 +34,7 @@ Python 3.14 project .venv with pandas, numpy, matplotlib, nbformat, nbclient, ip
 40ae1ad — initial scope/rules/memory.
 3f4589f — executed introductory EDA and reports.
 Subsequent commit finalizes course-reference checks, source-data snapshot and documentation; consult git log for its hash.
+
+
+## Active milestone: conclusion, independent review and private repository
+User authorized creating a new private GitHub repository and pushing the project after an independent agent review. Before implementation, record this milestone and commit it. Add a comprehensive notebook conclusion; review data/target correctness, reproducibility, omissions and future requirements; apply justified improvements; verify and commit; create a private repository and push. Final test season and coach-change definition remain unconfirmed. Initial GitHub authentication check failed under restricted network; recheck with network access before concluding authentication is unavailable.
