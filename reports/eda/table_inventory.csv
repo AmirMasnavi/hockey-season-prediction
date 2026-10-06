@@ -1,0 +1,23 @@
+table,rows,columns,first_year,last_year,leagues,duplicate_rows,missing_pct
+AwardsCoaches,75,5,1930,2009,"NHL, WHA",0,20.0
+AwardsMisc,120,6,1965,2009,NHL,0,19.7
+AwardsPlayers,2021,6,1917,2009,"NHL, WHA",0,22.5
+Coaches,1741,14,1909,2009,"NHA, NHL, PCHA, WCHL, WHA",0,21.0
+CombinedShutouts,50,8,1929,2009,no lgID column,0,0.0
+Goalies,4096,23,1909,2009,"NHA, NHL, PCHA, WCHL, WHA",0,30.8
+GoaliesSC,31,11,1912,1925,"NHA, NHL, PCHA, WCHL",0,0.0
+GoaliesShootout,346,8,2005,2009,no lgID column,0,0.0
+HOF,356,4,1945,2009,no lgID column,0,0.0
+Master,7469,31,,,no lgID column,0,38.8
+Scoring,43848,31,1909,2009,"NHA, NHL, PCHA, WCHL, WHA",0,34.1
+ScoringSC,284,10,1912,1925,"NHA, NHL, PCHA, WCHL",0,0.0
+ScoringShootout,1487,7,2005,2009,no lgID column,0,0.0
+ScoringSup,137,4,1987,1990,no lgID column,0,19.3
+SeriesPost,802,13,1912,2009,no lgID column,0,8.0
+TeamSplits,1459,43,1909,2009,"NHA, NHL, PCHA, WCHL, WHA",0,33.2
+TeamVsTeam,23862,8,1909,2009,"NHA, NHL, PCHA, WCHL, WHA",0,10.3
+Teams,1459,27,1909,2009,"NHA, NHL, PCHA, WCHL, WHA",0,21.7
+TeamsHalf,41,11,1916,1920,"NHA, NHL",0,0.0
+TeamsPost,895,17,1913,2009,"NHA, NHL, PCHA, WCHL, WHA",0,15.3
+TeamsSC,30,10,1912,1925,"NHA, NHL, PCHA, WCHL",0,7.3
+abbrev,58,3,,,no lgID column,0,0.0
