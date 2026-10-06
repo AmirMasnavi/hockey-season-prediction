@@ -1,0 +1,1460 @@
+year,lgID,tmID,franchID,confID,divID,rank,playoff,G,W,L,T,OTL,Pts,SoW,SoL,GF,GA,name,PIM,BenchMinor,PPG,PPC,SHA,PKG,PKC,SHF
+1909,NHA,COB,BKN,,,4,,12,4,8,0.0,,8,,,79,104,Cobalt Silver Kings,,,,,,,,
+1909,NHA,HAI,MTL,,,5,,12,4,8,0.0,,8,,,77,83,Haileybury Hockey Club,,,,,,,,
+1909,NHA,LES,TBS,,,7,,12,2,10,0.0,,4,,,59,100,Les Canadiens,,,,,,,,
+1909,NHA,MOS,MOS,,,6,,12,3,8,1.0,,7,,,52,95,Montreal Shamrocks,,,,,,,,
+1909,NHA,MOW,MTW,,,1,,12,11,1,0.0,,22,,,91,41,Montreal Wanderers,,,,,,,,
+1909,NHA,OT1,STE,,,2,,12,9,3,0.0,,18,,,89,66,Ottawa Senators,,,,,,,,
+1909,NHA,REN,REN,,,3,,12,8,3,1.0,,17,,,96,54,Renfrew Creamery Kings,,,,,,,,
+1910,NHA,MOC,MTL,,,2,,16,8,8,0.0,,16,,,66,62,Montreal Canadiens,,,,,,,,
+1910,NHA,MOW,MTW,,,4,,16,7,9,0.0,,14,,,73,88,Montreal Wanderers,,,,,,,,
+1910,NHA,OT1,STE,,,1,,16,13,3,0.0,,26,,,122,69,Ottawa Senators,,,,,,,,
+1910,NHA,QU1,BKN,,,5,,16,4,12,0.0,,8,,,65,97,Quebec Bulldogs,,,,,,,,
+1910,NHA,REN,REN,,,3,,16,8,8,0.0,,16,,,91,101,Renfrew Creamery Kings,,,,,,,,
+1911,NHA,MOC,MTL,,,4,,18,8,10,0.0,,16,,,59,66,Montreal Canadiens,,,,,,,,
+1911,NHA,MOW,MTW,,,3,,18,9,9,0.0,,18,,,95,96,Montreal Wanderers,,,,,,,,
+1911,PCHA,NWR,PO1,,,1,,15,9,6,0.0,,18,,,78,77,New Westminster Royals,,,,,,,,
+1911,NHA,OT1,STE,,,2,,18,9,9,0.0,,18,,,99,93,Ottawa Senators,,,,,,,,
+1911,NHA,QU1,BKN,,,1,,18,10,8,0.0,,20,,,81,79,Quebec Bulldogs,,,,,,,,
+1911,PCHA,VA1,SPO,,,3,,16,7,9,0.0,,14,,,81,90,Victoria Aristocrats,,,,,,,,
+1911,PCHA,VML,VMR,,,2,,15,7,8,0.0,,14,,,102,94,Vancouver Millionaires,,,,,,,,
+1912,NHA,MOC,MTL,,,5,,20,9,11,0.0,,18,,,83,81,Montreal Canadiens,,,,,,,,
+1912,NHA,MOW,MTW,,,2,,20,10,10,0.0,,20,,,93,90,Montreal Wanderers,,,,,,,,
+1912,PCHA,NWR,PO1,,,3,,13,4,9,0.0,,8,,,46,61,New Westminster Royals,,,,,,,,
+1912,NHA,OT1,STE,,,3,,20,9,11,0.0,,18,,,87,81,Ottawa Senators,,,,,,,,
+1912,NHA,QU1,BKN,,,1,LCS,20,16,4,0.0,,32,,,112,75,Quebec Bulldogs,,,,,,,,
+1912,NHA,TBS,TBS,,,4,,20,9,11,0.0,,18,,,86,95,Toronto Blueshirts,,,,,,,,
+1912,NHA,TO1,TOO,,,6,,20,7,13,0.0,,14,,,59,98,Toronto Tecumsehs,,,,,,,,
+1912,PCHA,VA1,SPO,,,1,WCS,15,10,5,0.0,,20,,,68,56,Victoria Aristocrats,,,,,,,,
+1912,PCHA,VML,VMR,,,2,,14,7,7,0.0,,14,,,71,68,Vancouver Millionaires,,,,,,,,
+1913,NHA,MOC,MTL,,,2,NHAF,20,13,7,0.0,,26,,,85,65,Montreal Canadiens,,,,,,,,
+1913,NHA,MOW,MTW,,,5,,20,7,13,0.0,,14,,,102,125,Montreal Wanderers,,,,,,,,
+1913,PCHA,NWR,PO1,,,3,,16,7,9,0.0,,14,,,75,81,New Westminster Royals,,,,,,,,
+1913,NHA,OT1,STE,,,4,,20,11,9,0.0,,22,,,65,71,Ottawa Senators,,,,,,,,
+1913,NHA,QU1,BKN,,,3,,20,12,8,0.0,,24,,,111,73,Quebec Bulldogs,,,,,,,,
+1913,NHA,TBS,TBS,,,1,SC,20,13,7,0.0,,26,,,93,65,Toronto Blueshirts,,,,,,,,
+1913,NHA,TOO,TOO,,,6,,20,4,16,0.0,,8,,,61,118,Toronto Ontarios,,,,,,,,
+1913,PCHA,VA1,SPO,,,1,F,16,10,6,0.0,,20,,,86,80,Victoria Aristocrats,,,,,,,,
+1913,PCHA,VML,VMR,,,2,,16,7,9,0.0,,14,,,89,89,Vancouver Millionaires,,,,,,,,
+1914,NHA,MOC,MTL,,,6,,20,6,14,0.0,,12,,,65,81,Montreal Canadiens,,,,,,,,
+1914,NHA,MOW,MTW,,,2,NHAF,20,14,6,0.0,,28,,,127,82,Montreal Wanderers,,,,,,,,
+1914,NHA,OT1,STE,,,1,F,20,14,6,0.0,,28,,,74,65,Ottawa Senators,,,,,,,,
+1914,PCHA,PO1,PO1,,,2,,18,9,9,0.0,,18,,,91,83,Portland Rosebuds,,,,,,,,
+1914,NHA,QU1,BKN,,,3,,20,11,9,0.0,,22,,,85,85,Quebec Bulldogs,,,,,,,,
+1914,NHA,TBS,TBS,,,4,,20,8,12,0.0,,16,,,66,84,Toronto Blueshirts,,,,,,,,
+1914,NHA,TOO,TOO,,,5,,20,7,13,0.0,,14,,,76,96,Toronto Ontarios/Shamrocks,,,,,,,,
+1914,PCHA,VA1,SPO,,,3,,17,4,13,0.0,,8,,,64,116,Victoria Aristocrats,,,,,,,,
+1914,PCHA,VML,VMR,,,1,SC,17,13,4,0.0,,26,,,115,71,Vancouver Millionaires,,,,,,,,
+1915,NHA,MOC,MTL,,,1,SC,24,16,7,1.0,,33,,,104,76,Montreal Canadiens,,,,,,,,
+1915,NHA,MOW,MTW,,,4,,24,10,14,0.0,,20,,,90,116,Montreal Wanderers,,,,,,,,
+1915,NHA,OT1,STE,,,2,,24,13,11,0.0,,26,,,78,72,Ottawa Senators,,,,,,,,
+1915,PCHA,PO1,PO1,,,1,F,18,13,5,0.0,,26,,,71,50,Portland Rosebuds,,,,,,,,
+1915,NHA,QU1,BKN,,,3,,24,10,12,2.0,,22,,,91,98,Quebec Bulldogs,,,,,,,,
+1915,PCHA,SEA,SEA,,,3,,18,9,9,0.0,,18,,,68,67,Seattle Metropolitans,,,,,,,,
+1915,NHA,TBS,TBS,,,5,,24,9,14,1.0,,19,,,97,98,Toronto Blueshirts,,,,,,,,
+1915,PCHA,VA1,SPO,,,4,,18,5,13,0.0,,10,,,74,102,Victoria Aristocrats,,,,,,,,
+1915,PCHA,VML,VMR,,,2,,18,9,9,0.0,,18,,,75,69,Vancouver Millionaires,,,,,,,,
+1916,NHA,MOC,MTL,,,2,F,20,10,10,0.0,,20,,,89,80,Montreal Canadiens,,,,,,,,
+1916,NHA,MOW,MTW,,,6,,20,5,15,0.0,,10,,,94,137,Montreal Wanderers,,,,,,,,
+1916,NHA,OT1,STE,,,1,NHAF,20,15,5,0.0,,30,,,119,63,Ottawa Senators,,,,,,,,
+1916,PCHA,PO1,PO1,,,3,,24,9,15,0.0,,18,,,114,112,Portland Rosebuds,,,,,,,,
+1916,NHA,QU1,BKN,,,2,,20,10,10,0.0,,20,,,97,126,Quebec Bulldogs,,,,,,,,
+1916,PCHA,SEA,SEA,,,1,SC,24,16,8,0.0,,32,,,125,80,Seattle Metropolitans,,,,,,,,
+1916,PCHA,SPO,SPO,,,4,,23,8,15,0.0,,16,,,89,143,Spokane Canaries,,,,,,,,
+1916,NHA,TBS,TBS,,,4,,14,7,7,0.0,,14,,,64,61,Toronto Blueshirts,,,,,,,,
+1916,NHA,TOB,TOB,,,4,,14,7,7,0.0,,14,,,73,69,228th Battalion,,,,,,,,
+1916,PCHA,VML,VMR,,,2,,23,14,9,0.0,,28,,,131,124,Vancouver Millionaires,,,,,,,,
+1917,NHL,MTL,MTL,,,1,NHLF,22,13,9,0.0,,26,,,115,84,Montreal Canadiens,336.0,,,,,,,
+1917,NHL,MTW,MTW,,,4,,6,1,5,0.0,,2,,,17,35,Montreal Wanderers,27.0,,,,,,,
+1917,NHL,OTS,STE,,,3,,22,9,13,0.0,,18,,,102,114,Ottawa Senators,333.0,,,,,,,
+1917,PCHA,PO1,PO1,,,3,,18,7,11,0.0,,14,,,63,75,Portland Rosebuds,,,,,,,,
+1917,PCHA,SEA,SEA,,,1,PF,18,11,7,0.0,,22,,,67,65,Seattle Metropolitans,,,,,,,,
+1917,NHL,TOA,TOR,,,1,SC,22,13,9,0.0,,26,,,108,109,Toronto Arenas,355.0,,,,,,,
+1917,PCHA,VML,VMR,,,2,F,18,9,9,0.0,,18,,,70,60,Vancouver Millionaires,,,,,,,,
+1918,NHL,MTL,MTL,,,2,ND,18,10,8,0.0,,20,,,88,78,Montreal Canadiens,253.0,,,,,,,
+1918,NHL,OTS,STE,,,1,NHLF,18,12,6,0.0,,24,,,71,53,Ottawa Senators,241.0,,,,,,,
+1918,PCHA,SEA,SEA,,,2,ND,20,11,9,0.0,,22,,,66,46,Seattle Metropolitans,,,,,,,,
+1918,NHL,TOA,TOR,,,3,,18,5,13,0.0,,10,,,64,92,Toronto Arenas,269.0,,,,,,,
+1918,PCHA,VA2,VIC,,,3,,20,7,13,0.0,,14,,,44,81,Victoria Aristocrats,,,,,,,,
+1918,PCHA,VML,VMR,,,1,PF,20,12,8,0.0,,24,,,72,55,Vancouver Millionaires,,,,,,,,
+1919,NHL,MTL,MTL,,,2,,24,13,11,0.0,,26,,,129,113,Montreal Canadiens,297.0,,,,,,,
+1919,NHL,OTS,STE,,,1,SC,24,19,5,0.0,,38,,,121,64,Ottawa Senators,305.0,,,,,,,
+1919,NHL,QUB,BKN,,,4,,24,4,20,0.0,,8,,,91,177,Quebec Bulldogs,123.0,,,,,,,
+1919,PCHA,SEA,SEA,,,1,F,22,12,10,0.0,,24,,,59,55,Seattle Metropolitans,,,,,,,,
+1919,NHL,TRS,TOR,,,3,,24,12,12,0.0,,24,,,119,106,Toronto St. Patricks,253.0,,,,,,,
+1919,PCHA,VA2,VIC,,,3,,22,10,12,0.0,,20,,,57,71,Victoria Aristocrats,,,,,,,,
+1919,PCHA,VML,VMR,,,2,PF,22,11,11,0.0,,22,,,75,65,Vancouver Millionaires,,,,,,,,
+1920,NHL,HAM,BKN,,,4,,24,6,18,0.0,,12,,,92,132,Hamilton Tigers,183.0,,,,,,,
+1920,NHL,MTL,MTL,,,3,,24,13,11,0.0,,26,,,112,99,Montreal Canadiens,325.0,,,,,,,
+1920,NHL,OTS,STE,,,2,SC,24,14,10,0.0,,28,,,97,75,Ottawa Senators,179.0,,,,,,,
+1920,PCHA,SEA,SEA,,,2,PF,24,12,11,1.0,,25,,,77,68,Seattle Metropolitans,,,,,,,,
+1920,NHL,TRS,TOR,,,1,NHLF,24,15,9,0.0,,30,,,105,100,Toronto St. Patricks,287.0,,,,,,,
+1920,PCHA,VA2,VIC,,,3,,24,10,13,1.0,,21,,,72,88,Victoria Aristocrats,,,,,,,,
+1920,PCHA,VML,VMR,,,1,F,24,13,11,0.0,,26,,,86,79,Vancouver Millionaires,,,,,,,,
+1921,WCHL,CAT,CAT,,,3,WSF,24,14,10,0.0,,28,,,75,62,Calgary Tigers,,,,,,,,
+1921,WCHL,EDE,EDE,,,1,WF,24,15,9,0.0,,30,,,117,76,Edmonton Eskimos,,,,,,,,
+1921,NHL,HAM,BKN,,,4,,24,7,17,0.0,,14,,,88,105,Hamilton Tigers,106.0,,,,,,,
+1921,NHL,MTL,MTL,,,3,,24,12,11,1.0,,25,,,88,94,Montreal Canadiens,206.0,,,,,,,
+1921,NHL,OTS,STE,,,1,NHLF,24,14,8,2.0,,30,,,106,84,Ottawa Senators,111.0,,,,,,,
+1921,WCHL,REG,POR,,,2,SCSF,24,14,10,0.0,,28,,,94,78,Regina Capitals,,,,,,,,
+1921,PCHA,SEA,SEA,,,1,PF,24,12,11,1.0,,25,,,65,64,Seattle Metropolitans,,,,,,,,
+1921,WCHL,SMJ,SAS,,,4,,24,5,19,0.0,,10,,,67,137,Saskatoon/Moose Jaw Sheiks,,,,,,,,
+1921,NHL,TRS,TOR,,,2,SC,24,13,10,1.0,,27,,,98,97,Toronto St. Patricks,160.0,,,,,,,
+1921,PCHA,VA2,VIC,,,3,,24,11,12,1.0,,23,,,61,71,Victoria Aristocrats,,,,,,,,
+1921,PCHA,VML,VMR,,,2,F,24,12,12,0.0,,24,,,77,68,Vancouver Millionaires,,,,,,,,
+1922,WCHL,CAT,CAT,,,3,,30,12,18,0.0,,24,,,91,106,Calgary Tigers,,,,,,,,
+1922,WCHL,EDE,EDE,,,1,F,30,19,10,1.0,,39,,,112,90,Edmonton Eskimos,,,,,,,,
+1922,NHL,HAM,BKN,,,4,,24,6,18,0.0,,12,,,81,110,Hamilton Tigers,188.0,,,,,,,
+1922,NHL,MTL,MTL,,,2,NHLF,24,13,9,2.0,,28,,,73,61,Montreal Canadiens,193.0,,,,,,,
+1922,NHL,OTS,STE,,,1,SC,24,14,9,1.0,,29,,,77,54,Ottawa Senators,195.0,,,,,,,
+1922,WCHL,REG,POR,,,2,WF,30,16,14,0.0,,32,,,93,97,Regina Capitals,,,,,,,,
+1922,WCHL,SAC,SAS,,,4,,30,8,20,2.0,,18,,,91,125,Saskatoon Crescents,,,,,,,,
+1922,PCHA,SEA,SEA,,,3,,30,15,15,0.0,,30,,,100,106,Seattle Metropolitans,,,,,,,,
+1922,NHL,TRS,TOR,,,3,,24,13,10,1.0,,27,,,82,88,Toronto St. Patricks,241.0,,,,,,,
+1922,PCHA,VAM,VMR,,,1,SCSF,30,17,12,1.0,,35,,,116,88,Vancouver Maroons,,,,,,,,
+1922,PCHA,VC1,VIC,,,2,PF,30,16,14,0.0,,32,,,94,85,Victoria Cougars,,,,,,,,
+1923,WCHL,CAT,CAT,,,1,F,30,18,11,1.0,,37,,,83,72,Calgary Tigers,,,,,,,,
+1923,WCHL,EDE,EDE,,,4,,30,11,15,4.0,,26,,,69,81,Edmonton Eskimos,,,,,,,,
+1923,NHL,HAM,BKN,,,4,,24,9,15,0.0,,18,,,63,68,Hamilton Tigers,171.0,,,,,,,
+1923,NHL,MTL,MTL,,,2,SC,24,13,11,0.0,,26,,,59,48,Montreal Canadiens,187.0,,,,,,,
+1923,NHL,OTS,STE,,,1,NHLF,24,16,8,0.0,,32,,,74,54,Ottawa Senators,178.0,,,,,,,
+1923,WCHL,REG,POR,,,2,WF,30,17,11,2.0,,36,,,83,67,Regina Capitals,,,,,,,,
+1923,WCHL,SAC,SAS,,,3,,30,15,12,3.0,,33,,,91,73,Saskatoon Crescents,,,,,,,,
+1923,PCHA,SEA,SEA,,,1,PF,30,14,16,0.0,,28,,,84,99,Seattle Metropolitans,,,,,,,,
+1923,NHL,TRS,TOR,,,3,,24,10,14,0.0,,20,,,59,85,Toronto St. Patricks,242.0,,,,,,,
+1923,PCHA,VAM,VMR,,,2,SCSF,30,13,16,1.0,,27,,,87,80,Vancouver Maroons,,,,,,,,
+1923,PCHA,VC1,VIC,,,3,,30,11,18,1.0,,23,,,78,103,Victoria Cougars,,,,,,,,
+1924,NHL,BOS,BOS,,,6,,30,6,24,0.0,,12,,,49,119,Boston Bruins,231.0,,,,,,,
+1924,WCHL,CAT,CAT,,,1,WF,28,17,11,0.0,,34,,,96,80,Calgary Tigers,,,,,,,,
+1924,WCHL,EDE,EDE,,,4,,28,14,13,1.0,,29,,,97,109,Edmonton Eskimos,,,,,,,,
+1924,NHL,HAM,BKN,,,1,NHLF,30,19,10,1.0,,39,,,90,60,Hamilton Tigers,335.0,,,,,,,
+1924,NHL,MTL,MTL,,,3,F,30,17,11,2.0,,36,,,93,56,Montreal Canadiens,406.0,,,,,,,
+1924,NHL,MTM,MTM,,,5,,30,9,19,2.0,,20,,,45,65,Montreal Maroons,292.0,,,,,,,
+1924,NHL,OTS,STE,,,4,,30,17,12,1.0,,35,,,83,66,Ottawa Senators,350.0,,,,,,,
+1924,WCHL,REG,POR,,,6,,28,8,20,0.0,,16,,,82,123,Regina Capitals,,,,,,,,
+1924,WCHL,SAS,SAS,,,2,WSF,28,16,11,1.0,,33,,,102,75,Saskatoon Sheiks,,,,,,,,
+1924,NHL,TRS,TOR,,,2,SF,30,19,11,0.0,,38,,,90,84,Toronto St. Patricks,274.0,,,,,,,
+1924,WCHL,VIC,VIC,,,3,SC,28,16,12,0.0,,32,,,84,63,Victoria Cougars,,,,,,,,
+1924,WCHL,VMR,VMR,,,5,,28,12,16,0.0,,24,,,91,102,Vancouver Maroons,,,,,,,,
+1925,NHL,BOS,BOS,,,4,,36,17,15,4.0,,38,,,92,85,Boston Bruins,292.0,,,,,,,
+1925,WCHL,CAT,CAT,,,5,,30,10,17,3.0,,23,,,71,80,Calgary Tigers,,,,,,,,
+1925,WCHL,EDE,EDE,,,1,WF,30,19,11,0.0,,38,,,94,77,Edmonton Eskimos,,,,,,,,
+1925,NHL,MTL,MTL,,,7,,36,11,24,1.0,,23,,,79,108,Montreal Canadiens,458.0,,,,,,,
+1925,NHL,MTM,MTM,,,2,SC,36,20,11,5.0,,45,,,91,73,Montreal Maroons,554.0,,,,,,,
+1925,NHL,NYA,BKN,,,5,,36,12,20,4.0,,28,,,68,89,New York Americans,341.0,,,,,,,
+1925,NHL,OTS,STE,,,1,NHLF,36,24,8,4.0,,52,,,77,42,Ottawa Senators,339.0,,,,,,,
+1925,NHL,PIP,PHQ,,,3,SF,36,19,16,1.0,,39,,,82,70,Pittsburgh Pirates,264.0,,,,,,,
+1925,WCHL,POR,POR,,,4,,30,12,16,2.0,,26,,,84,110,Portland Rosebuds,,,,,,,,
+1925,WCHL,SAS,SAS,,,2,WSF,30,18,11,1.0,,37,,,93,64,Saskatoon Sheiks,,,,,,,,
+1925,NHL,TRS,TOR,,,6,,36,12,21,3.0,,27,,,92,114,Toronto St. Patricks,325.0,,,,,,,
+1925,WCHL,VIC,VIC,,,3,F,30,15,11,4.0,,34,,,68,53,Victoria Cougars,,,,,,,,
+1925,WCHL,VMR,VMR,,,6,,30,10,18,2.0,,22,,,64,90,Vancouver Maroons,,,,,,,,
+1926,NHL,BOS,BOS,,AM,2,F,44,21,20,3.0,,45,,,97,89,Boston Bruins,499.0,,,,,,,
+1926,NHL,CHI,CHI,,AM,3,QF,44,19,22,3.0,,41,,,115,116,Chicago Black Hawks,436.0,,,,,,,
+1926,NHL,DTC,DET,,AM,5,,44,12,28,4.0,,28,,,76,105,Detroit Cougars,419.0,,,,,,,
+1926,NHL,MTL,MTL,,CA,2,SF,44,28,14,2.0,,58,,,99,67,Montreal Canadiens,409.0,,,,,,,
+1926,NHL,MTM,MTM,,CA,3,QF,44,20,20,4.0,,44,,,71,68,Montreal Maroons,716.0,,,,,,,
+1926,NHL,NYA,BKN,,CA,4,,44,17,25,2.0,,36,,,82,91,New York Americans,359.0,,,,,,,
+1926,NHL,NYR,NYR,,AM,1,SF,44,25,13,6.0,,56,,,95,72,New York Rangers,385.0,,,,,,,
+1926,NHL,OTS,STE,,CA,1,SC,44,30,10,4.0,,64,,,86,69,Ottawa Senators,607.0,,,,,,,
+1926,NHL,PIP,PHQ,,AM,4,,44,15,26,3.0,,33,,,79,108,Pittsburgh Pirates,222.0,,,,,,,
+1926,NHL,TRS,TOR,,CA,5,,44,15,24,5.0,,35,,,79,94,Toronto St. Patricks,546.0,,,,,,,
+1927,NHL,BOS,BOS,,AM,1,SF,44,20,13,11.0,,51,,,77,70,Boston Bruins,557.0,,,,,,,
+1927,NHL,CHI,CHI,,AM,5,,44,7,34,3.0,,17,,,68,134,Chicago Black Hawks,377.0,,,,,,,
+1927,NHL,DTC,DET,,AM,4,,44,19,19,6.0,,44,,,88,79,Detroit Cougars,395.0,,,,,,,
+1927,NHL,MTL,MTL,,CA,1,SF,44,26,11,7.0,,59,,,116,48,Montreal Canadiens,496.0,,,,,,,
+1927,NHL,MTM,MTM,,CA,2,F,44,24,14,6.0,,54,,,96,77,Montreal Maroons,588.0,,,,,,,
+1927,NHL,NYA,BKN,,CA,5,,44,11,27,6.0,,28,,,63,128,New York Americans,590.0,,,,,,,
+1927,NHL,NYR,NYR,,AM,2,SC,44,19,16,9.0,,47,,,94,79,New York Rangers,463.0,,,,,,,
+1927,NHL,OTS,STE,,CA,3,QF,44,20,14,10.0,,50,,,78,57,Ottawa Senators,483.0,,,,,,,
+1927,NHL,PIP,PHQ,,AM,3,QF,44,19,17,8.0,,46,,,67,76,Pittsburgh Pirates,424.0,,,,,,,
+1927,NHL,TOR,TOR,,CA,4,,44,18,18,8.0,,44,,,89,88,Toronto Maple Leafs,522.0,,,,,,,
+1928,NHL,BOS,BOS,,AM,1,SC,44,26,13,5.0,,57,,,89,52,Boston Bruins,474.0,,,,,,,
+1928,NHL,CHI,CHI,,AM,5,,44,7,29,8.0,,22,,,33,85,Chicago Black Hawks,363.0,,,,,,,
+1928,NHL,DTC,DET,,AM,3,QF,44,19,16,9.0,,47,,,72,63,Detroit Cougars,381.0,,,,,,,
+1928,NHL,MTL,MTL,,CA,1,SF,44,22,7,15.0,,59,,,71,43,Montreal Canadiens,465.0,,,,,,,
+1928,NHL,MTM,MTM,,CA,5,,44,15,20,9.0,,39,,,67,65,Montreal Maroons,636.0,,,,,,,
+1928,NHL,NYA,BKN,,CA,2,QF,44,19,13,12.0,,50,,,53,53,New York Americans,486.0,,,,,,,
+1928,NHL,NYR,NYR,,AM,2,F,44,21,13,10.0,,52,,,72,65,New York Rangers,382.0,,,,,,,
+1928,NHL,OTS,STE,,CA,4,,44,14,17,13.0,,41,,,54,67,Ottawa Senators,463.0,,,,,,,
+1928,NHL,PIP,PHQ,,AM,4,,44,9,27,8.0,,26,,,46,80,Pittsburgh Pirates,324.0,,,,,,,
+1928,NHL,TOR,TOR,,CA,3,SF,44,21,18,5.0,,47,,,85,69,Toronto Maple Leafs,540.0,,,,,,,
+1929,NHL,BOS,BOS,,AM,1,F,44,38,5,1.0,,77,,,179,98,Boston Bruins,447.0,,,,,,,
+1929,NHL,CHI,CHI,,AM,2,QF,44,21,18,5.0,,47,,,117,111,Chicago Black Hawks,573.0,,,,,,,
+1929,NHL,DTC,DET,,AM,4,,44,14,24,6.0,,34,,,117,133,Detroit Cougars,473.0,,,,,,,
+1929,NHL,MTL,MTL,,CA,2,SC,44,21,14,9.0,,51,,,142,114,Montreal Canadiens,596.0,,,,,,,
+1929,NHL,MTM,MTM,,CA,1,SF,44,23,16,5.0,,51,,,141,114,Montreal Maroons,655.0,,,,,,,
+1929,NHL,NYA,BKN,,CA,5,,44,14,25,5.0,,33,,,113,161,New York Americans,384.0,,,,,,,
+1929,NHL,NYR,NYR,,AM,3,SF,44,17,17,10.0,,44,,,136,143,New York Rangers,437.0,,,,,,,
+1929,NHL,OTS,STE,,CA,3,QF,44,21,15,8.0,,50,,,138,118,Ottawa Senators,558.0,,,,,,,
+1929,NHL,PIP,PHQ,,AM,5,,44,5,36,3.0,,13,,,102,185,Pittsburgh Pirates,364.0,,,,,,,
+1929,NHL,TOR,TOR,,CA,4,,44,17,21,6.0,,40,,,116,124,Toronto Maple Leafs,607.0,,,,,,,
+1930,NHL,BOS,BOS,,AM,1,SF,44,28,10,6.0,,62,,,143,90,Boston Bruins,460.0,,,,,,,
+1930,NHL,CHI,CHI,,AM,2,F,44,24,17,3.0,,51,,,108,78,Chicago Black Hawks,407.0,,,,,,,
+1930,NHL,DTF,DET,,AM,4,,44,16,21,7.0,,39,,,102,105,Detroit Falcons,411.0,,,,,,,
+1930,NHL,MTL,MTL,,CA,1,SC,44,26,10,8.0,,60,,,129,89,Montreal Canadiens,602.0,,,,,,,
+1930,NHL,MTM,MTM,,CA,3,QF,44,20,18,6.0,,46,,,105,106,Montreal Maroons,606.0,,,,,,,
+1930,NHL,NYA,BKN,,CA,4,,44,18,16,10.0,,46,,,76,74,New York Americans,503.0,,,,,,,
+1930,NHL,NYR,NYR,,AM,3,SF,44,19,16,9.0,,47,,,106,87,New York Rangers,516.0,,,,,,,
+1930,NHL,OTS,STE,,CA,5,,44,10,30,4.0,,24,,,91,142,Ottawa Senators,486.0,,,,,,,
+1930,NHL,PHQ,PHQ,,AM,5,,44,4,36,4.0,,12,,,76,184,Philadelphia Quakers,468.0,,,,,,,
+1930,NHL,TOR,TOR,,CA,2,QF,44,22,13,9.0,,53,,,118,99,Toronto Maple Leafs,512.0,,,,,,,
+1931,NHL,BOS,BOS,,AM,4,,48,15,21,12.0,,42,,,122,117,Boston Bruins,372.0,,,,,,,
+1931,NHL,CHI,CHI,,AM,2,QF,48,18,19,11.0,,47,,,86,101,Chicago Black Hawks,469.0,,,,,,,
+1931,NHL,DTF,DET,,AM,3,QF,48,18,20,10.0,,46,,,95,108,Detroit Falcons,419.0,,,,,,,
+1931,NHL,MTL,MTL,,CA,1,SF,48,25,16,7.0,,57,,,128,111,Montreal Canadiens,448.0,,,,,,,
+1931,NHL,MTM,MTM,,CA,3,SF,48,19,22,7.0,,45,,,142,139,Montreal Maroons,593.0,,,,,,,
+1931,NHL,NYA,BKN,,CA,4,,48,16,24,8.0,,40,,,95,142,New York Americans,589.0,,,,,,,
+1931,NHL,NYR,NYR,,AM,1,F,48,23,17,8.0,,54,,,134,112,New York Rangers,511.0,,,,,,,
+1931,NHL,TOR,TOR,,CA,2,SC,48,23,18,7.0,,53,,,155,127,Toronto Maple Leafs,625.0,,,,,,,
+1932,NHL,BOS,BOS,,AM,1,SF,48,25,15,8.0,,58,,,124,88,Boston Bruins,517.0,,,,,,,
+1932,NHL,CHI,CHI,,AM,4,,48,16,20,12.0,,44,,,88,101,Chicago Black Hawks,401.0,,,,,,,
+1932,NHL,DET,DET,,AM,2,SF,48,25,15,8.0,,58,,,111,93,Detroit Red Wings,462.0,,,,,,,
+1932,NHL,MTL,MTL,,CA,3,QF,48,18,25,5.0,,41,,,92,115,Montreal Canadiens,482.0,,,,,,,
+1932,NHL,MTM,MTM,,CA,2,QF,48,22,20,6.0,,50,,,135,119,Montreal Maroons,442.0,,,,,,,
+1932,NHL,NYA,BKN,,CA,4,,48,15,22,11.0,,41,,,91,118,New York Americans,478.0,,,,,,,
+1932,NHL,NYR,NYR,,AM,3,SC,48,23,17,8.0,,54,,,135,107,New York Rangers,599.0,,,,,,,
+1932,NHL,OTS,STE,,CA,5,,48,11,27,10.0,,32,,,88,131,Ottawa Senators,398.0,,,,,,,
+1932,NHL,TOR,TOR,,CA,1,F,48,24,18,6.0,,54,,,119,111,Toronto Maple Leafs,624.0,,,,,,,
+1933,NHL,BOS,BOS,,AM,4,,48,18,25,5.0,,41,,,111,130,Boston Bruins,378.0,,,,,,,
+1933,NHL,CHI,CHI,,AM,2,SC,48,20,17,11.0,,51,,,88,83,Chicago Black Hawks,335.0,,,,,,,
+1933,NHL,DET,DET,,AM,1,F,48,24,14,10.0,,58,,,113,98,Detroit Red Wings,368.0,,,,,,,
+1933,NHL,MTL,MTL,,CA,2,QF,48,22,20,6.0,,50,,,99,101,Montreal Canadiens,308.0,,,,,,,
+1933,NHL,MTM,MTM,,CA,3,SF,48,19,18,11.0,,49,,,117,122,Montreal Maroons,414.0,,,,,,,
+1933,NHL,NYA,BKN,,CA,4,,48,15,23,10.0,,40,,,104,132,New York Americans,374.0,,,,,,,
+1933,NHL,NYR,NYR,,AM,3,QF,48,21,19,8.0,,50,,,120,113,New York Rangers,401.0,,,,,,,
+1933,NHL,OTS,STE,,CA,5,,48,13,29,6.0,,32,,,115,143,Ottawa Senators,352.0,,,,,,,
+1933,NHL,TOR,TOR,,CA,1,SF,48,26,13,9.0,,61,,,174,119,Toronto Maple Leafs,529.0,,,,,,,
+1934,NHL,BOS,BOS,,AM,1,SF,48,26,16,6.0,,58,,,129,112,Boston Bruins,379.0,,,,,,,
+1934,NHL,CHI,CHI,,AM,2,QF,48,26,17,5.0,,57,,,118,88,Chicago Black Hawks,387.0,,,,,,,
+1934,NHL,DET,DET,,AM,4,,48,19,22,7.0,,45,,,127,114,Detroit Red Wings,326.0,,,,,,,
+1934,NHL,MTL,MTL,,CA,3,QF,48,19,23,6.0,,44,,,110,145,Montreal Canadiens,310.0,,,,,,,
+1934,NHL,MTM,MTM,,CA,2,SC,48,24,19,5.0,,53,,,123,92,Montreal Maroons,383.0,,,,,,,
+1934,NHL,NYA,BKN,,CA,4,,48,12,27,9.0,,33,,,100,142,New York Americans,250.0,,,,,,,
+1934,NHL,NYR,NYR,,AM,3,SF,48,22,20,6.0,,50,,,137,139,New York Rangers,341.0,,,,,,,
+1934,NHL,STE,STE,,CA,5,,48,11,31,6.0,,28,,,86,144,St. Louis Eagles,402.0,,,,,,,
+1934,NHL,TOR,TOR,,CA,1,F,48,30,14,4.0,,64,,,157,111,Toronto Maple Leafs,444.0,,,,,,,
+1935,NHL,BOS,BOS,,AM,2,QF,48,22,20,6.0,,50,,,92,83,Boston Bruins,399.0,,,,,,,
+1935,NHL,CHI,CHI,,AM,3,QF,48,21,19,8.0,,50,,,93,92,Chicago Black Hawks,409.0,,,,,,,
+1935,NHL,DET,DET,,AM,1,SC,48,24,16,8.0,,56,,,124,103,Detroit Red Wings,376.0,,,,,,,
+1935,NHL,MTL,MTL,,CA,4,,48,11,26,11.0,,33,,,82,123,Montreal Canadiens,317.0,,,,,,,
+1935,NHL,MTM,MTM,,CA,1,SF,48,22,16,10.0,,54,,,114,106,Montreal Maroons,504.0,,,,,,,
+1935,NHL,NYA,BKN,,CA,3,SF,48,16,25,7.0,,39,,,109,122,New York Americans,392.0,,,,,,,
+1935,NHL,NYR,NYR,,AM,4,,48,19,17,12.0,,50,,,91,96,New York Rangers,387.0,,,,,,,
+1935,NHL,TOR,TOR,,CA,2,F,48,23,19,6.0,,52,,,126,106,Toronto Maple Leafs,579.0,,,,,,,
+1936,NHL,BOS,BOS,,AM,2,QF,48,23,18,7.0,,53,,,120,110,Boston Bruins,303.0,,,,,,,
+1936,NHL,CHI,CHI,,AM,4,,48,14,27,7.0,,35,,,99,131,Chicago Black Hawks,291.0,,,,,,,
+1936,NHL,DET,DET,,AM,1,SC,48,25,14,9.0,,59,,,128,102,Detroit Red Wings,244.0,,,,,,,
+1936,NHL,MTL,MTL,,CA,1,SF,48,24,18,6.0,,54,,,115,111,Montreal Canadiens,304.0,,,,,,,
+1936,NHL,MTM,MTM,,CA,2,SF,48,22,17,9.0,,53,,,126,110,Montreal Maroons,381.0,,,,,,,
+1936,NHL,NYA,BKN,,CA,4,,48,15,29,4.0,,34,,,122,161,New York Americans,483.0,,,,,,,
+1936,NHL,NYR,NYR,,AM,3,F,48,19,20,9.0,,47,,,117,106,New York Rangers,312.0,,,,,,,
+1936,NHL,TOR,TOR,,CA,3,QF,48,22,21,5.0,,49,,,119,115,Toronto Maple Leafs,371.0,,,,,,,
+1937,NHL,BOS,BOS,,AM,1,SF,48,30,11,7.0,,67,,,142,89,Boston Bruins,280.0,,,,,,,
+1937,NHL,CHI,CHI,,AM,3,SC,48,14,25,9.0,,37,,,97,139,Chicago Black Hawks,242.0,,,,,,,
+1937,NHL,DET,DET,,AM,4,,48,12,25,11.0,,35,,,99,133,Detroit Red Wings,262.0,,,,,,,
+1937,NHL,MTL,MTL,,CA,3,QF,48,18,17,13.0,,49,,,123,128,Montreal Canadiens,342.0,,,,,,,
+1937,NHL,MTM,MTM,,CA,4,,48,12,30,6.0,,30,,,101,149,Montreal Maroons,470.0,,,,,,,
+1937,NHL,NYA,BKN,,CA,2,SF,48,19,18,11.0,,49,,,110,111,New York Americans,327.0,,,,,,,
+1937,NHL,NYR,NYR,,AM,2,QF,48,27,15,6.0,,60,,,149,96,New York Rangers,445.0,,,,,,,
+1937,NHL,TOR,TOR,,CA,1,F,48,24,15,9.0,,57,,,151,127,Toronto Maple Leafs,404.0,,,,,,,
+1938,NHL,BOS,BOS,,,1,SC,48,36,10,2.0,,74,,,156,76,Boston Bruins,251.0,,,,,,,
+1938,NHL,CHI,CHI,,,7,,48,12,28,8.0,,32,,,91,132,Chicago Black Hawks,361.0,,,,,,,
+1938,NHL,DET,DET,,,5,SF,48,18,24,6.0,,42,,,107,128,Detroit Red Wings,242.0,,,,,,,
+1938,NHL,MTL,MTL,,,6,QF,48,15,24,9.0,,39,,,115,146,Montreal Canadiens,288.0,,,,,,,
+1938,NHL,NYA,BKN,,,4,QF,48,17,21,10.0,,44,,,119,157,New York Americans,284.0,,,,,,,
+1938,NHL,NYR,NYR,,,2,SF,48,26,16,6.0,,58,,,149,105,New York Rangers,387.0,,,,,,,
+1938,NHL,TOR,TOR,,,3,F,48,19,20,9.0,,47,,,114,107,Toronto Maple Leafs,372.0,,,,,,,
+1939,NHL,BOS,BOS,,,1,SF,48,31,12,5.0,,67,,,170,98,Boston Bruins,330.0,,,,,,,
+1939,NHL,CHI,CHI,,,4,QF,48,23,19,6.0,,52,,,112,120,Chicago Black Hawks,349.0,,,,,,,
+1939,NHL,DET,DET,,,5,SF,48,16,26,6.0,,38,,,90,126,Detroit Red Wings,250.0,,,,,,,
+1939,NHL,MTL,MTL,,,7,,48,10,33,5.0,,25,,,90,167,Montreal Canadiens,322.0,,,,,,,
+1939,NHL,NYA,BKN,,,6,QF,48,15,29,4.0,,34,,,106,140,New York Americans,236.0,,,,,,,
+1939,NHL,NYR,NYR,,,2,SC,48,27,11,10.0,,64,,,136,77,New York Rangers,510.0,,,,,,,
+1939,NHL,TOR,TOR,,,3,F,48,25,17,6.0,,56,,,134,110,Toronto Maple Leafs,474.0,,,,,,,
+1940,NHL,BOS,BOS,,,1,SC,48,27,8,13.0,,67,,,168,102,Boston Bruins,246.0,,,,,,,
+1940,NHL,CHI,CHI,,,5,SF,48,16,25,7.0,,39,,,112,139,Chicago Black Hawks,335.0,,,,,,,
+1940,NHL,DET,DET,,,3,F,48,21,16,11.0,,53,,,112,102,Detroit Red Wings,337.0,,,,,,,
+1940,NHL,MTL,MTL,,,6,QF,48,16,26,6.0,,38,,,121,147,Montreal Canadiens,461.0,,,,,,,
+1940,NHL,NYA,BKN,,,7,,48,8,29,11.0,,27,,,99,186,New York Americans,231.0,,,,,,,
+1940,NHL,NYR,NYR,,,4,QF,48,21,19,8.0,,50,,,143,125,New York Rangers,356.0,,,,,,,
+1940,NHL,TOR,TOR,,,2,SF,48,28,14,6.0,,62,,,145,99,Toronto Maple Leafs,306.0,,,,,,,
+1941,NHL,BKN,BKN,,,7,,48,16,29,3.0,,35,,,133,175,Brooklyn Americans,427.0,,,,,,,
+1941,NHL,BOS,BOS,,,3,SF,48,25,17,6.0,,56,,,160,118,Boston Bruins,339.0,,,,,,,
+1941,NHL,CHI,CHI,,,4,QF,48,22,23,3.0,,47,,,145,155,Chicago Black Hawks,329.0,,,,,,,
+1941,NHL,DET,DET,,,5,F,48,19,25,4.0,,42,,,140,147,Detroit Red Wings,440.0,,,,,,,
+1941,NHL,MTL,MTL,,,6,QF,48,18,27,3.0,,39,,,134,173,Montreal Canadiens,482.0,,,,,,,
+1941,NHL,NYR,NYR,,,1,SF,48,29,17,2.0,,60,,,177,143,New York Rangers,390.0,,,,,,,
+1941,NHL,TOR,TOR,,,2,SC,48,27,18,3.0,,57,,,158,136,Toronto Maple Leafs,341.0,,,,,,,
+1942,NHL,BOS,BOS,,,2,F,50,24,17,9.0,,57,,,195,176,Boston Bruins,354.0,,,,,,,
+1942,NHL,CHI,CHI,,,5,,50,17,18,15.0,,49,,,179,180,Chicago Black Hawks,353.0,,,,,,,
+1942,NHL,DET,DET,,,1,SC,50,25,14,11.0,,61,,,169,124,Detroit Red Wings,371.0,,,,,,,
+1942,NHL,MTL,MTL,,,4,SF,50,19,19,12.0,,50,,,181,191,Montreal Canadiens,318.0,,,,,,,
+1942,NHL,NYR,NYR,,,6,,50,11,31,8.0,,30,,,161,253,New York Rangers,352.0,,,,,,,
+1942,NHL,TOR,TOR,,,3,SF,50,22,19,9.0,,53,,,198,159,Toronto Maple Leafs,421.0,,,,,,,
+1943,NHL,BOS,BOS,,,5,,50,19,26,5.0,,43,,,223,268,Boston Bruins,225.0,,,,,,,
+1943,NHL,CHI,CHI,,,4,F,50,22,23,5.0,,49,,,178,187,Chicago Black Hawks,220.0,,,,,,,
+1943,NHL,DET,DET,,,2,SF,50,26,18,6.0,,58,,,214,177,Detroit Red Wings,356.0,,,,,,,
+1943,NHL,MTL,MTL,,,1,SC,50,38,5,7.0,,83,,,234,109,Montreal Canadiens,557.0,,,,,,,
+1943,NHL,NYR,NYR,,,6,,50,6,39,5.0,,17,,,162,310,New York Rangers,253.0,,,,,,,
+1943,NHL,TOR,TOR,,,3,SF,50,23,23,4.0,,50,,,214,174,Toronto Maple Leafs,293.0,,,,,,,
+1944,NHL,BOS,BOS,,,4,SF,50,16,30,4.0,,36,,,179,219,Boston Bruins,295.0,,,,,,,
+1944,NHL,CHI,CHI,,,5,,50,13,30,7.0,,33,,,141,194,Chicago Black Hawks,250.0,,,,,,,
+1944,NHL,DET,DET,,,2,F,50,31,14,5.0,,67,,,218,161,Detroit Red Wings,285.0,,,,,,,
+1944,NHL,MTL,MTL,,,1,SF,50,38,8,4.0,,80,,,228,121,Montreal Canadiens,426.0,,,,,,,
+1944,NHL,NYR,NYR,,,6,,50,11,29,10.0,,32,,,154,247,New York Rangers,315.0,,,,,,,
+1944,NHL,TOR,TOR,,,3,SC,50,24,22,4.0,,52,,,183,161,Toronto Maple Leafs,337.0,,,,,,,
+1945,NHL,BOS,BOS,,,2,F,50,24,18,8.0,,56,,,167,156,Boston Bruins,273.0,,,,,,,
+1945,NHL,CHI,CHI,,,3,SF,50,23,20,7.0,,53,,,200,178,Chicago Black Hawks,339.0,,,,,,,
+1945,NHL,DET,DET,,,4,SF,50,20,20,10.0,,50,,,146,159,Detroit Red Wings,302.0,,,,,,,
+1945,NHL,MTL,MTL,,,1,SC,50,28,17,5.0,,61,,,172,134,Montreal Canadiens,337.0,,,,,,,
+1945,NHL,NYR,NYR,,,6,,50,13,28,9.0,,35,,,144,191,New York Rangers,285.0,,,,,,,
+1945,NHL,TOR,TOR,,,5,,50,19,24,7.0,,45,,,174,185,Toronto Maple Leafs,247.0,,,,,,,
+1946,NHL,BOS,BOS,,,3,SF,60,26,23,11.0,,63,,,190,175,Boston Bruins,463.0,,,,,,,
+1946,NHL,CHI,CHI,,,6,,60,19,37,4.0,,42,,,193,274,Chicago Black Hawks,474.0,,,,,,,
+1946,NHL,DET,DET,,,4,SF,60,22,27,11.0,,55,,,190,193,Detroit Red Wings,528.0,,,,,,,
+1946,NHL,MTL,MTL,,,1,F,60,34,16,10.0,,78,,,189,138,Montreal Canadiens,561.0,,,,,,,
+1946,NHL,NYR,NYR,,,5,,60,22,32,6.0,,50,,,167,186,New York Rangers,418.0,,,,,,,
+1946,NHL,TOR,TOR,,,2,SC,60,31,19,10.0,,72,,,209,172,Toronto Maple Leafs,669.0,,,,,,,
+1947,NHL,BOS,BOS,,,3,SF,60,23,24,13.0,,59,,,167,168,Boston Bruins,515.0,,,,,,,
+1947,NHL,CHI,CHI,,,6,,60,20,34,6.0,,46,,,195,225,Chicago Black Hawks,565.0,,,,,,,
+1947,NHL,DET,DET,,,2,F,60,30,18,12.0,,72,,,187,148,Detroit Red Wings,593.0,,,,,,,
+1947,NHL,MTL,MTL,,,5,,60,20,29,11.0,,51,,,147,169,Montreal Canadiens,722.0,,,,,,,
+1947,NHL,NYR,NYR,,,4,SF,60,21,26,13.0,,55,,,176,201,New York Rangers,482.0,,,,,,,
+1947,NHL,TOR,TOR,,,1,SC,60,32,15,13.0,,77,,,182,143,Toronto Maple Leafs,765.0,,,,,,,
+1948,NHL,BOS,BOS,,,2,SF,60,29,23,8.0,,66,,,178,163,Boston Bruins,434.0,,,,,,,
+1948,NHL,CHI,CHI,,,5,,60,21,31,8.0,,50,,,173,211,Chicago Black Hawks,695.0,,,,,,,
+1948,NHL,DET,DET,,,1,F,60,34,19,7.0,,75,,,195,145,Detroit Red Wings,621.0,,,,,,,
+1948,NHL,MTL,MTL,,,3,SF,60,28,23,9.0,,65,,,152,126,Montreal Canadiens,782.0,,,,,,,
+1948,NHL,NYR,NYR,,,6,,60,18,31,11.0,,47,,,133,172,New York Rangers,413.0,,,,,,,
+1948,NHL,TOR,TOR,,,4,SC,60,22,25,13.0,,57,,,147,161,Toronto Maple Leafs,706.0,,,,,,,
+1949,NHL,BOS,BOS,,,5,,70,22,32,16.0,,60,,,198,228,Boston Bruins,449.0,,,,,,,
+1949,NHL,CHI,CHI,,,6,,70,22,38,10.0,,54,,,203,244,Chicago Black Hawks,620.0,,,,,,,
+1949,NHL,DET,DET,,,1,SC,70,37,19,14.0,,88,,,229,164,Detroit Red Wings,736.0,,,,,,,
+1949,NHL,MTL,MTL,,,2,SF,70,29,22,19.0,,77,,,172,150,Montreal Canadiens,736.0,,,,,,,
+1949,NHL,NYR,NYR,,,4,F,70,28,31,11.0,,67,,,170,189,New York Rangers,639.0,,,,,,,
+1949,NHL,TOR,TOR,,,3,SF,70,31,27,12.0,,74,,,176,173,Toronto Maple Leafs,804.0,,,,,,,
+1950,NHL,BOS,BOS,,,4,SF,70,22,30,18.0,,62,,,178,197,Boston Bruins,654.0,,,,,,,
+1950,NHL,CHI,CHI,,,6,,70,13,47,10.0,,36,,,171,280,Chicago Black Hawks,615.0,,,,,,,
+1950,NHL,DET,DET,,,1,SF,70,44,13,13.0,,101,,,236,139,Detroit Red Wings,566.0,,,,,,,
+1950,NHL,MTL,MTL,,,3,F,70,25,30,15.0,,65,,,173,184,Montreal Canadiens,835.0,,,,,,,
+1950,NHL,NYR,NYR,,,5,,70,20,29,21.0,,61,,,169,201,New York Rangers,776.0,,,,,,,
+1950,NHL,TOR,TOR,,,2,SC,70,41,16,13.0,,95,,,212,138,Toronto Maple Leafs,823.0,,,,,,,
+1951,NHL,BOS,BOS,,,4,SF,70,25,29,16.0,,66,,,162,176,Boston Bruins,601.0,,,,,,,
+1951,NHL,CHI,CHI,,,6,,70,17,44,9.0,,43,,,158,241,Chicago Black Hawks,629.0,,,,,,,
+1951,NHL,DET,DET,,,1,SC,70,44,14,12.0,,100,,,215,133,Detroit Red Wings,694.0,,,,,,,
+1951,NHL,MTL,MTL,,,2,F,70,34,26,10.0,,78,,,195,164,Montreal Canadiens,661.0,,,,,,,
+1951,NHL,NYR,NYR,,,5,,70,23,34,13.0,,59,,,192,219,New York Rangers,530.0,,,,,,,
+1951,NHL,TOR,TOR,,,3,SF,70,29,25,16.0,,74,,,168,157,Toronto Maple Leafs,841.0,,,,,,,
+1952,NHL,BOS,BOS,,,3,F,70,28,29,13.0,,69,,,152,172,Boston Bruins,528.0,,,,,,,
+1952,NHL,CHI,CHI,,,4,SF,70,27,28,15.0,,69,,,169,175,Chicago Black Hawks,736.0,,,,,,,
+1952,NHL,DET,DET,,,1,SF,70,36,16,18.0,,90,,,222,133,Detroit Red Wings,645.0,,,,,,,
+1952,NHL,MTL,MTL,,,2,SC,70,28,23,19.0,,75,,,155,148,Montreal Canadiens,777.0,,,,,,,
+1952,NHL,NYR,NYR,,,6,,70,17,37,16.0,,50,,,152,211,New York Rangers,548.0,,,,,,,
+1952,NHL,TOR,TOR,,,5,,70,27,30,13.0,,67,,,156,167,Toronto Maple Leafs,812.0,,,,,,,
+1953,NHL,BOS,BOS,,,4,SF,70,32,28,10.0,,74,,,177,181,Boston Bruins,693.0,,,,,,,
+1953,NHL,CHI,CHI,,,6,,70,12,51,7.0,,31,,,133,242,Chicago Black Hawks,787.0,,,,,,,
+1953,NHL,DET,DET,,,1,SC,70,37,19,14.0,,88,,,191,132,Detroit Red Wings,814.0,,,,,,,
+1953,NHL,MTL,MTL,,,2,F,70,35,24,11.0,,81,,,195,141,Montreal Canadiens,1064.0,,,,,,,
+1953,NHL,NYR,NYR,,,5,,70,29,31,10.0,,68,,,161,182,New York Rangers,717.0,,,,,,,
+1953,NHL,TOR,TOR,,,3,SF,70,32,24,14.0,,78,,,152,131,Toronto Maple Leafs,1022.0,,,,,,,
+1954,NHL,BOS,BOS,,,4,SF,70,23,26,21.0,,67,,,169,188,Boston Bruins,863.0,,,,,,,
+1954,NHL,CHI,CHI,,,6,,70,13,40,17.0,,43,,,161,235,Chicago Black Hawks,733.0,,,,,,,
+1954,NHL,DET,DET,,,1,SC,70,42,17,11.0,,95,,,204,134,Detroit Red Wings,827.0,,,,,,,
+1954,NHL,MTL,MTL,,,2,F,70,41,18,11.0,,93,,,228,157,Montreal Canadiens,890.0,,,,,,,
+1954,NHL,NYR,NYR,,,5,,70,17,35,18.0,,52,,,150,210,New York Rangers,692.0,,,,,,,
+1954,NHL,TOR,TOR,,,3,SF,70,24,24,22.0,,70,,,147,135,Toronto Maple Leafs,990.0,,,,,,,
+1955,NHL,BOS,BOS,,,5,,70,23,34,13.0,,59,,,147,185,Boston Bruins,929.0,,,,,,,
+1955,NHL,CHI,CHI,,,6,,70,19,39,12.0,,50,,,155,216,Chicago Black Hawks,832.0,,,,,,,
+1955,NHL,DET,DET,,,2,F,70,30,24,16.0,,76,,,183,148,Detroit Red Wings,788.0,,,,,,,
+1955,NHL,MTL,MTL,,,1,SC,70,45,15,10.0,,100,,,222,131,Montreal Canadiens,977.0,,,,,,,
+1955,NHL,NYR,NYR,,,3,SF,70,32,28,10.0,,74,,,204,203,New York Rangers,911.0,,,,,,,
+1955,NHL,TOR,TOR,,,4,SF,70,24,33,13.0,,61,,,153,181,Toronto Maple Leafs,1051.0,,,,,,,
+1956,NHL,BOS,BOS,,,3,F,70,34,24,12.0,,80,,,195,174,Boston Bruins,978.0,,,,,,,
+1956,NHL,CHI,CHI,,,6,,70,16,39,15.0,,47,,,169,225,Chicago Black Hawks,809.0,,,,,,,
+1956,NHL,DET,DET,,,1,SF,70,38,20,12.0,,88,,,198,157,Detroit Red Wings,656.0,,,,,,,
+1956,NHL,MTL,MTL,,,2,SC,70,35,23,12.0,,82,,,210,155,Montreal Canadiens,868.0,,,,,,,
+1956,NHL,NYR,NYR,,,4,SF,70,26,30,14.0,,66,,,184,227,New York Rangers,870.0,,,,,,,
+1956,NHL,TOR,TOR,,,5,,70,21,34,15.0,,57,,,174,192,Toronto Maple Leafs,829.0,,,,,,,
+1957,NHL,BOS,BOS,,,4,F,70,27,28,15.0,,69,,,199,194,Boston Bruins,849.0,,,,,,,
+1957,NHL,CHI,CHI,,,5,,70,24,39,7.0,,55,,,163,202,Chicago Black Hawks,906.0,,,,,,,
+1957,NHL,DET,DET,,,3,SF,70,29,29,12.0,,70,,,176,207,Detroit Red Wings,758.0,,,,,,,
+1957,NHL,MTL,MTL,,,1,SC,70,43,17,10.0,,96,,,250,158,Montreal Canadiens,945.0,,,,,,,
+1957,NHL,NYR,NYR,,,2,SF,70,32,25,13.0,,77,,,195,188,New York Rangers,781.0,,,,,,,
+1957,NHL,TOR,TOR,,,6,,70,21,38,11.0,,53,,,192,226,Toronto Maple Leafs,861.0,,,,,,,
+1958,NHL,BOS,BOS,,,2,SF,70,32,29,9.0,,73,,,205,215,Boston Bruins,838.0,,,,,,,
+1958,NHL,CHI,CHI,,,3,SF,70,28,29,13.0,,69,,,197,208,Chicago Black Hawks,921.0,,,,,,,
+1958,NHL,DET,DET,,,6,,70,25,37,8.0,,58,,,167,218,Detroit Red Wings,613.0,,,,,,,
+1958,NHL,MTL,MTL,,,1,SC,70,39,18,13.0,,91,,,258,158,Montreal Canadiens,760.0,,,,,,,
+1958,NHL,NYR,NYR,,,5,,70,26,32,12.0,,64,,,201,217,New York Rangers,860.0,,,,,,,
+1958,NHL,TOR,TOR,,,4,F,70,27,32,11.0,,65,,,189,201,Toronto Maple Leafs,846.0,,,,,,,
+1959,NHL,BOS,BOS,,,5,,70,28,34,8.0,,64,,,220,241,Boston Bruins,932.0,,,,,,,
+1959,NHL,CHI,CHI,,,3,SF,70,28,29,13.0,,69,,,191,180,Chicago Black Hawks,970.0,,,,,,,
+1959,NHL,DET,DET,,,4,SF,70,26,29,15.0,,67,,,186,197,Detroit Red Wings,538.0,,,,,,,
+1959,NHL,MTL,MTL,,,1,SC,70,40,18,12.0,,92,,,255,178,Montreal Canadiens,756.0,,,,,,,
+1959,NHL,NYR,NYR,,,6,,70,17,38,15.0,,49,,,187,247,New York Rangers,850.0,,,,,,,
+1959,NHL,TOR,TOR,,,2,F,70,35,26,9.0,,79,,,199,195,Toronto Maple Leafs,859.0,,,,,,,
+1960,NHL,BOS,BOS,,,6,,70,15,42,13.0,,43,,,176,254,Boston Bruins,810.0,,,,,,,
+1960,NHL,CHI,CHI,,,3,SC,70,29,24,17.0,,75,,,198,180,Chicago Black Hawks,1072.0,,,,,,,
+1960,NHL,DET,DET,,,4,F,70,25,29,16.0,,66,,,195,215,Detroit Red Wings,655.0,,,,,,,
+1960,NHL,MTL,MTL,,,1,SF,70,41,19,10.0,,92,,,254,188,Montreal Canadiens,811.0,,,,,,,
+1960,NHL,NYR,NYR,,,5,,70,22,38,10.0,,54,,,204,248,New York Rangers,591.0,,,,,,,
+1960,NHL,TOR,TOR,,,2,SF,70,39,19,12.0,,90,,,234,176,Toronto Maple Leafs,844.0,,,,,,,
+1961,NHL,BOS,BOS,,,6,,70,15,47,8.0,,38,,,177,306,Boston Bruins,712.0,,,,,,,
+1961,NHL,CHI,CHI,,,3,F,70,31,26,13.0,,75,,,217,186,Chicago Black Hawks,894.0,,,,,,,
+1961,NHL,DET,DET,,,5,,70,23,33,14.0,,60,,,184,219,Detroit Red Wings,712.0,,,,,,,
+1961,NHL,MTL,MTL,,,1,SF,70,42,14,14.0,,98,,,259,166,Montreal Canadiens,818.0,,,,,,,
+1961,NHL,NYR,NYR,,,4,SF,70,26,32,12.0,,64,,,195,207,New York Rangers,644.0,,,,,,,
+1961,NHL,TOR,TOR,,,2,SC,70,37,22,11.0,,85,,,232,180,Toronto Maple Leafs,762.0,,,,,,,
+1962,NHL,BOS,BOS,,,6,,70,14,39,17.0,,45,,,198,281,Boston Bruins,636.0,,,,,,,
+1962,NHL,CHI,CHI,,,2,SF,70,32,21,17.0,,81,,,194,178,Chicago Black Hawks,906.0,,,,,,,
+1962,NHL,DET,DET,,,4,F,70,32,25,13.0,,77,,,200,194,Detroit Red Wings,964.0,,,,,,,
+1962,NHL,MTL,MTL,,,3,SF,70,28,19,23.0,,79,,,225,183,Montreal Canadiens,751.0,,,,,,,
+1962,NHL,NYR,NYR,,,5,,70,22,36,12.0,,56,,,211,233,New York Rangers,657.0,,,,,,,
+1962,NHL,TOR,TOR,,,1,SC,70,35,23,12.0,,82,,,221,180,Toronto Maple Leafs,816.0,,,,,,,
+1963,NHL,BOS,BOS,,,6,,70,18,40,12.0,,48,,,170,212,Boston Bruins,858.0,,28.0,220.0,4.0,45.0,242.0,3.0
+1963,NHL,CHI,CHI,,,2,SF,70,36,22,12.0,,84,,,218,169,Chicago Black Hawks,1116.0,,51.0,279.0,2.0,43.0,301.0,8.0
+1963,NHL,DET,DET,,,4,F,70,30,29,11.0,,71,,,191,204,Detroit Red Wings,771.0,,42.0,240.0,5.0,36.0,267.0,2.0
+1963,NHL,MTL,MTL,,,1,SF,70,36,21,13.0,,85,,,209,167,Montreal Canadiens,982.0,,46.0,294.0,7.0,42.0,248.0,7.0
+1963,NHL,NYR,NYR,,,5,,70,22,38,10.0,,54,,,186,242,New York Rangers,715.0,,40.0,253.0,6.0,44.0,206.0,3.0
+1963,NHL,TOR,TOR,,,3,SC,70,33,25,12.0,,78,,,192,172,Toronto Maple Leafs,928.0,,33.0,244.0,6.0,30.0,266.0,7.0
+1964,NHL,BOS,BOS,,,6,,70,21,43,6.0,,48,,,166,253,Boston Bruins,946.0,,25.0,254.0,10.0,52.0,293.0,10.0
+1964,NHL,CHI,CHI,,,3,F,70,34,28,8.0,,76,,,224,176,Chicago Black Hawks,1051.0,,48.0,340.0,9.0,46.0,323.0,14.0
+1964,NHL,DET,DET,,,1,SF,70,40,23,7.0,,87,,,224,175,Detroit Red Wings,1121.0,,55.0,316.0,7.0,52.0,312.0,10.0
+1964,NHL,MTL,MTL,,,2,SC,70,36,23,11.0,,83,,,211,185,Montreal Canadiens,1033.0,,57.0,328.0,8.0,42.0,301.0,5.0
+1964,NHL,NYR,NYR,,,5,,70,20,38,12.0,,52,,,179,246,New York Rangers,760.0,,55.0,321.0,9.0,43.0,267.0,7.0
+1964,NHL,TOR,TOR,,,4,SF,70,30,26,14.0,,74,,,204,173,Toronto Maple Leafs,1068.0,,51.0,280.0,12.0,56.0,343.0,9.0
+1965,NHL,BOS,BOS,,,5,,70,21,43,6.0,,48,,,174,275,Boston Bruins,787.0,,30.0,255.0,6.0,53.0,252.0,3.0
+1965,NHL,CHI,CHI,,,2,SF,70,37,25,8.0,,82,,,240,187,Chicago Black Hawks,815.0,,70.0,281.0,4.0,40.0,251.0,8.0
+1965,NHL,DET,DET,,,4,F,70,31,27,12.0,,74,,,221,194,Detroit Red Wings,804.0,,42.0,245.0,9.0,44.0,273.0,7.0
+1965,NHL,MTL,MTL,,,1,SC,70,41,21,8.0,,90,,,239,173,Montreal Canadiens,884.0,,61.0,260.0,3.0,46.0,247.0,2.0
+1965,NHL,NYR,NYR,,,6,,70,18,41,11.0,,47,,,195,261,New York Rangers,894.0,,44.0,282.0,2.0,63.0,282.0,2.0
+1965,NHL,TOR,TOR,,,3,SF,70,34,25,11.0,,79,,,208,187,Toronto Maple Leafs,811.0,,52.0,256.0,4.0,53.0,274.0,6.0
+1966,NHL,BOS,BOS,,,6,,70,17,43,10.0,,44,,,182,253,Boston Bruins,764.0,,34.0,250.0,9.0,53.0,240.0,4.0
+1966,NHL,CHI,CHI,,,1,SF,70,41,17,12.0,,94,,,264,170,Chicago Black Hawks,757.0,,51.0,232.0,3.0,37.0,234.0,10.0
+1966,NHL,DET,DET,,,5,,70,27,39,4.0,,58,,,212,241,Detroit Red Wings,719.0,,46.0,230.0,7.0,46.0,246.0,6.0
+1966,NHL,MTL,MTL,,,2,F,70,32,25,13.0,,77,,,202,188,Montreal Canadiens,879.0,,50.0,248.0,4.0,31.0,237.0,3.0
+1966,NHL,NYR,NYR,,,4,SF,70,30,28,12.0,,72,,,188,189,New York Rangers,664.0,,35.0,199.0,4.0,30.0,199.0,4.0
+1966,NHL,TOR,TOR,,,3,SC,70,32,27,11.0,,75,,,204,211,Toronto Maple Leafs,736.0,,37.0,237.0,6.0,56.0,240.0,6.0
+1967,NHL,BOS,BOS,,ED,3,QF,74,37,27,10.0,,84,,,259,216,Boston Bruins,1031.0,,45.0,236.0,4.0,50.0,288.0,10.0
+1967,NHL,CHI,CHI,,ED,4,SF,74,32,26,16.0,,80,,,212,222,Chicago Black Hawks,602.0,,37.0,234.0,6.0,37.0,218.0,9.0
+1967,NHL,DET,DET,,ED,6,,74,27,35,12.0,,66,,,245,257,Detroit Red Wings,753.0,,43.0,224.0,5.0,54.0,270.0,4.0
+1967,NHL,LAK,LAK,,WD,2,QF,74,31,33,10.0,,72,,,200,224,Los Angeles Kings,808.0,,33.0,241.0,3.0,54.0,274.0,5.0
+1967,NHL,MNS,DAL,,WD,4,SF,74,27,32,15.0,,69,,,191,226,Minnesota North Stars,714.0,,55.0,261.0,8.0,29.0,216.0,1.0
+1967,NHL,MTL,MTL,,ED,1,SC,74,42,22,10.0,,94,,,236,167,Montreal Canadiens,698.0,,50.0,245.0,3.0,34.0,205.0,7.0
+1967,NHL,NYR,NYR,,ED,2,QF,74,39,23,12.0,,90,,,226,183,New York Rangers,669.0,,46.0,217.0,7.0,42.0,223.0,1.0
+1967,NHL,OAK,CLE,,WD,6,,74,15,42,17.0,,47,,,153,219,Oakland Seals,777.0,,41.0,259.0,6.0,45.0,259.0,6.0
+1967,NHL,PHI,PHI,,WD,1,QF,74,31,32,11.0,,73,,,173,179,Philadelphia Flyers,979.0,,33.0,269.0,2.0,49.0,290.0,7.0
+1967,NHL,PIT,PIT,,WD,5,,74,27,34,13.0,,67,,,195,216,Pittsburgh Penguins,548.0,,37.0,273.0,11.0,30.0,195.0,2.0
+1967,NHL,STL,STL,,WD,3,F,74,27,31,16.0,,70,,,177,191,St. Louis Blues,790.0,,38.0,223.0,7.0,39.0,245.0,10.0
+1967,NHL,TOR,TOR,,ED,5,,74,33,31,10.0,,76,,,209,176,Toronto Maple Leafs,626.0,,33.0,231.0,8.0,28.0,230.0,6.0
+1968,NHL,BOS,BOS,,ED,2,SF,76,42,18,16.0,,100,,,303,221,Boston Bruins,1291.0,,60.0,266.0,4.0,54.0,351.0,13.0
+1968,NHL,CHI,CHI,,ED,6,,76,34,33,9.0,,77,,,280,246,Chicago Black Hawks,832.0,,56.0,280.0,3.0,50.0,274.0,9.0
+1968,NHL,DET,DET,,ED,5,,76,33,31,12.0,,78,,,239,221,Detroit Red Wings,885.0,,40.0,230.0,4.0,61.0,298.0,7.0
+1968,NHL,LAK,LAK,,WD,4,SF,76,24,42,10.0,,58,,,185,260,Los Angeles Kings,688.0,,31.0,241.0,7.0,53.0,254.0,2.0
+1968,NHL,MNS,DAL,,WD,6,,76,18,43,15.0,,51,,,189,270,Minnesota North Stars,854.0,,47.0,246.0,8.0,41.0,249.0,3.0
+1968,NHL,MTL,MTL,,ED,1,SC,76,46,19,11.0,,103,,,271,202,Montreal Canadiens,776.0,,43.0,243.0,4.0,40.0,233.0,2.0
+1968,NHL,NYR,NYR,,ED,3,QF,76,41,26,9.0,,91,,,231,196,New York Rangers,806.0,,56.0,275.0,9.0,35.0,223.0,4.0
+1968,NHL,OAK,CLE,,WD,2,QF,76,29,36,11.0,,69,,,219,251,Oakland Seals,807.0,,44.0,286.0,5.0,42.0,226.0,3.0
+1968,NHL,PHI,PHI,,WD,3,QF,76,20,35,21.0,,61,,,174,225,Philadelphia Flyers,954.0,,40.0,263.0,8.0,44.0,286.0,6.0
+1968,NHL,PIT,PIT,,WD,5,,76,20,45,11.0,,51,,,189,252,Pittsburgh Penguins,669.0,,50.0,303.0,9.0,38.0,231.0,8.0
+1968,NHL,STL,STL,,WD,1,F,76,37,25,14.0,,88,,,204,157,St. Louis Blues,824.0,,38.0,250.0,6.0,45.0,242.0,4.0
+1968,NHL,TOR,TOR,,ED,4,QF,76,35,26,15.0,,85,,,234,217,Toronto Maple Leafs,950.0,,45.0,278.0,5.0,46.0,294.0,11.0
+1969,NHL,BOS,BOS,,ED,2,SC,76,40,17,19.0,,99,,,277,216,Boston Bruins,1196.0,12.0,81.0,279.0,4.0,80.0,360.0,13.0
+1969,NHL,CHI,CHI,,ED,1,SF,76,45,22,9.0,,99,,,250,170,Chicago Black Hawks,901.0,14.0,55.0,270.0,7.0,32.0,247.0,7.0
+1969,NHL,DET,DET,,ED,3,QF,76,40,21,15.0,,95,,,246,199,Detroit Red Wings,907.0,8.0,57.0,267.0,3.0,57.0,300.0,8.0
+1969,NHL,LAK,LAK,,WD,6,,76,14,52,10.0,,38,,,168,290,Los Angeles Kings,969.0,2.0,39.0,275.0,11.0,67.0,297.0,6.0
+1969,NHL,MNS,DAL,,WD,3,QF,76,19,35,22.0,,60,,,224,257,Minnesota North Stars,1008.0,20.0,57.0,274.0,7.0,65.0,284.0,10.0
+1969,NHL,MTL,MTL,,ED,5,,76,38,22,16.0,,92,,,244,201,Montreal Canadiens,892.0,18.0,57.0,281.0,1.0,48.0,263.0,8.0
+1969,NHL,NYR,NYR,,ED,4,QF,76,38,22,16.0,,92,,,246,189,New York Rangers,853.0,10.0,52.0,295.0,7.0,40.0,269.0,7.0
+1969,NHL,OAK,CLE,,WD,4,QF,76,22,40,14.0,,58,,,169,243,Oakland Seals,845.0,10.0,45.0,324.0,12.0,49.0,258.0,4.0
+1969,NHL,PHI,PHI,,WD,5,,76,17,35,24.0,,58,,,197,225,Philadelphia Flyers,1123.0,16.0,46.0,296.0,9.0,58.0,311.0,7.0
+1969,NHL,PIT,PIT,,WD,2,SF,76,26,38,12.0,,64,,,182,238,Pittsburgh Penguins,1038.0,4.0,53.0,315.0,5.0,66.0,282.0,2.0
+1969,NHL,STL,STL,,WD,1,F,76,37,27,12.0,,86,,,224,179,St. Louis Blues,876.0,14.0,72.0,287.0,9.0,41.0,265.0,5.0
+1969,NHL,TOR,TOR,,ED,6,,76,29,34,13.0,,71,,,222,242,Toronto Maple Leafs,898.0,12.0,49.0,242.0,7.0,60.0,269.0,5.0
+1970,NHL,BOS,BOS,,ED,1,QF,78,57,14,7.0,,121,,,399,207,Boston Bruins,1156.0,8.0,80.0,289.0,4.0,53.0,336.0,25.0
+1970,NHL,BUF,BUF,,ED,5,,78,24,39,15.0,,63,,,217,291,Buffalo Sabres,1188.0,10.0,56.0,298.0,12.0,56.0,302.0,5.0
+1970,NHL,CHI,CHI,,WD,1,F,78,49,20,9.0,,107,,,277,184,Chicago Black Hawks,1280.0,12.0,60.0,291.0,6.0,47.0,293.0,5.0
+1970,NHL,CLF,CLE,,WD,7,,78,20,53,5.0,,45,,,199,320,California Golden Seals,937.0,6.0,39.0,316.0,7.0,58.0,254.0,3.0
+1970,NHL,DET,DET,,ED,7,,78,22,45,11.0,,55,,,209,308,Detroit Red Wings,988.0,20.0,48.0,245.0,10.0,66.0,284.0,5.0
+1970,NHL,LAK,LAK,,WD,5,,78,25,40,13.0,,63,,,239,303,Los Angeles Kings,775.0,8.0,41.0,267.0,10.0,53.0,227.0,6.0
+1970,NHL,MNS,DAL,,WD,4,SF,78,28,34,16.0,,72,,,191,223,Minnesota North Stars,898.0,4.0,38.0,259.0,4.0,55.0,268.0,6.0
+1970,NHL,MTL,MTL,,ED,3,SC,78,42,23,13.0,,97,,,291,216,Montreal Canadiens,1271.0,10.0,71.0,286.0,6.0,49.0,319.0,8.0
+1970,NHL,NYR,NYR,,ED,2,SF,78,49,18,11.0,,109,,,259,177,New York Rangers,952.0,8.0,60.0,234.0,3.0,41.0,253.0,5.0
+1970,NHL,PHI,PHI,,WD,3,QF,78,28,33,17.0,,73,,,207,225,Philadelphia Flyers,1060.0,8.0,42.0,272.0,8.0,50.0,305.0,3.0
+1970,NHL,PIT,PIT,,WD,6,,78,21,37,20.0,,62,,,221,240,Pittsburgh Penguins,1079.0,6.0,56.0,318.0,9.0,48.0,276.0,5.0
+1970,NHL,STL,STL,,WD,2,QF,78,34,25,19.0,,87,,,223,208,St. Louis Blues,1092.0,24.0,56.0,312.0,8.0,49.0,285.0,9.0
+1970,NHL,TOR,TOR,,ED,4,QF,78,37,33,8.0,,82,,,248,211,Toronto Maple Leafs,1133.0,6.0,53.0,290.0,6.0,46.0,283.0,14.0
+1970,NHL,VAN,VAN,,ED,6,,78,24,46,8.0,,56,,,229,296,Vancouver Canucks,1371.0,14.0,52.0,317.0,12.0,81.0,309.0,6.0
+1971,NHL,BOS,BOS,,ED,1,SC,78,54,13,11.0,,119,,,330,204,Boston Bruins,1112.0,6.0,74.0,256.0,2.0,51.0,290.0,18.0
+1971,NHL,BUF,BUF,,ED,6,,78,16,43,19.0,,51,,,203,289,Buffalo Sabres,831.0,14.0,57.0,308.0,7.0,56.0,281.0,1.0
+1971,NHL,CHI,CHI,,WD,1,SF,78,46,17,15.0,,107,,,256,166,Chicago Black Hawks,844.0,8.0,43.0,255.0,10.0,35.0,240.0,7.0
+1971,NHL,CLF,CLE,,WD,6,,78,21,39,18.0,,60,,,216,288,California Golden Seals,1007.0,6.0,44.0,278.0,6.0,55.0,259.0,5.0
+1971,NHL,DET,DET,,ED,5,,78,33,35,10.0,,76,,,261,262,Detroit Red Wings,850.0,4.0,58.0,280.0,9.0,45.0,261.0,6.0
+1971,NHL,LAK,LAK,,WD,7,,78,20,49,9.0,,49,,,206,305,Los Angeles Kings,719.0,10.0,38.0,272.0,7.0,50.0,210.0,4.0
+1971,NHL,MNS,DAL,,WD,2,QF,78,37,29,12.0,,86,,,212,191,Minnesota North Stars,853.0,8.0,53.0,262.0,6.0,49.0,277.0,4.0
+1971,NHL,MTL,MTL,,ED,3,QF,78,46,16,16.0,,108,,,307,205,Montreal Canadiens,783.0,12.0,72.0,266.0,4.0,41.0,245.0,14.0
+1971,NHL,NYR,NYR,,ED,2,F,78,48,17,13.0,,109,,,317,192,New York Rangers,1010.0,4.0,60.0,257.0,10.0,44.0,282.0,14.0
+1971,NHL,PHI,PHI,,WD,5,,78,26,38,14.0,,66,,,200,236,Philadelphia Flyers,1233.0,14.0,52.0,268.0,10.0,53.0,324.0,6.0
+1971,NHL,PIT,PIT,,WD,4,QF,78,26,38,14.0,,66,,,220,258,Pittsburgh Penguins,978.0,8.0,46.0,286.0,7.0,55.0,246.0,5.0
+1971,NHL,STL,STL,,WD,3,SF,78,28,39,11.0,,67,,,208,247,St. Louis Blues,1150.0,12.0,38.0,270.0,11.0,65.0,280.0,13.0
+1971,NHL,TOR,TOR,,ED,4,QF,78,33,31,14.0,,80,,,209,208,Toronto Maple Leafs,887.0,10.0,48.0,252.0,7.0,60.0,266.0,4.0
+1971,NHL,VAN,VAN,,ED,7,,78,20,50,8.0,,48,,,203,297,Vancouver Canucks,1092.0,8.0,48.0,261.0,9.0,72.0,310.0,4.0
+1972,WHA,ALB,EDM,,WW,5,,78,38,37,3.0,,79,,,269,256,Alberta Oilers,843.0,2.0,48.0,248.0,7.0,56.0,252.0,13.0
+1972,NHL,ATF,CAL,,WD,7,,78,25,38,15.0,,65,,,191,239,Atlanta Flames,852.0,10.0,38.0,265.0,5.0,48.0,266.0,4.0
+1972,NHL,BOS,BOS,,ED,2,QF,78,51,22,5.0,,107,,,330,235,Boston Bruins,1097.0,4.0,67.0,241.0,5.0,43.0,275.0,15.0
+1972,NHL,BUF,BUF,,ED,4,QF,78,37,27,14.0,,88,,,257,219,Buffalo Sabres,940.0,2.0,52.0,270.0,5.0,35.0,241.0,5.0
+1972,WHA,CHC,CHC,,WW,6,,78,26,50,2.0,,54,,,245,295,Chicago Cougars,811.0,8.0,45.0,248.0,11.0,57.0,253.0,6.0
+1972,NHL,CHI,CHI,,WD,1,F,78,42,27,9.0,,93,,,284,225,Chicago Black Hawks,864.0,4.0,52.0,244.0,4.0,51.0,255.0,10.0
+1972,WHA,CLC,MF2,,EW,2,AVSF,78,43,32,3.0,,89,,,287,239,Cleveland Crusaders,1095.0,12.0,51.0,272.0,5.0,59.0,338.0,11.0
+1972,NHL,CLF,CLE,,WD,8,,78,16,46,16.0,,48,,,213,323,California Golden Seals,840.0,0.0,41.0,250.0,4.0,56.0,242.0,4.0
+1972,NHL,DET,DET,,ED,5,,78,37,29,12.0,,86,,,265,243,Detroit Red Wings,893.0,14.0,53.0,268.0,8.0,40.0,261.0,4.0
+1972,WHA,HOU,HOU,,WW,2,AVSF,78,39,35,4.0,,82,,,284,269,Houston Aeros,1363.0,0.0,50.0,188.0,2.0,63.0,330.0,10.0
+1972,NHL,LAK,LAK,,WD,6,,78,31,36,11.0,,73,,,232,245,Los Angeles Kings,888.0,14.0,52.0,295.0,10.0,31.0,229.0,4.0
+1972,WHA,LAS,MIB,,WW,3,AVQF,78,37,35,6.0,,80,,,259,250,Los Angeles Sharks,1477.0,56.0,51.0,259.0,11.0,59.0,315.0,8.0
+1972,WHA,MFS,MFS,,WW,4,AVQF,78,38,37,3.0,,79,,,250,269,Minnesota Fighting Saints,1134.0,14.0,54.0,300.0,12.0,48.0,269.0,6.0
+1972,NHL,MNS,DAL,,WD,3,QF,78,37,30,11.0,,85,,,254,230,Minnesota North Stars,881.0,0.0,37.0,237.0,7.0,59.0,265.0,1.0
+1972,NHL,MTL,MTL,,ED,1,SC,78,52,10,16.0,,120,,,329,184,Montreal Canadiens,783.0,8.0,52.0,239.0,4.0,37.0,235.0,9.0
+1972,WHA,NEW,CAR,,EW,1,AVC,78,46,30,2.0,,94,,,318,263,New England Whalers,858.0,18.0,49.0,272.0,6.0,45.0,234.0,6.0
+1972,WHA,NRA,SDM,,EW,6,,78,33,43,2.0,,68,,,303,334,New York Raiders,900.0,6.0,60.0,305.0,12.0,63.0,268.0,10.0
+1972,NHL,NYI,NYI,,ED,8,,78,12,60,6.0,,30,,,170,347,New York Islanders,881.0,10.0,28.0,258.0,13.0,63.0,261.0,2.0
+1972,NHL,NYR,NYR,,ED,3,SF,78,47,23,8.0,,102,,,297,208,New York Rangers,765.0,8.0,54.0,238.0,5.0,39.0,250.0,5.0
+1972,WHA,OTN,BIR,,EW,4,AVQF,78,35,39,4.0,,74,,,279,301,Ottawa Nationals,1067.0,12.0,59.0,321.0,7.0,51.0,278.0,6.0
+1972,WHA,PHB,CAC,,EW,3,AVQF,78,38,40,0.0,,76,,,288,305,Philadelphia Blazers,1260.0,22.0,71.0,293.0,10.0,60.0,295.0,10.0
+1972,NHL,PHI,PHI,,WD,2,SF,78,37,30,11.0,,85,,,296,256,Philadelphia Flyers,1756.0,12.0,74.0,257.0,4.0,68.0,360.0,10.0
+1972,NHL,PIT,PIT,,WD,5,,78,32,37,9.0,,73,,,257,265,Pittsburgh Penguins,866.0,6.0,52.0,301.0,7.0,49.0,264.0,10.0
+1972,WHA,QUN,COL,,EW,5,,78,33,40,5.0,,71,,,276,313,Quebec Nordiques,1354.0,10.0,68.0,317.0,15.0,58.0,289.0,10.0
+1972,NHL,STL,STL,,WD,4,QF,78,32,34,12.0,,76,,,233,251,St. Louis Blues,1195.0,4.0,37.0,251.0,1.0,51.0,272.0,6.0
+1972,NHL,TOR,TOR,,ED,6,,78,27,41,10.0,,64,,,247,279,Toronto Maple Leafs,716.0,2.0,44.0,274.0,8.0,51.0,239.0,3.0
+1972,NHL,VAN,VAN,,ED,7,,78,22,47,9.0,,53,,,233,339,Vancouver Canucks,943.0,10.0,47.0,282.0,6.0,59.0,255.0,4.0
+1972,WHA,WIJ,PHO,,WW,1,AVF,78,43,31,4.0,,90,,,285,249,Winnipeg Jets,757.0,12.0,57.0,292.0,5.0,43.0,230.0,7.0
+1973,NHL,ATF,CAL,,WD,4,QF,78,30,34,14.0,,74,,,214,238,Atlanta Flames,841.0,14.0,44.0,264.0,6.0,46.0,223.0,1.0
+1973,NHL,BOS,BOS,,ED,1,F,78,52,17,9.0,,113,,,349,221,Boston Bruins,968.0,8.0,65.0,225.0,2.0,48.0,258.0,12.0
+1973,NHL,BUF,BUF,,ED,5,,78,32,34,12.0,,76,,,242,250,Buffalo Sabres,787.0,2.0,48.0,256.0,12.0,42.0,237.0,5.0
+1973,WHA,CHC,CHC,,EW,4,AVF,78,38,35,5.0,,81,,,271,273,Chicago Cougars,1041.0,26.0,51.0,245.0,8.0,45.0,289.0,7.0
+1973,NHL,CHI,CHI,,WD,2,SF,78,41,14,23.0,,105,,,272,164,Chicago Black Hawks,877.0,4.0,55.0,255.0,5.0,26.0,208.0,8.0
+1973,WHA,CLC,MF2,,EW,3,AVQF,78,37,32,9.0,,83,,,266,264,Cleveland Crusaders,1007.0,0.0,56.0,245.0,12.0,59.0,237.0,6.0
+1973,NHL,CLF,CLE,,WD,8,,78,13,55,10.0,,36,,,195,342,California Golden Seals,651.0,10.0,34.0,268.0,14.0,46.0,221.0,6.0
+1973,NHL,DET,DET,,ED,6,,78,29,39,10.0,,68,,,255,319,Detroit Red Wings,917.0,6.0,59.0,274.0,13.0,49.0,238.0,8.0
+1973,WHA,EDO,EDM,,WW,3,AVQF,78,38,37,3.0,,79,,,268,269,Edmonton Oilers,1273.0,14.0,39.0,245.0,4.0,66.0,295.0,9.0
+1973,WHA,HOU,HOU,,WW,1,AVC,78,48,25,5.0,,101,,,318,219,Houston Aeros,1038.0,4.0,64.0,223.0,3.0,47.0,288.0,17.0
+1973,NHL,LAK,LAK,,WD,3,QF,78,33,33,12.0,,78,,,233,231,Los Angeles Kings,1055.0,2.0,43.0,284.0,9.0,48.0,246.0,4.0
+1973,WHA,LAS,MIB,,WW,6,,78,25,53,0.0,,50,,,239,339,Los Angeles Sharks,1086.0,16.0,43.0,255.0,8.0,62.0,234.0,4.0
+1973,WHA,MFS,MFS,,WW,2,AVSF,78,44,32,2.0,,90,,,332,275,Minnesota Fighting Saints,1243.0,32.0,61.0,262.0,11.0,53.0,265.0,20.0
+1973,NHL,MNS,DAL,,WD,7,,78,23,38,17.0,,63,,,235,275,Minnesota North Stars,821.0,2.0,37.0,207.0,5.0,51.0,254.0,5.0
+1973,NHL,MTL,MTL,,ED,2,QF,78,45,24,9.0,,99,,,293,240,Montreal Canadiens,761.0,14.0,51.0,254.0,7.0,51.0,217.0,12.0
+1973,WHA,NEW,CAR,,EW,1,AVQF,78,43,31,4.0,,90,,,291,260,New England Whalers,875.0,18.0,47.0,228.0,7.0,36.0,197.0,3.0
+1973,NHL,NYI,NYI,,ED,8,,78,19,41,18.0,,56,,,182,247,New York Islanders,1075.0,6.0,32.0,230.0,13.0,63.0,262.0,7.0
+1973,WHA,NYJ,SDM,,EW,6,,78,32,42,4.0,,68,,,268,313,New York Golden Blades/Jersey Knights,933.0,6.0,52.0,213.0,4.0,55.0,241.0,7.0
+1973,NHL,NYR,NYR,,ED,3,SF,78,40,24,14.0,,94,,,300,251,New York Rangers,782.0,2.0,66.0,222.0,2.0,45.0,239.0,9.0
+1973,NHL,PHI,PHI,,WD,1,SC,78,50,16,12.0,,112,,,273,164,Philadelphia Flyers,1750.0,10.0,60.0,269.0,6.0,49.0,422.0,20.0
+1973,NHL,PIT,PIT,,WD,5,,78,28,41,9.0,,65,,,242,273,Pittsburgh Penguins,950.0,10.0,47.0,276.0,4.0,47.0,245.0,12.0
+1973,WHA,QUN,COL,,EW,5,,78,38,36,4.0,,80,,,306,280,Quebec Nordiques,909.0,18.0,61.0,280.0,6.0,44.0,194.0,1.0
+1973,NHL,STL,STL,,WD,6,,78,26,40,12.0,,64,,,206,248,St. Louis Blues,1147.0,10.0,39.0,275.0,9.0,56.0,313.0,4.0
+1973,NHL,TOR,TOR,,ED,4,QF,78,35,27,16.0,,86,,,274,230,Toronto Maple Leafs,903.0,12.0,51.0,280.0,7.0,49.0,266.0,5.0
+1973,WHA,TOT,BIR,,EW,2,AVSF,78,41,33,4.0,,86,,,304,272,Toronto Toros,871.0,4.0,60.0,257.0,4.0,42.0,249.0,5.0
+1973,WHA,VAB,CAC,,WW,5,,78,27,50,1.0,,55,,,278,345,Vancouver Blazers,1047.0,14.0,47.0,289.0,12.0,66.0,286.0,7.0
+1973,NHL,VAN,VAN,,ED,7,,78,24,43,11.0,,59,,,224,296,Vancouver Canucks,952.0,10.0,55.0,279.0,8.0,70.0,269.0,4.0
+1973,WHA,WIJ,PHO,,WW,4,AVQF,78,34,39,5.0,,73,,,264,296,Winnipeg Jets,673.0,6.0,39.0,240.0,15.0,45.0,207.0,8.0
+1974,NHL,ATF,CAL,CC,PT,4,,80,34,31,15.0,,83,,,243,233,Atlanta Flames,915.0,14.0,56.0,283.0,9.0,56.0,270.0,4.0
+1974,NHL,BOS,BOS,WA,AD,2,PRE,80,40,26,14.0,,94,,,345,245,Boston Bruins,1153.0,6.0,86.0,299.0,10.0,59.0,316.0,14.0
+1974,NHL,BUF,BUF,WA,AD,1,F,80,49,16,15.0,,113,,,354,240,Buffalo Sabres,1229.0,18.0,83.0,303.0,5.0,56.0,326.0,17.0
+1974,WHA,CHC,CHC,,EW,3,,78,30,47,1.0,,61,,,261,312,Chicago Cougars,1086.0,,46.0,237.0,11.0,58.0,282.0,6.0
+1974,NHL,CHI,CHI,CC,SM,3,QF,80,37,35,8.0,,82,,,268,241,Chicago Black Hawks,1112.0,14.0,71.0,327.0,7.0,62.0,311.0,3.0
+1974,WHA,CLC,MF2,,EW,2,AVQF,78,35,40,3.0,,73,,,236,258,Cleveland Crusaders,1273.0,,38.0,226.0,6.0,61.0,275.0,4.0
+1974,NHL,CLF,CLE,WA,AD,4,,80,19,48,13.0,,51,,,212,316,California Golden Seals,1101.0,18.0,48.0,359.0,13.0,67.0,267.0,5.0
+1974,NHL,DET,DET,WA,NO,4,,80,23,45,12.0,,58,,,259,335,Detroit Red Wings,1078.0,12.0,76.0,355.0,14.0,69.0,339.0,15.0
+1974,WHA,EDO,EDM,,CW,5,,78,36,38,4.0,,76,,,279,279,Edmonton Oilers,896.0,,40.0,262.0,4.0,52.0,236.0,10.0
+1974,WHA,HOU,HOU,,WW,1,AVC,78,53,25,0.0,,106,,,369,247,Houston Aeros,1257.0,,71.0,254.0,6.0,64.0,372.0,18.0
+1974,WHA,IND,IND,,EW,4,,78,18,57,3.0,,39,,,216,338,Indianapolis Racers,970.0,,45.0,290.0,14.0,55.0,256.0,4.0
+1974,NHL,KCS,NJD,CC,SM,5,,80,15,54,11.0,,41,,,184,328,Kansas City Scouts,744.0,18.0,57.0,351.0,6.0,53.0,233.0,6.0
+1974,NHL,LAK,LAK,WA,NO,2,PRE,80,42,17,21.0,,105,,,269,185,Los Angeles Kings,1185.0,8.0,52.0,288.0,7.0,48.0,327.0,10.0
+1974,WHA,MFS,MFS,,WW,3,AVSF,78,42,33,3.0,,87,,,308,279,Minnesota Fighting Saints,1233.0,,53.0,228.0,9.0,47.0,256.0,15.0
+1974,WHA,MIB,MIB,,WW,5,,78,21,53,4.0,,46,,,205,341,Michigan Stags/Baltimore Blades,1104.0,,52.0,279.0,12.0,50.0,278.0,4.0
+1974,NHL,MNS,DAL,CC,SM,4,,80,23,50,7.0,,53,,,221,341,Minnesota North Stars,1106.0,14.0,45.0,293.0,10.0,81.0,303.0,3.0
+1974,NHL,MTL,MTL,WA,NO,1,SF,80,47,14,19.0,,113,,,374,225,Montreal Canadiens,1155.0,14.0,92.0,350.0,10.0,54.0,314.0,8.0
+1974,WHA,NEW,CAR,,EW,1,AVQF,78,43,30,5.0,,91,,,274,279,New England Whalers,867.0,,39.0,225.0,5.0,29.0,215.0,6.0
+1974,NHL,NYI,NYI,CC,PT,3,SF,80,33,25,22.0,,88,,,264,221,New York Islanders,1116.0,2.0,51.0,273.0,7.0,55.0,340.0,11.0
+1974,NHL,NYR,NYR,CC,PT,2,PRE,80,37,29,14.0,,88,,,319,276,New York Rangers,1053.0,12.0,84.0,296.0,7.0,54.0,295.0,6.0
+1974,NHL,PHI,PHI,CC,PT,1,SC,80,51,18,11.0,,113,,,293,181,Philadelphia Flyers,1969.0,16.0,64.0,257.0,6.0,74.0,466.0,15.0
+1974,WHA,PHR,PHR,,WW,4,AVQF,78,39,31,8.0,,86,,,300,265,Phoenix Roadrunners,1388.0,,50.0,304.0,6.0,76.0,315.0,7.0
+1974,NHL,PIT,PIT,WA,NO,3,QF,80,37,28,15.0,,89,,,326,289,Pittsburgh Penguins,1119.0,14.0,64.0,323.0,11.0,63.0,324.0,13.0
+1974,WHA,QUN,COL,,CW,1,AVF,78,46,32,0.0,,92,,,331,299,Quebec Nordiques,1132.0,,61.0,284.0,12.0,51.0,237.0,11.0
+1974,WHA,SDM,SDM,,WW,2,AVSF,78,43,31,4.0,,90,,,326,268,San Diego Mariners,1058.0,,60.0,218.0,8.0,53.0,275.0,11.0
+1974,NHL,STL,STL,CC,SM,2,PRE,80,35,31,14.0,,84,,,269,267,St. Louis Blues,1275.0,14.0,50.0,286.0,5.0,77.0,329.0,6.0
+1974,NHL,TOR,TOR,WA,AD,3,QF,80,31,33,16.0,,78,,,280,309,Toronto Maple Leafs,1079.0,12.0,60.0,340.0,10.0,76.0,304.0,11.0
+1974,WHA,TOT,BIR,,CW,2,AVQF,78,43,33,2.0,,88,,,349,304,Toronto Toros,883.0,,57.0,285.0,9.0,50.0,233.0,7.0
+1974,WHA,VAB,CAC,,CW,4,,78,37,39,2.0,,76,,,256,270,Vancouver Blazers,1075.0,,59.0,271.0,7.0,62.0,267.0,8.0
+1974,NHL,VAN,VAN,CC,SM,1,QF,80,38,32,10.0,,86,,,271,254,Vancouver Canucks,965.0,14.0,70.0,337.0,5.0,59.0,300.0,5.0
+1974,NHL,WAS,WAS,WA,NO,5,,80,8,67,5.0,,21,,,181,446,Washington Capitals,1085.0,14.0,48.0,372.0,18.0,94.0,328.0,8.0
+1974,WHA,WIJ,PHO,,CW,3,,78,38,35,5.0,,81,,,322,293,Winnipeg Jets,869.0,,74.0,362.0,16.0,37.0,221.0,11.0
+1975,NHL,ATF,CAL,CC,PT,3,PRE,80,35,33,12.0,,82,,,262,237,Atlanta Flames,928.0,14.0,56.0,292.0,5.0,43.0,277.0,7.0
+1975,NHL,BOS,BOS,WA,AD,1,SF,80,48,15,17.0,,113,,,313,237,Boston Bruins,1195.0,14.0,77.0,289.0,6.0,56.0,345.0,9.0
+1975,NHL,BUF,BUF,WA,AD,2,QF,80,46,21,13.0,,105,,,339,240,Buffalo Sabres,943.0,4.0,73.0,287.0,8.0,51.0,304.0,6.0
+1975,WHA,CAC,CAC,,CW,3,AVSF,80,41,35,4.0,,86,,,307,282,Calgary Cowboys,1064.0,,59.0,271.0,13.0,70.0,297.0,15.0
+1975,NHL,CHI,CHI,CC,SM,1,QF,80,32,30,18.0,,82,,,254,261,Chicago Black Hawks,944.0,14.0,72.0,341.0,8.0,53.0,305.0,9.0
+1975,WHA,CIN,CIN,,EW,4,,80,35,44,1.0,,71,,,285,340,Cincinnati Stingers,1344.0,,54.0,317.0,8.0,83.0,321.0,8.0
+1975,WHA,CLC,MF2,,EW,2,AVPRE,80,35,40,5.0,,75,,,273,279,Cleveland Crusaders,1356.0,,69.0,292.0,14.0,49.0,294.0,11.0
+1975,NHL,CLF,CLE,WA,AD,4,,80,27,42,11.0,,65,,,250,278,California Golden Seals,1058.0,20.0,71.0,382.0,10.0,52.0,262.0,9.0
+1975,NHL,DET,DET,WA,NO,4,,80,26,44,10.0,,62,,,226,300,Detroit Red Wings,1922.0,12.0,47.0,307.0,6.0,86.0,422.0,9.0
+1975,WHA,DOT,DOT,,WW,5,,41,14,26,1.0,,29,,,134,172,Denver Spurs/Ottawa Civics,536.0,,25.0,149.0,6.0,31.0,148.0,2.0
+1975,WHA,EDO,EDM,,CW,4,AVQF,81,27,49,5.0,,59,,,268,345,Edmonton Oilers,991.0,,53.0,293.0,10.0,58.0,273.0,8.0
+1975,WHA,HOU,HOU,,WW,1,AVF,80,53,27,0.0,,106,,,341,263,Houston Aeros,1093.0,,77.0,254.0,10.0,43.0,301.0,13.0
+1975,WHA,IND,IND,,EW,1,AVQF,80,35,39,6.0,,76,,,245,247,Indianapolis Racers,1301.0,,59.0,254.0,9.0,52.0,252.0,6.0
+1975,NHL,KCS,NJD,CC,SM,5,,80,12,56,12.0,,36,,,190,351,Kansas City Scouts,984.0,16.0,46.0,352.0,17.0,80.0,295.0,2.0
+1975,NHL,LAK,LAK,WA,NO,2,QF,80,38,33,9.0,,85,,,263,265,Los Angeles Kings,1022.0,20.0,61.0,334.0,12.0,55.0,298.0,8.0
+1975,WHA,MFS,MFS,,WW,4,,59,30,25,4.0,,64,,,211,212,Minnesota Fighting Saints,1354.0,,40.0,185.0,9.0,58.0,245.0,5.0
+1975,NHL,MNS,DAL,CC,SM,4,,80,20,53,7.0,,47,,,195,303,Minnesota North Stars,1191.0,18.0,48.0,331.0,16.0,82.0,309.0,2.0
+1975,NHL,MTL,MTL,WA,NO,1,SC,80,58,11,11.0,,127,,,337,174,Montreal Canadiens,977.0,14.0,75.0,282.0,0.0,44.0,290.0,7.0
+1975,WHA,NEW,CAR,,EW,3,AVSF,80,33,40,7.0,,73,,,255,290,New England Whalers,1012.0,,46.0,259.0,4.0,56.0,271.0,15.0
+1975,NHL,NYI,NYI,CC,PT,2,SF,80,42,21,17.0,,101,,,297,190,New York Islanders,1277.0,10.0,92.0,290.0,4.0,55.0,377.0,11.0
+1975,NHL,NYR,NYR,CC,PT,4,,80,29,42,9.0,,67,,,262,333,New York Rangers,911.0,12.0,67.0,323.0,11.0,68.0,277.0,3.0
+1975,NHL,PHI,PHI,CC,PT,1,F,80,51,13,16.0,,118,,,348,209,Philadelphia Flyers,1980.0,10.0,83.0,290.0,4.0,83.0,480.0,14.0
+1975,WHA,PHR,PHR,,WW,2,AVPRE,80,39,35,6.0,,84,,,302,287,Phoenix Roadrunners,1292.0,,57.0,276.0,3.0,89.0,330.0,8.0
+1975,NHL,PIT,PIT,WA,NO,3,PRE,80,35,33,12.0,,82,,,339,303,Pittsburgh Penguins,1004.0,14.0,75.0,307.0,13.0,68.0,292.0,8.0
+1975,WHA,QUN,COL,,CW,2,AVQF,81,50,27,4.0,,104,,,371,316,Quebec Nordiques,1654.0,,77.0,249.0,10.0,69.0,305.0,5.0
+1975,WHA,SDM,SDM,,WW,3,AVQF,80,36,38,6.0,,78,,,303,290,San Diego Mariners,716.0,,66.0,287.0,10.0,42.0,220.0,6.0
+1975,NHL,STL,STL,CC,SM,3,PRE,80,29,37,14.0,,72,,,249,290,St. Louis Blues,1274.0,16.0,55.0,298.0,3.0,98.0,376.0,21.0
+1975,NHL,TOR,TOR,WA,AD,3,QF,80,34,31,15.0,,83,,,294,276,Toronto Maple Leafs,1368.0,12.0,67.0,348.0,9.0,77.0,321.0,11.0
+1975,WHA,TOT,BIR,,CW,5,,81,24,52,5.0,,53,,,335,398,Toronto Toros,1099.0,,54.0,279.0,7.0,59.0,251.0,9.0
+1975,NHL,VAN,VAN,CC,SM,2,PRE,80,33,32,15.0,,81,,,271,272,Vancouver Canucks,1122.0,14.0,68.0,345.0,9.0,71.0,291.0,6.0
+1975,NHL,WAS,WAS,WA,NO,5,,80,11,59,10.0,,32,,,224,394,Washington Capitals,951.0,8.0,53.0,375.0,3.0,64.0,252.0,2.0
+1975,WHA,WIJ,PHO,,CW,1,AVC,81,52,27,2.0,,106,,,345,254,Winnipeg Jets,940.0,,68.0,394.0,8.0,45.0,251.0,10.0
+1976,NHL,ATF,CAL,CC,PT,3,PRE,80,34,34,12.0,,80,,,264,265,Atlanta Flames,889.0,14.0,42.0,214.0,6.0,50.0,248.0,12.0
+1976,WHA,BIR,BIR,,EW,5,,81,31,46,4.0,,66,,,289,309,Birmingham Bulls,1179.0,37.0,50.0,261.0,7.0,54.0,231.0,6.0
+1976,NHL,BOS,BOS,WA,AD,1,F,80,49,23,8.0,,106,,,312,240,Boston Bruins,1065.0,10.0,46.0,217.0,10.0,41.0,272.0,7.0
+1976,NHL,BUF,BUF,WA,AD,2,QF,80,48,24,8.0,,104,,,301,220,Buffalo Sabres,848.0,18.0,60.0,262.0,7.0,38.0,274.0,6.0
+1976,WHA,CAC,CAC,,WW,5,,81,31,43,7.0,,69,,,252,296,Calgary Cowboys,832.0,8.0,38.0,258.0,10.0,47.0,228.0,8.0
+1976,NHL,CHI,CHI,CC,SM,3,PRE,80,26,43,11.0,,63,,,240,298,Chicago Black Hawks,1104.0,18.0,59.0,267.0,9.0,62.0,282.0,4.0
+1976,WHA,CIN,CIN,,EW,2,AVQF,81,39,37,5.0,,83,,,354,303,Cincinnati Stingers,970.0,8.0,54.0,283.0,7.0,58.0,259.0,6.0
+1976,NHL,CLE,CLE,WA,AD,4,,80,25,42,13.0,,63,,,240,292,Cleveland Barons,1011.0,20.0,59.0,298.0,12.0,52.0,237.0,2.0
+1976,NHL,COR,NJD,CC,SM,5,,80,20,46,14.0,,54,,,226,307,Colorado Rockies,978.0,12.0,44.0,274.0,7.0,61.0,247.0,9.0
+1976,NHL,DET,DET,WA,NO,5,,80,16,55,9.0,,41,,,183,309,Detroit Red Wings,1332.0,10.0,37.0,294.0,10.0,73.0,317.0,10.0
+1976,WHA,EDO,EDM,,WW,4,AVQF,81,34,43,4.0,,72,,,243,304,Edmonton Oilers,1319.0,22.0,50.0,242.0,11.0,58.0,278.0,1.0
+1976,WHA,HOU,HOU,,WW,1,AVSF,80,50,24,6.0,,106,,,320,241,Houston Aeros,1432.0,6.0,64.0,227.0,4.0,61.0,361.0,11.0
+1976,WHA,IND,IND,,EW,3,AVSF,81,36,37,8.0,,80,,,276,305,Indianapolis Racers,880.0,10.0,57.0,259.0,2.0,62.0,251.0,7.0
+1976,NHL,LAK,LAK,WA,NO,2,QF,80,34,31,15.0,,83,,,271,241,Los Angeles Kings,1186.0,14.0,68.0,253.0,5.0,52.0,284.0,6.0
+1976,WHA,MF2,MF2,,EW,6,,42,19,18,5.0,,43,,,136,129,Minnesota Fighting Saints,600.0,0.0,22.0,107.0,7.0,33.0,130.0,3.0
+1976,NHL,MNS,DAL,CC,SM,2,PRE,80,23,39,18.0,,64,,,240,310,Minnesota North Stars,774.0,10.0,59.0,339.0,11.0,57.0,211.0,9.0
+1976,NHL,MTL,MTL,WA,NO,1,SC,80,60,8,12.0,,132,,,387,171,Montreal Canadiens,764.0,10.0,59.0,237.0,3.0,28.0,231.0,5.0
+1976,WHA,NEW,CAR,,EW,4,AVQF,81,35,40,6.0,,76,,,275,290,New England Whalers,1254.0,12.0,47.0,245.0,10.0,65.0,281.0,8.0
+1976,NHL,NYI,NYI,CC,PT,2,SF,80,47,21,12.0,,106,,,288,193,New York Islanders,1012.0,10.0,56.0,240.0,3.0,47.0,278.0,16.0
+1976,NHL,NYR,NYR,CC,PT,4,,80,29,37,14.0,,72,,,272,310,New York Rangers,1164.0,18.0,60.0,290.0,16.0,55.0,268.0,6.0
+1976,NHL,PHI,PHI,CC,PT,1,SF,80,48,16,16.0,,112,,,323,213,Philadelphia Flyers,1547.0,6.0,52.0,236.0,3.0,57.0,326.0,11.0
+1976,WHA,PHR,PHR,,WW,6,,80,28,48,4.0,,60,,,281,383,Phoenix Roadrunners,915.0,4.0,47.0,246.0,10.0,62.0,243.0,5.0
+1976,NHL,PIT,PIT,WA,NO,3,PRE,80,34,33,13.0,,81,,,240,252,Pittsburgh Penguins,669.0,12.0,46.0,263.0,6.0,47.0,209.0,5.0
+1976,WHA,QUN,COL,,EW,1,AVC,81,47,31,3.0,,97,,,353,295,Quebec Nordiques,1485.0,6.0,70.0,258.0,6.0,66.0,316.0,16.0
+1976,WHA,SDM,SDM,,WW,3,AVQF,81,40,37,4.0,,84,,,284,283,San Diego Mariners,834.0,6.0,69.0,257.0,6.0,43.0,204.0,11.0
+1976,NHL,STL,STL,CC,SM,1,QF,80,32,39,9.0,,73,,,239,276,St. Louis Blues,877.0,10.0,47.0,249.0,7.0,47.0,259.0,4.0
+1976,NHL,TOR,TOR,WA,AD,3,QF,80,33,32,15.0,,81,,,301,285,Toronto Maple Leafs,1200.0,8.0,63.0,281.0,6.0,59.0,284.0,13.0
+1976,NHL,VAN,VAN,CC,SM,4,,80,25,42,13.0,,63,,,235,294,Vancouver Canucks,1078.0,22.0,50.0,263.0,7.0,58.0,258.0,7.0
+1976,NHL,WAS,WAS,WA,NO,4,,80,24,42,14.0,,62,,,221,307,Washington Capitals,1231.0,16.0,39.0,293.0,14.0,62.0,285.0,10.0
+1976,WHA,WIJ,PHO,,WW,2,AVF,80,46,32,2.0,,94,,,366,291,Winnipeg Jets,991.0,10.0,90.0,370.0,11.0,49.0,231.0,9.0
+1977,NHL,ATF,CAL,CC,PT,3,PRE,80,34,27,19.0,,87,,,274,252,Atlanta Flames,984.0,18.0,43.0,195.0,4.0,51.0,264.0,4.0
+1977,WHA,BIR,BIR,,,6,AVQF,80,36,41,3.0,,75,,,287,314,Birmingham Bulls,2177.0,18.0,60.0,286.0,13.0,84.0,355.0,8.0
+1977,NHL,BOS,BOS,WA,AD,1,F,80,51,18,11.0,,113,,,333,218,Boston Bruins,1237.0,8.0,49.0,242.0,2.0,53.0,296.0,7.0
+1977,NHL,BUF,BUF,WA,AD,2,QF,80,44,19,17.0,,105,,,288,215,Buffalo Sabres,800.0,12.0,52.0,234.0,3.0,31.0,218.0,7.0
+1977,NHL,CHI,CHI,CC,SM,1,QF,80,32,29,19.0,,83,,,230,220,Chicago Black Hawks,1308.0,12.0,43.0,205.0,3.0,46.0,295.0,4.0
+1977,WHA,CIN,CIN,,,7,,80,35,42,3.0,,73,,,298,332,Cincinnati Stingers,1701.0,30.0,62.0,295.0,10.0,76.0,256.0,7.0
+1977,NHL,CLE,CLE,WA,AD,4,,80,22,45,13.0,,57,,,230,325,Cleveland Barons,1010.0,10.0,42.0,275.0,8.0,61.0,235.0,3.0
+1977,NHL,COR,NJD,CC,SM,2,PRE,80,19,40,21.0,,59,,,257,305,Colorado Rockies,818.0,10.0,63.0,279.0,7.0,53.0,237.0,5.0
+1977,WHA,CZE,CZE,,,10,,8,1,6,1.0,,3,,,21,40,Czechoslovakia,87.0,6.0,,,,,,
+1977,NHL,DET,DET,WA,NO,2,QF,80,32,34,14.0,,78,,,252,266,Detroit Red Wings,1534.0,16.0,59.0,293.0,7.0,64.0,296.0,10.0
+1977,WHA,EDO,EDM,,,5,AVQF,80,38,39,3.0,,79,,,309,307,Edmonton Oilers,1296.0,10.0,62.0,283.0,8.0,60.0,292.0,11.0
+1977,WHA,HOU,HOU,,,3,AVQF,80,42,34,4.0,,88,,,296,302,Houston Aeros,1543.0,8.0,56.0,270.0,8.0,77.0,366.0,6.0
+1977,WHA,IND,IND,,,8,,80,24,51,5.0,,53,,,267,353,Indianapolis Racers,1189.0,8.0,56.0,317.0,13.0,51.0,241.0,6.0
+1977,NHL,LAK,LAK,WA,NO,3,PRE,80,31,34,15.0,,77,,,243,245,Los Angeles Kings,903.0,10.0,50.0,254.0,6.0,46.0,236.0,3.0
+1977,NHL,MNS,DAL,CC,SM,5,,80,18,53,9.0,,45,,,218,325,Minnesota North Stars,1096.0,18.0,49.0,328.0,10.0,61.0,218.0,3.0
+1977,NHL,MTL,MTL,WA,NO,1,SC,80,59,10,11.0,,129,,,359,183,Montreal Canadiens,745.0,10.0,73.0,229.0,1.0,40.0,211.0,9.0
+1977,WHA,NEW,CAR,,,2,AVF,80,44,31,5.0,,93,,,335,269,New England Whalers,1255.0,14.0,62.0,239.0,4.0,65.0,315.0,9.0
+1977,NHL,NYI,NYI,CC,PT,1,QF,80,48,17,15.0,,111,,,334,210,New York Islanders,938.0,4.0,71.0,227.0,6.0,45.0,272.0,7.0
+1977,NHL,NYR,NYR,CC,PT,4,PRE,80,30,37,13.0,,73,,,279,280,New York Rangers,1057.0,8.0,78.0,279.0,6.0,48.0,244.0,10.0
+1977,NHL,PHI,PHI,CC,PT,2,SF,80,45,20,15.0,,105,,,296,200,Philadelphia Flyers,1668.0,6.0,51.0,219.0,5.0,66.0,340.0,18.0
+1977,NHL,PIT,PIT,WA,NO,4,,80,25,37,18.0,,68,,,254,321,Pittsburgh Penguins,1300.0,14.0,53.0,261.0,7.0,61.0,251.0,5.0
+1977,WHA,QUN,COL,,,4,AVSF,80,40,37,3.0,,83,,,349,347,Quebec Nordiques,1185.0,14.0,79.0,277.0,10.0,60.0,269.0,11.0
+1977,WHA,SOV,SOV,,,9,,8,3,4,1.0,,7,,,27,36,Soviet All Stars,122.0,2.0,,,,,,
+1977,NHL,STL,STL,CC,SM,4,,80,20,47,13.0,,53,,,195,304,St. Louis Blues,845.0,10.0,44.0,264.0,3.0,52.0,194.0,2.0
+1977,NHL,TOR,TOR,WA,AD,3,SF,80,41,29,10.0,,92,,,271,237,Toronto Maple Leafs,1258.0,4.0,57.0,261.0,7.0,55.0,295.0,5.0
+1977,NHL,VAN,VAN,CC,SM,3,,80,20,43,17.0,,57,,,239,320,Vancouver Canucks,962.0,12.0,60.0,269.0,7.0,65.0,230.0,3.0
+1977,NHL,WAS,WAS,WA,NO,5,,80,17,49,14.0,,48,,,195,321,Washington Capitals,1332.0,10.0,34.0,278.0,15.0,73.0,260.0,2.0
+1977,WHA,WIJ,PHO,,,1,AVC,80,50,28,2.0,,102,,,381,270,Winnipeg Jets,988.0,22.0,78.0,330.0,10.0,44.0,233.0,16.0
+1978,NHL,ATF,CAL,CC,PT,4,PRE,80,41,31,8.0,,90,,,327,280,Atlanta Flames,1158.0,2.0,54.0,226.0,5.0,56.0,290.0,6.0
+1978,WHA,BIR,BIR,,,6,,80,32,42,6.0,,70,,,286,311,Birmingham Bulls,1661.0,38.0,51.0,259.0,7.0,69.0,277.0,5.0
+1978,NHL,BOS,BOS,WA,AD,1,SF,80,43,23,14.0,,100,,,316,270,Boston Bruins,1222.0,20.0,59.0,249.0,9.0,72.0,285.0,6.0
+1978,NHL,BUF,BUF,WA,AD,2,PRE,80,36,28,16.0,,88,,,280,263,Buffalo Sabres,1026.0,16.0,55.0,267.0,4.0,55.0,258.0,9.0
+1978,NHL,CHI,CHI,CC,SM,1,QF,80,29,36,15.0,,73,,,244,277,Chicago Black Hawks,1254.0,18.0,41.0,247.0,4.0,70.0,297.0,8.0
+1978,WHA,CIN,CIN,,,5,AVPRE,80,33,41,6.0,,72,,,274,284,Cincinnati Stingers,1651.0,32.0,81.0,341.0,5.0,64.0,278.0,6.0
+1978,NHL,COR,NJD,CC,SM,4,,80,15,53,12.0,,42,,,210,331,Colorado Rockies,838.0,28.0,60.0,267.0,4.0,62.0,211.0,8.0
+1978,WHA,CZE,CZE,,,9,,6,1,4,1.0,,3,,,14,33,Czechoslovakia,107.0,,,,,,,
+1978,NHL,DET,DET,WA,NO,5,,80,23,41,16.0,,62,,,252,295,Detroit Red Wings,1359.0,20.0,78.0,327.0,9.0,63.0,279.0,10.0
+1978,WHA,EDO,EDM,,,1,AVF,80,48,30,2.0,,98,,,340,266,Edmonton Oilers,1220.0,8.0,70.0,276.0,6.0,62.0,288.0,9.0
+1978,WHA,FIN,FIN,,,10,,1,0,1,0.0,,0,,,4,8,Finland,2.0,,,,,,,
+1978,WHA,IND,IND,,,7,,25,5,18,2.0,,12,,,78,130,Indianapolis Racers,557.0,16.0,16.0,,7.0,27.0,,0.0
+1978,NHL,LAK,LAK,WA,NO,3,PRE,80,34,34,12.0,,80,,,292,286,Los Angeles Kings,1134.0,12.0,76.0,318.0,8.0,55.0,245.0,6.0
+1978,NHL,MNS,DAL,WA,AD,4,,80,28,40,12.0,,68,,,257,289,Minnesota North Stars,1102.0,24.0,63.0,289.0,9.0,48.0,232.0,4.0
+1978,NHL,MTL,MTL,WA,NO,1,SC,80,52,17,11.0,,115,,,337,204,Montreal Canadiens,803.0,6.0,68.0,240.0,7.0,35.0,213.0,7.0
+1978,WHA,NEW,CAR,,,4,AVSF,80,37,34,9.0,,83,,,298,287,New England Whalers,1090.0,4.0,53.0,259.0,6.0,63.0,262.0,15.0
+1978,NHL,NYI,NYI,CC,PT,1,SF,80,51,15,14.0,,116,,,358,214,New York Islanders,1077.0,4.0,81.0,260.0,4.0,57.0,287.0,7.0
+1978,NHL,NYR,NYR,CC,PT,3,F,80,40,29,11.0,,91,,,316,292,New York Rangers,1214.0,14.0,75.0,306.0,12.0,78.0,311.0,9.0
+1978,NHL,PHI,PHI,CC,PT,2,QF,80,40,25,15.0,,95,,,281,248,Philadelphia Flyers,1548.0,22.0,59.0,232.0,2.0,73.0,344.0,16.0
+1978,NHL,PIT,PIT,WA,NO,2,QF,80,36,31,13.0,,85,,,281,279,Pittsburgh Penguins,1039.0,16.0,56.0,261.0,4.0,57.0,250.0,7.0
+1978,WHA,QUN,COL,,,2,AVSF,80,41,34,5.0,,87,,,288,271,Quebec Nordiques,1399.0,30.0,67.0,272.0,9.0,63.0,329.0,6.0
+1978,WHA,SOV,SOV,,,8,,6,4,1,1.0,,9,,,27,20,Soviet All Stars,77.0,0.0,,,,,,
+1978,NHL,STL,STL,CC,SM,3,,80,18,50,12.0,,48,,,249,348,St. Louis Blues,1055.0,10.0,48.0,281.0,8.0,63.0,244.0,3.0
+1978,NHL,TOR,TOR,WA,AD,3,QF,80,34,33,13.0,,81,,,267,252,Toronto Maple Leafs,1440.0,10.0,60.0,236.0,7.0,70.0,330.0,5.0
+1978,NHL,VAN,VAN,CC,SM,2,PRE,80,25,42,13.0,,63,,,217,291,Vancouver Canucks,1134.0,14.0,56.0,295.0,9.0,49.0,248.0,1.0
+1978,NHL,WAS,WAS,WA,NO,4,,80,24,41,15.0,,63,,,273,338,Washington Capitals,1312.0,20.0,57.0,302.0,12.0,83.0,279.0,5.0
+1978,WHA,WIJ,PHO,,,3,AVC,80,39,35,6.0,,84,,,307,306,Winnipeg Jets,1342.0,18.0,67.0,265.0,7.0,57.0,274.0,5.0
+1979,NHL,ATF,CAL,CC,PT,4,PRE,80,35,32,13.0,,83,,,282,269,Atlanta Flames,1048.0,14.0,51.0,216.0,7.0,52.0,272.0,6.0
+1979,NHL,BOS,BOS,WA,AD,2,QF,80,46,21,13.0,,105,,,310,234,Boston Bruins,1460.0,18.0,60.0,246.0,4.0,53.0,312.0,8.0
+1979,NHL,BUF,BUF,WA,AD,1,SF,80,47,17,16.0,,110,,,318,201,Buffalo Sabres,967.0,22.0,67.0,275.0,4.0,43.0,252.0,2.0
+1979,NHL,CHI,CHI,CC,SM,1,QF,80,34,27,19.0,,87,,,241,250,Chicago Black Hawks,1325.0,16.0,64.0,269.0,9.0,56.0,293.0,6.0
+1979,NHL,COR,NJD,CC,SM,6,,80,19,48,13.0,,51,,,234,308,Colorado Rockies,1020.0,12.0,53.0,304.0,3.0,52.0,233.0,6.0
+1979,NHL,DET,DET,WA,NO,5,,80,26,43,11.0,,63,,,268,306,Detroit Red Wings,1114.0,18.0,61.0,276.0,2.0,64.0,270.0,6.0
+1979,NHL,EDM,EDM,CC,SM,4,PRE,80,28,39,13.0,,69,,,301,322,Edmonton Oilers,1528.0,16.0,61.0,282.0,4.0,74.0,315.0,11.0
+1979,NHL,HAR,CAR,WA,NO,4,PRE,80,27,34,19.0,,73,,,303,312,Hartford Whalers,875.0,16.0,42.0,216.0,1.0,64.0,249.0,7.0
+1979,NHL,LAK,LAK,WA,NO,2,PRE,80,30,36,14.0,,74,,,290,313,Los Angeles Kings,1124.0,16.0,83.0,311.0,9.0,94.0,291.0,7.0
+1979,NHL,MNS,DAL,WA,AD,3,SF,80,36,28,16.0,,88,,,311,253,Minnesota North Stars,1064.0,6.0,75.0,316.0,7.0,43.0,240.0,4.0
+1979,NHL,MTL,MTL,WA,NO,1,QF,80,47,20,13.0,,107,,,328,240,Montreal Canadiens,874.0,10.0,77.0,264.0,7.0,46.0,247.0,2.0
+1979,NHL,NYI,NYI,CC,PT,2,SC,80,39,28,13.0,,91,,,281,247,New York Islanders,1298.0,6.0,63.0,265.0,4.0,71.0,317.0,7.0
+1979,NHL,NYR,NYR,CC,PT,3,QF,80,38,32,10.0,,86,,,308,284,New York Rangers,1342.0,10.0,79.0,304.0,7.0,54.0,304.0,8.0
+1979,NHL,PHI,PHI,CC,PT,1,F,80,48,12,20.0,,116,,,327,254,Philadelphia Flyers,1844.0,26.0,44.0,270.0,7.0,79.0,381.0,15.0
+1979,NHL,PIT,PIT,WA,NO,3,PRE,80,30,37,13.0,,73,,,251,303,Pittsburgh Penguins,1038.0,10.0,52.0,262.0,4.0,64.0,247.0,6.0
+1979,NHL,QUE,COL,WA,AD,5,,80,25,44,11.0,,61,,,248,313,Quebec Nordiques,1062.0,24.0,63.0,300.0,9.0,71.0,267.0,4.0
+1979,NHL,STL,STL,CC,SM,2,PRE,80,34,34,12.0,,80,,,266,278,St. Louis Blues,1037.0,14.0,53.0,289.0,4.0,40.0,263.0,5.0
+1979,NHL,TOR,TOR,WA,AD,4,PRE,80,35,40,5.0,,75,,,304,327,Toronto Maple Leafs,1158.0,14.0,68.0,275.0,5.0,69.0,325.0,2.0
+1979,NHL,VAN,VAN,CC,SM,3,PRE,80,27,37,16.0,,70,,,256,281,Vancouver Canucks,1808.0,16.0,53.0,312.0,12.0,69.0,282.0,2.0
+1979,NHL,WAS,WAS,CC,PT,5,,80,27,40,13.0,,67,,,261,293,Washington Capitals,1198.0,12.0,54.0,295.0,4.0,65.0,248.0,5.0
+1979,NHL,WIN,PHO,CC,SM,5,,80,20,49,11.0,,51,,,214,314,Winnipeg Jets,1251.0,16.0,63.0,336.0,10.0,63.0,275.0,4.0
+1980,NHL,BOS,BOS,WA,AD,2,PRE,80,37,30,13.0,,87,,,316,272,Boston Bruins,1836.0,26.0,87.0,342.0,8.0,82.0,358.0,13.0
+1980,NHL,BUF,BUF,WA,AD,1,QF,80,39,20,21.0,,99,,,327,250,Buffalo Sabres,1194.0,22.0,73.0,310.0,10.0,44.0,268.0,9.0
+1980,NHL,CAL,CAL,CC,PT,3,SF,80,39,27,14.0,,92,,,329,298,Calgary Flames,1450.0,24.0,81.0,301.0,12.0,70.0,364.0,8.0
+1980,NHL,CHI,CHI,CC,SM,2,PRE,80,31,33,16.0,,78,,,304,315,Chicago Black Hawks,1660.0,30.0,67.0,302.0,9.0,91.0,364.0,8.0
+1980,NHL,COR,NJD,CC,SM,5,,80,22,45,13.0,,57,,,258,344,Colorado Rockies,1418.0,36.0,76.0,373.0,8.0,70.0,286.0,5.0
+1980,NHL,DET,DET,WA,NO,5,,80,19,43,18.0,,56,,,252,339,Detroit Red Wings,1687.0,24.0,60.0,316.0,12.0,82.0,317.0,7.0
+1980,NHL,EDM,EDM,CC,SM,4,QF,80,29,35,16.0,,74,,,328,327,Edmonton Oilers,1544.0,18.0,77.0,347.0,7.0,85.0,348.0,13.0
+1980,NHL,HAR,CAR,WA,NO,4,,80,21,41,18.0,,60,,,292,372,Hartford Whalers,1584.0,34.0,60.0,318.0,15.0,80.0,328.0,13.0
+1980,NHL,LAK,LAK,WA,NO,2,PRE,80,43,24,13.0,,99,,,337,290,Los Angeles Kings,1627.0,32.0,90.0,366.0,7.0,81.0,356.0,12.0
+1980,NHL,MNS,DAL,WA,AD,3,F,80,35,28,17.0,,87,,,291,263,Minnesota North Stars,1624.0,44.0,88.0,408.0,13.0,64.0,304.0,7.0
+1980,NHL,MTL,MTL,WA,NO,1,PRE,80,45,22,13.0,,103,,,332,232,Montreal Canadiens,1398.0,28.0,72.0,299.0,8.0,51.0,279.0,8.0
+1980,NHL,NYI,NYI,CC,PT,1,SC,80,48,18,14.0,,110,,,355,260,New York Islanders,1442.0,24.0,93.0,317.0,6.0,76.0,368.0,19.0
+1980,NHL,NYR,NYR,CC,PT,4,SF,80,30,36,14.0,,74,,,312,317,New York Rangers,1981.0,36.0,63.0,351.0,12.0,83.0,392.0,14.0
+1980,NHL,PHI,PHI,CC,PT,2,QF,80,41,24,15.0,,97,,,313,249,Philadelphia Flyers,2621.0,40.0,75.0,278.0,4.0,85.0,432.0,10.0
+1980,NHL,PIT,PIT,WA,NO,3,PRE,80,30,37,13.0,,73,,,302,345,Pittsburgh Penguins,1807.0,20.0,92.0,400.0,11.0,99.0,370.0,6.0
+1980,NHL,QUE,COL,WA,AD,4,PRE,80,30,32,18.0,,78,,,314,318,Quebec Nordiques,1524.0,30.0,81.0,339.0,10.0,79.0,335.0,7.0
+1980,NHL,STL,STL,CC,SM,1,QF,80,45,18,17.0,,107,,,352,281,St. Louis Blues,1657.0,34.0,85.0,359.0,12.0,61.0,338.0,16.0
+1980,NHL,TOR,TOR,WA,AD,5,PRE,80,28,37,15.0,,71,,,322,367,Toronto Maple Leafs,1830.0,38.0,85.0,339.0,4.0,93.0,408.0,9.0
+1980,NHL,VAN,VAN,CC,SM,3,PRE,80,28,32,20.0,,76,,,289,301,Vancouver Canucks,1892.0,24.0,68.0,330.0,14.0,81.0,340.0,11.0
+1980,NHL,WAS,WAS,CC,PT,5,,80,26,36,18.0,,70,,,286,317,Washington Capitals,1872.0,38.0,74.0,394.0,14.0,83.0,318.0,8.0
+1980,NHL,WIN,PHO,CC,SM,6,,80,9,57,14.0,,32,,,246,400,Winnipeg Jets,1191.0,30.0,60.0,345.0,15.0,67.0,261.0,8.0
+1981,NHL,BOS,BOS,WA,AD,2,DF,80,43,27,10.0,,96,,,323,285,Boston Bruins,1266.0,4.0,65.0,289.0,7.0,54.0,291.0,11.0
+1981,NHL,BUF,BUF,WA,AD,3,DSF,80,39,26,15.0,,93,,,307,273,Buffalo Sabres,1425.0,18.0,63.0,301.0,10.0,57.0,281.0,4.0
+1981,NHL,CAL,CAL,CC,SM,3,DSF,80,29,34,17.0,,75,,,334,345,Calgary Flames,1331.0,22.0,78.0,290.0,9.0,72.0,328.0,8.0
+1981,NHL,CHI,CHI,CC,NO,4,CF,80,30,38,12.0,,72,,,332,363,Chicago Black Hawks,1775.0,12.0,78.0,315.0,12.0,93.0,383.0,13.0
+1981,NHL,COR,NJD,CC,SM,5,,80,18,49,13.0,,49,,,241,362,Colorado Rockies,1138.0,20.0,46.0,305.0,15.0,63.0,268.0,4.0
+1981,NHL,DET,DET,CC,NO,6,,80,21,47,12.0,,54,,,270,351,Detroit Red Wings,1250.0,20.0,43.0,257.0,6.0,75.0,284.0,10.0
+1981,NHL,EDM,EDM,CC,SM,1,DSF,80,48,17,15.0,,111,,,417,295,Edmonton Oilers,1473.0,20.0,86.0,341.0,8.0,67.0,371.0,12.0
+1981,NHL,HAR,CAR,WA,AD,5,,80,21,41,18.0,,60,,,264,351,Hartford Whalers,1493.0,8.0,68.0,292.0,7.0,78.0,283.0,6.0
+1981,NHL,LAK,LAK,CC,SM,4,DF,80,24,41,15.0,,63,,,314,369,Los Angeles Kings,1730.0,10.0,75.0,355.0,11.0,89.0,310.0,7.0
+1981,NHL,MNS,DAL,CC,NO,1,DSF,80,37,23,20.0,,94,,,346,288,Minnesota North Stars,1358.0,20.0,89.0,362.0,9.0,49.0,271.0,11.0
+1981,NHL,MTL,MTL,WA,AD,1,DSF,80,46,17,17.0,,109,,,360,223,Montreal Canadiens,1463.0,6.0,72.0,297.0,5.0,57.0,286.0,9.0
+1981,NHL,NYI,NYI,WA,PT,1,SC,80,54,16,10.0,,118,,,385,250,New York Islanders,1328.0,2.0,80.0,284.0,3.0,65.0,332.0,16.0
+1981,NHL,NYR,NYR,WA,PT,2,DF,80,39,27,14.0,,92,,,316,306,New York Rangers,1402.0,22.0,68.0,306.0,12.0,75.0,319.0,7.0
+1981,NHL,PHI,PHI,WA,PT,3,DSF,80,38,31,11.0,,87,,,325,313,Philadelphia Flyers,2493.0,22.0,79.0,296.0,5.0,102.0,397.0,11.0
+1981,NHL,PIT,PIT,WA,PT,4,DSF,80,31,36,13.0,,75,,,310,337,Pittsburgh Penguins,2212.0,10.0,99.0,404.0,14.0,92.0,399.0,8.0
+1981,NHL,QUE,COL,WA,AD,4,CF,80,33,31,16.0,,82,,,356,345,Quebec Nordiques,1757.0,10.0,83.0,314.0,9.0,71.0,331.0,16.0
+1981,NHL,STL,STL,CC,NO,3,DF,80,32,40,8.0,,72,,,315,349,St. Louis Blues,1579.0,8.0,76.0,344.0,13.0,83.0,357.0,10.0
+1981,NHL,TOR,TOR,CC,NO,5,,80,20,44,16.0,,56,,,298,380,Toronto Maple Leafs,1888.0,10.0,58.0,292.0,6.0,99.0,363.0,10.0
+1981,NHL,VAN,VAN,CC,SM,2,F,80,30,33,17.0,,77,,,290,286,Vancouver Canucks,1840.0,16.0,64.0,337.0,10.0,68.0,315.0,8.0
+1981,NHL,WAS,WAS,WA,PT,5,,80,26,41,13.0,,65,,,319,338,Washington Capitals,1932.0,14.0,93.0,418.0,11.0,67.0,309.0,8.0
+1981,NHL,WIN,PHO,CC,NO,2,DSF,80,33,33,14.0,,80,,,319,332,Winnipeg Jets,1314.0,12.0,74.0,328.0,11.0,61.0,249.0,4.0
+1982,NHL,BOS,BOS,WA,AD,1,CF,80,50,20,10.0,,110,,,327,228,Boston Bruins,1202.0,18.0,67.0,302.0,6.0,53.0,275.0,8.0
+1982,NHL,BUF,BUF,WA,AD,3,DF,80,38,29,13.0,,89,,,318,285,Buffalo Sabres,1031.0,34.0,67.0,311.0,9.0,48.0,274.0,12.0
+1982,NHL,CAL,CAL,CC,SM,2,DF,80,32,34,14.0,,78,,,321,317,Calgary Flames,1146.0,10.0,65.0,273.0,6.0,59.0,258.0,7.0
+1982,NHL,CHI,CHI,CC,NO,1,CF,80,47,23,10.0,,104,,,338,268,Chicago Black Hawks,1185.0,10.0,86.0,316.0,6.0,71.0,304.0,4.0
+1982,NHL,DET,DET,CC,NO,5,,80,21,44,15.0,,57,,,263,344,Detroit Red Wings,1064.0,12.0,37.0,268.0,9.0,80.0,292.0,7.0
+1982,NHL,EDM,EDM,CC,SM,1,F,80,47,21,12.0,,106,,,424,315,Edmonton Oilers,1771.0,28.0,86.0,294.0,6.0,89.0,396.0,22.0
+1982,NHL,HAR,CAR,WA,AD,5,,80,19,54,7.0,,45,,,261,403,Hartford Whalers,1392.0,28.0,51.0,264.0,9.0,70.0,293.0,6.0
+1982,NHL,LAK,LAK,CC,SM,5,,80,27,41,12.0,,66,,,308,365,Los Angeles Kings,1367.0,20.0,81.0,340.0,14.0,94.0,296.0,10.0
+1982,NHL,MNS,DAL,CC,NO,2,DF,80,40,24,16.0,,96,,,321,290,Minnesota North Stars,1520.0,16.0,91.0,345.0,20.0,67.0,347.0,17.0
+1982,NHL,MTL,MTL,WA,AD,2,DSF,80,42,24,14.0,,98,,,350,286,Montreal Canadiens,1116.0,10.0,64.0,288.0,8.0,68.0,260.0,8.0
+1982,NHL,NJD,NJD,WA,PT,5,,80,17,49,14.0,,48,,,230,338,New Jersey Devils,1270.0,14.0,66.0,302.0,10.0,78.0,294.0,7.0
+1982,NHL,NYI,NYI,WA,PT,2,SC,80,42,26,12.0,,96,,,302,226,New York Islanders,1266.0,2.0,69.0,267.0,3.0,55.0,331.0,10.0
+1982,NHL,NYR,NYR,WA,PT,4,DF,80,35,35,10.0,,80,,,306,287,New York Rangers,1100.0,18.0,71.0,317.0,8.0,75.0,312.0,12.0
+1982,NHL,PHI,PHI,WA,PT,1,DSF,80,49,23,8.0,,106,,,326,240,Philadelphia Flyers,1337.0,10.0,60.0,278.0,7.0,61.0,339.0,15.0
+1982,NHL,PIT,PIT,WA,PT,6,,80,18,53,9.0,,45,,,257,394,Pittsburgh Penguins,1859.0,20.0,81.0,358.0,15.0,110.0,396.0,3.0
+1982,NHL,QUE,COL,WA,AD,4,DSF,80,34,34,12.0,,80,,,343,336,Quebec Nordiques,1648.0,10.0,61.0,294.0,6.0,92.0,348.0,6.0
+1982,NHL,STL,STL,CC,NO,4,DSF,80,25,40,15.0,,65,,,285,316,St. Louis Blues,1281.0,12.0,67.0,316.0,12.0,63.0,336.0,9.0
+1982,NHL,TOR,TOR,CC,NO,3,DSF,80,28,40,12.0,,68,,,293,330,Toronto Maple Leafs,1481.0,16.0,79.0,355.0,9.0,83.0,332.0,13.0
+1982,NHL,VAN,VAN,CC,SM,3,DSF,80,30,35,15.0,,75,,,303,309,Vancouver Canucks,1639.0,4.0,90.0,333.0,13.0,56.0,292.0,5.0
+1982,NHL,WAS,WAS,WA,PT,3,DSF,80,39,25,16.0,,94,,,306,283,Washington Capitals,1329.0,20.0,75.0,358.0,11.0,53.0,288.0,3.0
+1982,NHL,WIN,PHO,CC,SM,4,DSF,80,33,39,8.0,,74,,,311,333,Winnipeg Jets,1089.0,18.0,78.0,330.0,7.0,67.0,246.0,10.0
+1983,NHL,BOS,BOS,WA,AD,1,DSF,80,49,25,6.0,,104,,,336,261,Boston Bruins,1606.0,16.0,82.0,342.0,7.0,56.0,336.0,10.0
+1983,NHL,BUF,BUF,WA,AD,2,DSF,80,48,25,7.0,,103,,,315,257,Buffalo Sabres,1190.0,8.0,71.0,329.0,14.0,50.0,277.0,11.0
+1983,NHL,CAL,CAL,CC,SM,2,DF,80,34,32,14.0,,82,,,311,314,Calgary Flames,1390.0,4.0,64.0,297.0,10.0,63.0,315.0,15.0
+1983,NHL,CHI,CHI,CC,NO,4,DSF,80,30,42,8.0,,68,,,277,311,Chicago Black Hawks,1358.0,8.0,67.0,332.0,7.0,74.0,342.0,8.0
+1983,NHL,DET,DET,CC,NO,3,DSF,80,31,42,7.0,,69,,,298,323,Detroit Red Wings,1546.0,10.0,79.0,356.0,10.0,77.0,311.0,9.0
+1983,NHL,EDM,EDM,CC,SM,1,SC,80,57,18,5.0,,119,,,446,314,Edmonton Oilers,1577.0,18.0,81.0,318.0,12.0,77.0,386.0,36.0
+1983,NHL,HAR,CAR,WA,AD,5,,80,28,42,10.0,,66,,,288,320,Hartford Whalers,1184.0,16.0,80.0,329.0,14.0,68.0,301.0,5.0
+1983,NHL,LAK,LAK,CC,SM,5,,80,23,44,13.0,,59,,,309,376,Los Angeles Kings,1265.0,8.0,75.0,360.0,17.0,82.0,294.0,10.0
+1983,NHL,MNS,DAL,CC,NO,1,CF,80,39,31,10.0,,88,,,345,344,Minnesota North Stars,1696.0,8.0,91.0,340.0,8.0,89.0,407.0,18.0
+1983,NHL,MTL,MTL,WA,AD,4,CF,80,35,40,5.0,,75,,,286,295,Montreal Canadiens,1371.0,22.0,58.0,294.0,7.0,56.0,276.0,12.0
+1983,NHL,NJD,NJD,WA,PT,5,,80,17,56,7.0,,41,,,231,350,New Jersey Devils,1352.0,14.0,51.0,363.0,13.0,83.0,336.0,5.0
+1983,NHL,NYI,NYI,WA,PT,1,F,80,50,26,4.0,,104,,,357,269,New York Islanders,1157.0,8.0,63.0,280.0,9.0,66.0,360.0,18.0
+1983,NHL,NYR,NYR,WA,PT,4,DSF,80,42,29,9.0,,93,,,314,304,New York Rangers,1471.0,20.0,74.0,295.0,11.0,76.0,347.0,12.0
+1983,NHL,PHI,PHI,WA,PT,3,DSF,80,44,26,10.0,,98,,,350,290,Philadelphia Flyers,1488.0,6.0,64.0,316.0,9.0,84.0,364.0,16.0
+1983,NHL,PIT,PIT,WA,PT,6,,80,16,58,6.0,,38,,,254,390,Pittsburgh Penguins,1695.0,14.0,70.0,340.0,14.0,86.0,357.0,7.0
+1983,NHL,QUE,COL,WA,AD,3,DF,80,42,28,10.0,,94,,,360,278,Quebec Nordiques,1600.0,8.0,69.0,316.0,10.0,70.0,361.0,11.0
+1983,NHL,STL,STL,CC,NO,2,DF,80,32,41,7.0,,71,,,293,316,St. Louis Blues,1614.0,20.0,79.0,347.0,16.0,91.0,364.0,4.0
+1983,NHL,TOR,TOR,CC,NO,5,,80,26,45,9.0,,61,,,303,387,Toronto Maple Leafs,1682.0,10.0,82.0,383.0,7.0,101.0,382.0,10.0
+1983,NHL,VAN,VAN,CC,SM,3,DSF,80,32,39,9.0,,73,,,306,328,Vancouver Canucks,1474.0,4.0,90.0,369.0,11.0,73.0,312.0,4.0
+1983,NHL,WAS,WAS,WA,PT,2,DF,80,48,27,5.0,,101,,,308,226,Washington Capitals,1252.0,18.0,77.0,382.0,18.0,39.0,293.0,8.0
+1983,NHL,WIN,PHO,CC,SM,4,DSF,80,31,38,11.0,,73,,,340,374,Winnipeg Jets,1579.0,10.0,80.0,374.0,18.0,86.0,341.0,13.0
+1984,NHL,BOS,BOS,WA,AD,4,DSF,80,36,34,10.0,,82,,,303,287,Boston Bruins,1825.0,8.0,69.0,323.0,8.0,67.0,337.0,17.0
+1984,NHL,BUF,BUF,WA,AD,3,DSF,80,38,28,14.0,,90,,,290,237,Buffalo Sabres,1221.0,18.0,76.0,322.0,5.0,52.0,295.0,9.0
+1984,NHL,CAL,CAL,CC,SM,3,DSF,80,41,27,12.0,,94,,,363,302,Calgary Flames,1400.0,16.0,79.0,316.0,21.0,81.0,317.0,12.0
+1984,NHL,CHI,CHI,CC,NO,2,CF,80,38,35,7.0,,83,,,309,299,Chicago Black Hawks,1432.0,20.0,62.0,285.0,5.0,77.0,334.0,10.0
+1984,NHL,DET,DET,CC,NO,3,DSF,80,27,41,12.0,,66,,,313,357,Detroit Red Wings,1741.0,6.0,73.0,324.0,15.0,89.0,339.0,10.0
+1984,NHL,EDM,EDM,CC,SM,1,SC,80,49,20,11.0,,109,,,401,298,Edmonton Oilers,1567.0,12.0,74.0,293.0,5.0,76.0,353.0,25.0
+1984,NHL,HAR,CAR,WA,AD,5,,80,30,41,9.0,,69,,,268,318,Hartford Whalers,1606.0,18.0,73.0,321.0,12.0,62.0,324.0,5.0
+1984,NHL,LAK,LAK,CC,SM,4,DSF,80,34,32,14.0,,82,,,339,326,Los Angeles Kings,1413.0,26.0,87.0,370.0,13.0,54.0,291.0,9.0
+1984,NHL,MNS,DAL,CC,NO,4,DF,80,25,43,12.0,,62,,,268,321,Minnesota North Stars,1735.0,14.0,71.0,335.0,14.0,88.0,358.0,4.0
+1984,NHL,MTL,MTL,WA,AD,1,DF,80,41,27,12.0,,94,,,309,262,Montreal Canadiens,1464.0,2.0,77.0,325.0,8.0,57.0,279.0,12.0
+1984,NHL,NJD,NJD,WA,PT,5,,80,22,48,10.0,,54,,,264,346,New Jersey Devils,1282.0,16.0,70.0,362.0,15.0,73.0,317.0,9.0
+1984,NHL,NYI,NYI,WA,PT,3,DF,80,40,34,6.0,,86,,,345,312,New York Islanders,1516.0,4.0,71.0,277.0,7.0,68.0,386.0,14.0
+1984,NHL,NYR,NYR,WA,PT,4,DSF,80,26,44,10.0,,62,,,295,345,New York Rangers,1301.0,16.0,72.0,305.0,8.0,64.0,333.0,9.0
+1984,NHL,PHI,PHI,WA,PT,1,F,80,53,20,7.0,,113,,,348,241,Philadelphia Flyers,1540.0,8.0,67.0,305.0,6.0,66.0,326.0,23.0
+1984,NHL,PIT,PIT,WA,PT,6,,80,24,51,5.0,,53,,,276,385,Pittsburgh Penguins,1493.0,16.0,62.0,363.0,22.0,74.0,311.0,7.0
+1984,NHL,QUE,COL,WA,AD,2,CF,80,41,30,9.0,,91,,,323,275,Quebec Nordiques,1643.0,12.0,64.0,306.0,12.0,66.0,307.0,11.0
+1984,NHL,STL,STL,CC,NO,1,DSF,80,37,31,12.0,,86,,,299,288,St. Louis Blues,1301.0,16.0,66.0,301.0,9.0,73.0,306.0,7.0
+1984,NHL,TOR,TOR,CC,NO,5,,80,20,52,8.0,,48,,,253,358,Toronto Maple Leafs,1627.0,10.0,69.0,352.0,12.0,83.0,324.0,16.0
+1984,NHL,VAN,VAN,CC,SM,5,,80,25,46,9.0,,59,,,284,401,Vancouver Canucks,1451.0,12.0,61.0,313.0,14.0,89.0,302.0,8.0
+1984,NHL,WAS,WAS,WA,PT,2,DSF,80,46,25,9.0,,101,,,322,240,Washington Capitals,1161.0,36.0,79.0,331.0,7.0,68.0,286.0,6.0
+1984,NHL,WIN,PHO,CC,SM,2,DF,80,43,27,10.0,,96,,,358,332,Winnipeg Jets,1540.0,10.0,75.0,315.0,17.0,70.0,319.0,12.0
+1985,NHL,BOS,BOS,WA,AD,3,DSF,80,37,31,12.0,,86,,,311,288,Boston Bruins,1919.0,24.0,95.0,412.0,5.0,97.0,402.0,7.0
+1985,NHL,BUF,BUF,WA,AD,5,,80,37,37,6.0,,80,,,296,291,Buffalo Sabres,1608.0,16.0,72.0,351.0,14.0,66.0,342.0,12.0
+1985,NHL,CAL,CAL,CC,SM,2,F,80,40,31,9.0,,89,,,354,315,Calgary Flames,2297.0,18.0,92.0,372.0,11.0,101.0,427.0,16.0
+1985,NHL,CHI,CHI,CC,NO,1,DSF,80,39,33,8.0,,86,,,351,349,Chicago Black Hawks,1537.0,16.0,85.0,332.0,10.0,85.0,388.0,15.0
+1985,NHL,DET,DET,CC,NO,5,,80,17,57,6.0,,40,,,266,415,Detroit Red Wings,2393.0,20.0,79.0,382.0,11.0,111.0,394.0,8.0
+1985,NHL,EDM,EDM,CC,SM,1,DF,80,56,17,7.0,,119,,,426,310,Edmonton Oilers,1928.0,28.0,78.0,295.0,15.0,77.0,409.0,27.0
+1985,NHL,HAR,CAR,WA,AD,4,DF,80,40,36,4.0,,84,,,332,302,Hartford Whalers,1759.0,24.0,83.0,378.0,8.0,72.0,376.0,12.0
+1985,NHL,LAK,LAK,CC,SM,5,,80,23,49,8.0,,54,,,284,389,Los Angeles Kings,2004.0,16.0,69.0,393.0,16.0,103.0,364.0,9.0
+1985,NHL,MNS,DAL,CC,NO,2,DSF,80,38,33,9.0,,85,,,327,305,Minnesota North Stars,1672.0,16.0,88.0,370.0,12.0,80.0,387.0,11.0
+1985,NHL,MTL,MTL,WA,AD,2,SC,80,40,33,7.0,,87,,,330,280,Montreal Canadiens,1372.0,16.0,87.0,343.0,8.0,64.0,307.0,8.0
+1985,NHL,NJD,NJD,WA,PT,6,,80,28,49,3.0,,59,,,300,374,New Jersey Devils,1424.0,16.0,70.0,355.0,5.0,103.0,400.0,5.0
+1985,NHL,NYI,NYI,WA,PT,3,DSF,80,39,29,12.0,,90,,,327,284,New York Islanders,1343.0,6.0,73.0,332.0,9.0,77.0,369.0,4.0
+1985,NHL,NYR,NYR,WA,PT,4,CF,80,36,38,6.0,,78,,,280,276,New York Rangers,1496.0,22.0,73.0,362.0,4.0,81.0,365.0,9.0
+1985,NHL,PHI,PHI,WA,PT,1,DSF,80,53,23,4.0,,110,,,335,241,Philadelphia Flyers,2025.0,10.0,91.0,380.0,9.0,71.0,418.0,17.0
+1985,NHL,PIT,PIT,WA,PT,5,,80,34,38,8.0,,76,,,313,305,Pittsburgh Penguins,1538.0,18.0,93.0,425.0,17.0,78.0,340.0,12.0
+1985,NHL,QUE,COL,WA,AD,1,DSF,80,43,31,6.0,,92,,,330,289,Quebec Nordiques,1847.0,28.0,99.0,423.0,20.0,71.0,379.0,11.0
+1985,NHL,STL,STL,CC,NO,3,CF,80,37,34,9.0,,83,,,302,291,St. Louis Blues,1478.0,10.0,78.0,362.0,14.0,74.0,324.0,9.0
+1985,NHL,TOR,TOR,CC,NO,4,DF,80,25,48,7.0,,57,,,311,386,Toronto Maple Leafs,1716.0,10.0,67.0,364.0,11.0,83.0,364.0,7.0
+1985,NHL,VAN,VAN,CC,SM,4,DSF,80,23,44,13.0,,59,,,282,333,Vancouver Canucks,1813.0,20.0,89.0,419.0,17.0,71.0,328.0,11.0
+1985,NHL,WAS,WAS,WA,PT,2,DF,80,50,23,7.0,,107,,,315,272,Washington Capitals,1418.0,12.0,82.0,360.0,6.0,67.0,348.0,13.0
+1985,NHL,WIN,PHO,CC,SM,3,DSF,80,26,47,7.0,,59,,,295,372,Winnipeg Jets,1774.0,24.0,72.0,356.0,14.0,83.0,335.0,13.0
+1986,NHL,BOS,BOS,WA,AD,3,DSF,80,39,34,7.0,,85,,,301,276,Boston Bruins,1870.0,30.0,65.0,334.0,5.0,60.0,325.0,13.0
+1986,NHL,BUF,BUF,WA,AD,5,,80,28,44,8.0,,64,,,280,308,Buffalo Sabres,1810.0,24.0,68.0,364.0,9.0,86.0,355.0,5.0
+1986,NHL,CAL,CAL,CC,SM,2,DSF,80,46,31,3.0,,95,,,318,289,Calgary Flames,2036.0,18.0,80.0,318.0,14.0,75.0,368.0,7.0
+1986,NHL,CHI,CHI,CC,NO,3,DSF,80,29,37,14.0,,72,,,290,310,Chicago Blackhawks,1692.0,16.0,55.0,324.0,9.0,81.0,341.0,5.0
+1986,NHL,DET,DET,CC,NO,2,CF,80,34,36,10.0,,78,,,260,274,Detroit Red Wings,2209.0,12.0,69.0,336.0,7.0,73.0,357.0,9.0
+1986,NHL,EDM,EDM,CC,SM,1,SC,80,50,24,6.0,,106,,,372,284,Edmonton Oilers,1721.0,26.0,70.0,318.0,8.0,74.0,372.0,28.0
+1986,NHL,HAR,CAR,WA,AD,1,DSF,80,43,30,7.0,,93,,,287,270,Hartford Whalers,1496.0,12.0,73.0,352.0,10.0,71.0,336.0,11.0
+1986,NHL,LAK,LAK,CC,SM,4,DSF,80,31,41,8.0,,70,,,318,341,Los Angeles Kings,2038.0,18.0,97.0,389.0,16.0,92.0,346.0,9.0
+1986,NHL,MNS,DAL,CC,NO,5,,80,30,40,10.0,,70,,,296,314,Minnesota North Stars,1936.0,20.0,83.0,355.0,18.0,92.0,376.0,9.0
+1986,NHL,MTL,MTL,WA,AD,2,CF,80,41,29,10.0,,92,,,277,241,Montreal Canadiens,1802.0,32.0,67.0,321.0,6.0,51.0,304.0,6.0
+1986,NHL,NJD,NJD,WA,PT,6,,80,29,45,6.0,,64,,,293,368,New Jersey Devils,1735.0,22.0,82.0,382.0,10.0,95.0,361.0,9.0
+1986,NHL,NYI,NYI,WA,PT,3,DF,80,35,33,12.0,,82,,,279,281,New York Islanders,1857.0,26.0,84.0,337.0,9.0,83.0,381.0,8.0
+1986,NHL,NYR,NYR,WA,PT,4,DSF,80,34,38,8.0,,76,,,307,323,New York Rangers,1718.0,16.0,75.0,375.0,15.0,71.0,379.0,12.0
+1986,NHL,PHI,PHI,WA,PT,1,F,80,46,26,8.0,,100,,,310,245,Philadelphia Flyers,2082.0,14.0,68.0,355.0,5.0,71.0,402.0,22.0
+1986,NHL,PIT,PIT,WA,PT,5,,80,30,38,12.0,,72,,,297,290,Pittsburgh Penguins,1693.0,16.0,74.0,378.0,9.0,72.0,318.0,7.0
+1986,NHL,QUE,COL,WA,AD,4,DF,80,31,39,10.0,,72,,,267,276,Quebec Nordiques,1741.0,12.0,76.0,354.0,12.0,52.0,311.0,8.0
+1986,NHL,STL,STL,CC,NO,1,DSF,80,32,33,15.0,,79,,,281,293,St. Louis Blues,1572.0,6.0,79.0,324.0,11.0,58.0,303.0,6.0
+1986,NHL,TOR,TOR,CC,NO,4,DF,80,32,42,6.0,,70,,,286,319,Toronto Maple Leafs,1827.0,14.0,52.0,303.0,10.0,71.0,323.0,17.0
+1986,NHL,VAN,VAN,CC,SM,5,,80,29,43,8.0,,66,,,282,314,Vancouver Canucks,1917.0,20.0,82.0,353.0,11.0,77.0,319.0,10.0
+1986,NHL,WAS,WAS,WA,PT,2,DSF,80,38,32,10.0,,86,,,285,278,Washington Capitals,1720.0,18.0,65.0,355.0,15.0,58.0,326.0,9.0
+1986,NHL,WIN,PHO,CC,SM,3,DF,80,40,32,8.0,,88,,,279,271,Winnipeg Jets,1537.0,10.0,52.0,300.0,9.0,53.0,324.0,8.0
+1987,NHL,BOS,BOS,WA,AD,2,F,80,44,30,6.0,,94,,,300,251,Boston Bruins,2443.0,36.0,74.0,446.0,10.0,70.0,425.0,14.0
+1987,NHL,BUF,BUF,WA,AD,3,DSF,80,37,32,11.0,,85,,,283,305,Buffalo Sabres,2277.0,14.0,80.0,464.0,13.0,96.0,439.0,8.0
+1987,NHL,CAL,CAL,CC,SM,1,DF,80,48,23,9.0,,105,,,397,305,Calgary Flames,2431.0,20.0,109.0,383.0,11.0,94.0,480.0,23.0
+1987,NHL,CHI,CHI,CC,NO,3,DSF,80,30,41,9.0,,69,,,284,328,Chicago Blackhawks,2228.0,12.0,98.0,426.0,13.0,96.0,484.0,18.0
+1987,NHL,DET,DET,CC,NO,1,CF,80,41,28,11.0,,93,,,322,269,Detroit Red Wings,2391.0,22.0,72.0,383.0,8.0,73.0,453.0,20.0
+1987,NHL,EDM,EDM,CC,SM,2,SC,80,44,25,11.0,,99,,,363,288,Edmonton Oilers,2173.0,22.0,88.0,402.0,11.0,86.0,447.0,20.0
+1987,NHL,HAR,CAR,WA,AD,4,DSF,80,35,38,7.0,,77,,,249,267,Hartford Whalers,2046.0,8.0,84.0,477.0,17.0,67.0,426.0,9.0
+1987,NHL,LAK,LAK,CC,SM,4,DSF,80,30,42,8.0,,68,,,318,359,Los Angeles Kings,2124.0,16.0,103.0,474.0,14.0,96.0,425.0,11.0
+1987,NHL,MNS,DAL,CC,NO,5,,80,19,48,13.0,,51,,,242,349,Minnesota North Stars,2313.0,14.0,81.0,450.0,16.0,108.0,436.0,10.0
+1987,NHL,MTL,MTL,WA,AD,1,DF,80,45,22,13.0,,103,,,298,238,Montreal Canadiens,1830.0,8.0,63.0,397.0,17.0,64.0,395.0,7.0
+1987,NHL,NJD,NJD,WA,PT,4,CF,80,38,36,6.0,,82,,,295,296,New Jersey Devils,2315.0,10.0,98.0,479.0,12.0,101.0,467.0,18.0
+1987,NHL,NYI,NYI,WA,PT,1,DSF,80,39,31,10.0,,88,,,308,267,New York Islanders,1732.0,20.0,87.0,387.0,8.0,94.0,416.0,8.0
+1987,NHL,NYR,NYR,WA,PT,5,,80,36,34,10.0,,82,,,300,283,New York Rangers,1775.0,30.0,111.0,491.0,11.0,82.0,423.0,6.0
+1987,NHL,PHI,PHI,WA,PT,3,DSF,80,38,33,9.0,,85,,,292,292,Philadelphia Flyers,2194.0,26.0,83.0,461.0,6.0,90.0,475.0,15.0
+1987,NHL,PIT,PIT,WA,PT,6,,80,36,35,9.0,,81,,,319,316,Pittsburgh Penguins,2211.0,26.0,110.0,500.0,19.0,120.0,507.0,18.0
+1987,NHL,QUE,COL,WA,AD,5,,80,32,43,5.0,,69,,,271,306,Quebec Nordiques,2042.0,16.0,99.0,456.0,17.0,96.0,410.0,8.0
+1987,NHL,STL,STL,CC,NO,2,DF,80,34,38,8.0,,76,,,278,294,St. Louis Blues,1919.0,22.0,82.0,413.0,5.0,83.0,402.0,13.0
+1987,NHL,TOR,TOR,CC,NO,4,DSF,80,21,49,10.0,,52,,,273,345,Toronto Maple Leafs,1782.0,28.0,54.0,347.0,9.0,93.0,420.0,12.0
+1987,NHL,VAN,VAN,CC,SM,5,,80,25,46,9.0,,59,,,272,320,Vancouver Canucks,2196.0,12.0,81.0,435.0,18.0,83.0,404.0,10.0
+1987,NHL,WAS,WAS,WA,PT,2,DF,80,38,33,9.0,,85,,,281,249,Washington Capitals,1680.0,22.0,94.0,469.0,15.0,75.0,394.0,8.0
+1987,NHL,WIN,PHO,CC,SM,3,DSF,80,33,36,11.0,,77,,,292,310,Winnipeg Jets,2278.0,12.0,110.0,432.0,17.0,94.0,444.0,11.0
+1988,NHL,BOS,BOS,WA,AD,2,DF,80,37,29,14.0,,88,,,289,256,Boston Bruins,1929.0,10.0,85.0,429.0,4.0,67.0,374.0,10.0
+1988,NHL,BUF,BUF,WA,AD,3,DSF,80,38,35,7.0,,83,,,291,299,Buffalo Sabres,2034.0,18.0,78.0,380.0,12.0,86.0,410.0,7.0
+1988,NHL,CAL,CAL,CC,SM,1,SC,80,54,17,9.0,,117,,,354,226,Calgary Flames,2444.0,10.0,101.0,405.0,8.0,78.0,457.0,10.0
+1988,NHL,CHI,CHI,CC,NO,4,CF,80,27,41,12.0,,66,,,297,335,Chicago Blackhawks,2496.0,30.0,91.0,434.0,16.0,122.0,481.0,25.0
+1988,NHL,DET,DET,CC,NO,1,DSF,80,34,34,12.0,,80,,,313,316,Detroit Red Wings,2245.0,10.0,73.0,352.0,8.0,79.0,426.0,15.0
+1988,NHL,EDM,EDM,CC,SM,3,DSF,80,38,34,8.0,,84,,,325,306,Edmonton Oilers,1931.0,20.0,83.0,419.0,17.0,78.0,452.0,27.0
+1988,NHL,HAR,CAR,WA,AD,4,DSF,80,37,38,5.0,,79,,,299,290,Hartford Whalers,1672.0,10.0,87.0,418.0,18.0,70.0,377.0,3.0
+1988,NHL,LAK,LAK,CC,SM,2,DF,80,42,31,7.0,,91,,,376,335,Los Angeles Kings,2215.0,32.0,82.0,395.0,13.0,80.0,407.0,22.0
+1988,NHL,MNS,DAL,CC,NO,3,DSF,80,27,37,16.0,,70,,,258,278,Minnesota North Stars,1972.0,12.0,78.0,392.0,9.0,82.0,441.0,17.0
+1988,NHL,MTL,MTL,WA,AD,1,F,80,53,18,9.0,,115,,,315,218,Montreal Canadiens,1537.0,8.0,80.0,381.0,13.0,58.0,326.0,6.0
+1988,NHL,NJD,NJD,WA,PT,5,,80,27,41,12.0,,66,,,281,325,New Jersey Devils,2499.0,24.0,85.0,466.0,15.0,115.0,467.0,7.0
+1988,NHL,NYI,NYI,WA,PT,6,,80,28,47,5.0,,61,,,265,325,New York Islanders,1822.0,18.0,85.0,378.0,7.0,103.0,390.0,4.0
+1988,NHL,NYR,NYR,WA,PT,3,DSF,80,37,35,8.0,,82,,,310,307,New York Rangers,1891.0,14.0,85.0,457.0,17.0,85.0,371.0,13.0
+1988,NHL,PHI,PHI,WA,PT,4,CF,80,36,36,8.0,,80,,,307,285,Philadelphia Flyers,2317.0,12.0,98.0,367.0,9.0,80.0,432.0,16.0
+1988,NHL,PIT,PIT,WA,PT,2,DF,80,40,33,7.0,,87,,,347,349,Pittsburgh Penguins,2670.0,16.0,119.0,491.0,16.0,111.0,482.0,21.0
+1988,NHL,QUE,COL,WA,AD,5,,80,27,46,7.0,,61,,,269,342,Quebec Nordiques,2004.0,10.0,85.0,392.0,12.0,82.0,385.0,12.0
+1988,NHL,STL,STL,CC,NO,2,DF,80,33,35,12.0,,78,,,275,285,St. Louis Blues,1675.0,14.0,74.0,370.0,12.0,83.0,356.0,5.0
+1988,NHL,TOR,TOR,CC,NO,5,,80,28,46,6.0,,62,,,259,342,Toronto Maple Leafs,1740.0,14.0,56.0,334.0,14.0,98.0,359.0,10.0
+1988,NHL,VAN,VAN,CC,SM,4,DSF,80,33,39,8.0,,74,,,251,253,Vancouver Canucks,1569.0,10.0,78.0,410.0,14.0,66.0,341.0,8.0
+1988,NHL,WAS,WAS,WA,PT,1,DSF,80,41,29,10.0,,92,,,305,259,Washington Capitals,1836.0,12.0,96.0,443.0,13.0,73.0,362.0,7.0
+1988,NHL,WIN,PHO,CC,SM,5,,80,26,42,12.0,,64,,,300,355,Winnipeg Jets,1843.0,10.0,79.0,357.0,13.0,82.0,374.0,15.0
+1989,NHL,BOS,BOS,WA,AD,1,F,80,46,25,9.0,,101,,,289,232,Boston Bruins,1458.0,20.0,83.0,352.0,3.0,53.0,316.0,5.0
+1989,NHL,BUF,BUF,WA,AD,2,DSF,80,45,27,8.0,,98,,,286,248,Buffalo Sabres,1449.0,16.0,79.0,358.0,7.0,58.0,351.0,7.0
+1989,NHL,CAL,CAL,CC,SM,1,DSF,80,42,23,15.0,,99,,,348,265,Calgary Flames,1751.0,26.0,99.0,357.0,6.0,76.0,366.0,11.0
+1989,NHL,CHI,CHI,CC,NO,1,CF,80,41,33,6.0,,88,,,316,294,Chicago Blackhawks,2426.0,30.0,80.0,349.0,9.0,75.0,379.0,11.0
+1989,NHL,DET,DET,CC,NO,5,,80,28,38,14.0,,70,,,288,323,Detroit Red Wings,2140.0,8.0,58.0,354.0,13.0,92.0,372.0,18.0
+1989,NHL,EDM,EDM,CC,SM,2,SC,80,38,28,14.0,,90,,,315,283,Edmonton Oilers,2046.0,22.0,84.0,407.0,6.0,82.0,417.0,22.0
+1989,NHL,HAR,CAR,WA,AD,4,DSF,80,38,33,9.0,,85,,,275,268,Hartford Whalers,2102.0,12.0,80.0,398.0,10.0,74.0,401.0,12.0
+1989,NHL,LAK,LAK,CC,SM,4,DF,80,34,39,7.0,,75,,,338,337,Los Angeles Kings,1844.0,24.0,76.0,343.0,14.0,88.0,366.0,11.0
+1989,NHL,MNS,DAL,CC,NO,4,DSF,80,36,40,4.0,,76,,,284,291,Minnesota North Stars,2041.0,28.0,81.0,386.0,16.0,74.0,397.0,14.0
+1989,NHL,MTL,MTL,WA,AD,3,DF,80,41,28,11.0,,93,,,288,234,Montreal Canadiens,1590.0,8.0,54.0,340.0,7.0,57.0,295.0,4.0
+1989,NHL,NJD,NJD,WA,PT,2,DSF,80,37,34,9.0,,83,,,295,288,New Jersey Devils,1659.0,8.0,64.0,337.0,12.0,67.0,340.0,10.0
+1989,NHL,NYI,NYI,WA,PT,4,DSF,80,31,38,11.0,,73,,,281,288,New York Islanders,1777.0,10.0,78.0,330.0,8.0,87.0,371.0,10.0
+1989,NHL,NYR,NYR,WA,PT,1,DF,80,36,31,13.0,,85,,,279,267,New York Rangers,2021.0,24.0,103.0,442.0,8.0,77.0,362.0,7.0
+1989,NHL,PHI,PHI,WA,PT,6,,80,30,39,11.0,,71,,,290,297,Philadelphia Flyers,2067.0,18.0,65.0,338.0,13.0,77.0,406.0,14.0
+1989,NHL,PIT,PIT,WA,PT,5,,80,32,40,8.0,,72,,,318,359,Pittsburgh Penguins,2132.0,14.0,86.0,403.0,21.0,94.0,372.0,7.0
+1989,NHL,QUE,COL,WA,AD,5,,80,12,61,7.0,,31,,,240,407,Quebec Nordiques,2104.0,20.0,70.0,371.0,15.0,98.0,382.0,8.0
+1989,NHL,STL,STL,CC,NO,2,DF,80,37,34,9.0,,83,,,295,279,St. Louis Blues,1809.0,12.0,79.0,351.0,12.0,67.0,351.0,9.0
+1989,NHL,TOR,TOR,CC,NO,3,DSF,80,38,38,4.0,,80,,,337,358,Toronto Maple Leafs,2419.0,18.0,81.0,348.0,17.0,89.0,408.0,16.0
+1989,NHL,VAN,VAN,CC,SM,5,,80,25,41,14.0,,64,,,245,306,Vancouver Canucks,1644.0,22.0,64.0,374.0,8.0,86.0,342.0,8.0
+1989,NHL,WAS,WAS,WA,PT,3,CF,80,36,38,6.0,,78,,,284,275,Washington Capitals,2204.0,12.0,70.0,412.0,15.0,71.0,370.0,9.0
+1989,NHL,WIN,PHO,CC,SM,3,DSF,80,37,32,11.0,,85,,,298,290,Winnipeg Jets,1639.0,10.0,65.0,347.0,7.0,57.0,333.0,14.0
+1990,NHL,BOS,BOS,WA,AD,1,CF,80,44,24,12.0,,100,,,299,264,Boston Bruins,1694.0,28.0,74.0,351.0,8.0,64.0,368.0,11.0
+1990,NHL,BUF,BUF,WA,AD,3,DSF,80,31,30,19.0,,81,,,292,278,Buffalo Sabres,1733.0,28.0,73.0,400.0,8.0,62.0,368.0,15.0
+1990,NHL,CAL,CAL,CC,SM,2,DSF,80,46,26,8.0,,100,,,344,263,Calgary Flames,2201.0,32.0,91.0,384.0,8.0,77.0,420.0,17.0
+1990,NHL,CHI,CHI,CC,NO,1,DSF,80,49,23,8.0,,106,,,284,211,Chicago Blackhawks,2412.0,20.0,87.0,393.0,10.0,68.0,425.0,20.0
+1990,NHL,DET,DET,CC,NO,3,DSF,80,34,38,8.0,,76,,,273,298,Detroit Red Wings,1940.0,18.0,57.0,347.0,5.0,89.0,399.0,17.0
+1990,NHL,EDM,EDM,CC,SM,3,CF,80,37,37,6.0,,80,,,272,272,Edmonton Oilers,1823.0,22.0,63.0,361.0,4.0,80.0,388.0,13.0
+1990,NHL,HAR,CAR,WA,AD,4,DSF,80,31,38,11.0,,73,,,238,276,Hartford Whalers,2209.0,24.0,73.0,403.0,9.0,72.0,369.0,5.0
+1990,NHL,LAK,LAK,CC,SM,1,DF,80,46,24,10.0,,102,,,340,254,Los Angeles Kings,2228.0,24.0,80.0,391.0,18.0,63.0,370.0,8.0
+1990,NHL,MNS,DAL,CC,NO,4,F,80,27,39,14.0,,68,,,256,266,Minnesota North Stars,1964.0,18.0,76.0,382.0,7.0,75.0,378.0,9.0
+1990,NHL,MTL,MTL,WA,AD,2,DF,80,39,30,11.0,,89,,,273,249,Montreal Canadiens,1425.0,18.0,66.0,357.0,10.0,54.0,282.0,6.0
+1990,NHL,NJD,NJD,WA,PT,4,DSF,80,32,33,15.0,,79,,,272,264,New Jersey Devils,2024.0,10.0,69.0,347.0,13.0,80.0,394.0,8.0
+1990,NHL,NYI,NYI,WA,PT,6,,80,25,45,10.0,,60,,,223,290,New York Islanders,1723.0,8.0,51.0,317.0,12.0,78.0,353.0,9.0
+1990,NHL,NYR,NYR,WA,PT,2,DSF,80,36,31,13.0,,85,,,297,265,New York Rangers,1893.0,18.0,91.0,389.0,10.0,73.0,362.0,9.0
+1990,NHL,PHI,PHI,WA,PT,5,,80,33,37,10.0,,76,,,252,267,Philadelphia Flyers,1945.0,20.0,68.0,338.0,16.0,72.0,376.0,2.0
+1990,NHL,PIT,PIT,WA,PT,1,SC,80,41,33,6.0,,88,,,342,305,Pittsburgh Penguins,1641.0,8.0,89.0,388.0,12.0,73.0,351.0,12.0
+1990,NHL,QUE,COL,WA,AD,5,,80,16,50,14.0,,46,,,236,354,Quebec Nordiques,1741.0,22.0,51.0,328.0,11.0,98.0,368.0,10.0
+1990,NHL,STL,STL,CC,NO,2,DF,80,47,22,11.0,,105,,,310,250,St. Louis Blues,1987.0,16.0,70.0,348.0,18.0,55.0,339.0,10.0
+1990,NHL,TOR,TOR,CC,NO,5,,80,23,46,11.0,,57,,,241,318,Toronto Maple Leafs,1962.0,10.0,61.0,346.0,6.0,83.0,368.0,16.0
+1990,NHL,VAN,VAN,CC,SM,4,DSF,80,28,43,9.0,,65,,,243,315,Vancouver Canucks,2063.0,16.0,65.0,391.0,16.0,76.0,339.0,10.0
+1990,NHL,WAS,WAS,WA,PT,3,DF,80,37,36,7.0,,81,,,258,258,Washington Capitals,1839.0,14.0,64.0,340.0,15.0,44.0,314.0,13.0
+1990,NHL,WIN,PHO,CC,SM,5,,80,26,43,11.0,,63,,,260,288,Winnipeg Jets,1675.0,10.0,74.0,381.0,12.0,57.0,351.0,8.0
+1991,NHL,BOS,BOS,WA,AD,2,CF,80,36,32,12.0,,84,,,270,275,Boston Bruins,1752.0,12.0,77.0,406.0,14.0,72.0,363.0,7.0
+1991,NHL,BUF,BUF,WA,AD,3,DSF,80,31,37,12.0,,74,,,289,299,Buffalo Sabres,2713.0,14.0,105.0,466.0,11.0,91.0,424.0,8.0
+1991,NHL,CAL,CAL,CC,SM,5,,80,31,37,12.0,,74,,,296,305,Calgary Flames,2643.0,22.0,87.0,414.0,10.0,107.0,489.0,10.0
+1991,NHL,CHI,CHI,CC,NO,2,F,80,36,29,15.0,,87,,,257,236,Chicago Blackhawks,2663.0,26.0,81.0,467.0,10.0,76.0,482.0,11.0
+1991,NHL,DET,DET,CC,NO,1,DF,80,43,25,12.0,,98,,,320,256,Detroit Red Wings,2078.0,28.0,72.0,386.0,7.0,78.0,419.0,18.0
+1991,NHL,EDM,EDM,CC,SM,3,CF,80,36,34,10.0,,82,,,295,297,Edmonton Oilers,1907.0,24.0,68.0,366.0,15.0,93.0,423.0,12.0
+1991,NHL,HAR,CAR,WA,AD,4,DSF,80,26,41,13.0,,65,,,247,283,Hartford Whalers,1793.0,16.0,73.0,414.0,11.0,86.0,396.0,10.0
+1991,NHL,LAK,LAK,CC,SM,2,DSF,80,35,31,14.0,,84,,,287,296,Los Angeles Kings,2161.0,10.0,79.0,411.0,12.0,76.0,417.0,11.0
+1991,NHL,MNS,DAL,CC,NO,4,DSF,80,32,42,6.0,,70,,,246,278,Minnesota North Stars,2169.0,20.0,76.0,446.0,22.0,77.0,417.0,9.0
+1991,NHL,MTL,MTL,WA,AD,1,DF,80,41,28,11.0,,93,,,267,207,Montreal Canadiens,1556.0,12.0,74.0,379.0,5.0,60.0,320.0,4.0
+1991,NHL,NJD,NJD,WA,PT,4,DSF,80,38,31,11.0,,87,,,289,259,New Jersey Devils,1611.0,8.0,59.0,338.0,10.0,68.0,374.0,15.0
+1991,NHL,NYI,NYI,WA,PT,5,,80,34,35,11.0,,79,,,291,299,New York Islanders,1713.0,2.0,75.0,339.0,8.0,90.0,383.0,11.0
+1991,NHL,NYR,NYR,WA,PT,1,DF,80,50,25,5.0,,105,,,321,246,New York Rangers,1805.0,14.0,81.0,387.0,12.0,60.0,395.0,14.0
+1991,NHL,PHI,PHI,WA,PT,6,,80,32,37,11.0,,75,,,252,273,Philadelphia Flyers,1838.0,10.0,68.0,411.0,12.0,76.0,392.0,15.0
+1991,NHL,PIT,PIT,WA,PT,3,SC,80,39,32,9.0,,87,,,343,308,Pittsburgh Penguins,1907.0,12.0,92.0,423.0,14.0,77.0,383.0,16.0
+1991,NHL,QUE,COL,WA,AD,5,,80,20,48,12.0,,52,,,255,318,Quebec Nordiques,2044.0,26.0,66.0,385.0,14.0,87.0,421.0,11.0
+1991,NHL,SJS,SJS,CC,SM,6,,80,17,58,5.0,,39,,,219,359,San Jose Sharks,1894.0,10.0,64.0,374.0,17.0,89.0,407.0,11.0
+1991,NHL,STL,STL,CC,NO,3,DSF,80,36,33,11.0,,83,,,279,266,St. Louis Blues,2041.0,12.0,69.0,359.0,12.0,64.0,389.0,16.0
+1991,NHL,TOR,TOR,CC,NO,5,,80,30,43,7.0,,67,,,234,294,Toronto Maple Leafs,1734.0,16.0,66.0,377.0,5.0,69.0,362.0,7.0
+1991,NHL,VAN,VAN,CC,SM,1,DF,80,42,26,12.0,,96,,,285,250,Vancouver Canucks,2075.0,16.0,85.0,439.0,7.0,76.0,382.0,12.0
+1991,NHL,WAS,WAS,WA,PT,2,DSF,80,45,27,8.0,,98,,,330,275,Washington Capitals,1777.0,32.0,92.0,412.0,15.0,60.0,368.0,14.0
+1991,NHL,WIN,PHO,CC,SM,4,DSF,80,33,32,15.0,,81,,,251,244,Winnipeg Jets,1907.0,20.0,91.0,435.0,6.0,68.0,428.0,7.0
+1992,NHL,BOS,BOS,WA,AD,1,DSF,84,51,26,7.0,,109,,,332,268,Boston Bruins,1552.0,10.0,91.0,435.0,8.0,70.0,413.0,19.0
+1992,NHL,BUF,BUF,WA,AD,4,DF,84,38,36,10.0,,86,,,335,297,Buffalo Sabres,1873.0,16.0,95.0,467.0,17.0,72.0,437.0,13.0
+1992,NHL,CAL,CAL,CC,SM,2,DSF,84,43,30,11.0,,97,,,322,282,Calgary Flames,1951.0,12.0,85.0,447.0,9.0,83.0,492.0,15.0
+1992,NHL,CHI,CHI,CC,NO,1,DSF,84,47,25,12.0,,106,,,279,230,Chicago Blackhawks,2394.0,12.0,94.0,510.0,10.0,81.0,490.0,14.0
+1992,NHL,DET,DET,CC,NO,2,DSF,84,47,28,9.0,,103,,,369,280,Detroit Red Wings,1832.0,18.0,113.0,454.0,10.0,79.0,420.0,18.0
+1992,NHL,EDM,EDM,CC,SM,5,,84,26,50,8.0,,60,,,242,337,Edmonton Oilers,2027.0,14.0,66.0,416.0,10.0,106.0,464.0,17.0
+1992,NHL,HAR,CAR,WA,AD,5,,84,26,52,6.0,,58,,,284,369,Hartford Whalers,2354.0,24.0,78.0,444.0,14.0,107.0,493.0,12.0
+1992,NHL,LAK,LAK,CC,SM,3,F,84,39,35,10.0,,88,,,338,340,Los Angeles Kings,2247.0,34.0,102.0,507.0,16.0,114.0,529.0,16.0
+1992,NHL,MNS,DAL,CC,NO,5,,84,36,38,10.0,,82,,,272,293,Minnesota North Stars,1885.0,14.0,85.0,445.0,17.0,81.0,455.0,9.0
+1992,NHL,MTL,MTL,WA,AD,3,SC,84,48,30,6.0,,102,,,326,280,Montreal Canadiens,1788.0,8.0,79.0,430.0,13.0,77.0,427.0,8.0
+1992,NHL,NJD,NJD,WA,PT,4,DSF,84,40,37,7.0,,87,,,308,299,New Jersey Devils,1815.0,16.0,77.0,400.0,19.0,79.0,425.0,8.0
+1992,NHL,NYI,NYI,WA,PT,3,CF,84,40,37,7.0,,87,,,335,297,New York Islanders,1701.0,4.0,90.0,416.0,8.0,77.0,375.0,12.0
+1992,NHL,NYR,NYR,WA,PT,6,,84,34,39,11.0,,79,,,304,308,New York Rangers,1657.0,10.0,77.0,420.0,18.0,84.0,446.0,12.0
+1992,NHL,OTT,OTT,WA,AD,6,,84,10,70,4.0,,24,,,202,395,Ottawa Senators,1716.0,26.0,66.0,448.0,11.0,115.0,460.0,7.0
+1992,NHL,PHI,PHI,WA,PT,5,,84,36,37,11.0,,83,,,319,319,Philadelphia Flyers,1887.0,14.0,72.0,399.0,11.0,95.0,421.0,15.0
+1992,NHL,PIT,PIT,WA,PT,1,DF,84,56,21,7.0,,119,,,367,268,Pittsburgh Penguins,1776.0,14.0,105.0,440.0,19.0,72.0,429.0,20.0
+1992,NHL,QUE,COL,WA,AD,2,DSF,84,47,27,10.0,,104,,,351,300,Quebec Nordiques,1846.0,14.0,101.0,464.0,16.0,85.0,438.0,21.0
+1992,NHL,SJS,SJS,CC,SM,6,,84,11,71,2.0,,24,,,218,414,San Jose Sharks,2134.0,10.0,66.0,409.0,15.0,113.0,483.0,13.0
+1992,NHL,STL,STL,CC,NO,4,DF,84,37,36,11.0,,85,,,282,278,St. Louis Blues,1889.0,30.0,93.0,425.0,15.0,70.0,429.0,14.0
+1992,NHL,TBL,TBL,CC,NO,6,,84,23,54,7.0,,53,,,245,332,Tampa Bay Lightning,1625.0,6.0,74.0,424.0,12.0,101.0,395.0,8.0
+1992,NHL,TOR,TOR,CC,NO,3,CF,84,44,29,11.0,,99,,,288,241,Toronto Maple Leafs,1815.0,12.0,98.0,466.0,11.0,69.0,393.0,10.0
+1992,NHL,VAN,VAN,CC,SM,1,DF,84,46,29,9.0,,101,,,346,278,Vancouver Canucks,2326.0,18.0,79.0,457.0,11.0,97.0,452.0,18.0
+1992,NHL,WAS,WAS,WA,PT,2,DSF,84,43,34,7.0,,93,,,325,286,Washington Capitals,1709.0,14.0,97.0,445.0,8.0,74.0,433.0,10.0
+1992,NHL,WIN,PHO,CC,SM,4,DSF,84,40,37,7.0,,87,,,322,320,Winnipeg Jets,1851.0,12.0,98.0,468.0,14.0,80.0,437.0,3.0
+1993,NHL,ANA,ANA,WC,PC,4,,84,33,46,5.0,,71,,,229,251,Mighty Ducks of Anaheim,1507.0,24.0,54.0,376.0,13.0,67.0,388.0,9.0
+1993,NHL,BOS,BOS,EC,NE,2,CSF,84,42,29,13.0,,97,,,289,252,Boston Bruins,1442.0,14.0,84.0,387.0,9.0,58.0,378.0,17.0
+1993,NHL,BUF,BUF,EC,NE,4,CQF,84,43,32,9.0,,95,,,282,218,Buffalo Sabres,1760.0,16.0,96.0,424.0,8.0,58.0,380.0,21.0
+1993,NHL,CAL,CAL,WC,PC,1,CQF,84,42,29,13.0,,97,,,302,256,Calgary Flames,1847.0,16.0,87.0,410.0,9.0,90.0,465.0,16.0
+1993,NHL,CHI,CHI,WC,CE,5,CQF,84,39,36,9.0,,87,,,254,240,Chicago Blackhawks,2125.0,24.0,67.0,383.0,10.0,71.0,427.0,15.0
+1993,NHL,DAL,DAL,WC,CE,3,CSF,84,42,29,13.0,,97,,,286,265,Dallas Stars,1919.0,24.0,81.0,440.0,16.0,68.0,428.0,8.0
+1993,NHL,DET,DET,WC,CE,1,CQF,84,46,30,8.0,,100,,,356,275,Detroit Red Wings,1775.0,18.0,85.0,408.0,14.0,73.0,383.0,22.0
+1993,NHL,EDM,EDM,WC,PC,6,,84,25,45,14.0,,64,,,261,305,Edmonton Oilers,1858.0,12.0,74.0,402.0,9.0,78.0,401.0,2.0
+1993,NHL,FLO,FLO,EC,AT,5,,84,33,34,17.0,,83,,,233,233,Florida Panthers,1620.0,6.0,65.0,409.0,15.0,69.0,396.0,8.0
+1993,NHL,HAR,CAR,EC,NE,6,,84,27,48,9.0,,63,,,227,288,Hartford Whalers,1809.0,22.0,61.0,408.0,9.0,88.0,416.0,8.0
+1993,NHL,LAK,LAK,WC,PC,5,,84,27,45,12.0,,66,,,294,322,Los Angeles Kings,2017.0,14.0,92.0,444.0,8.0,90.0,462.0,19.0
+1993,NHL,MTL,MTL,EC,NE,3,CQF,84,41,29,14.0,,96,,,283,248,Montreal Canadiens,1524.0,12.0,78.0,388.0,10.0,68.0,390.0,8.0
+1993,NHL,NJD,NJD,EC,AT,2,CF,84,47,25,12.0,,106,,,306,220,New Jersey Devils,1734.0,16.0,61.0,333.0,8.0,71.0,376.0,10.0
+1993,NHL,NYI,NYI,EC,AT,4,CQF,84,36,36,12.0,,84,,,282,264,New York Islanders,1787.0,8.0,74.0,369.0,9.0,79.0,417.0,15.0
+1993,NHL,NYR,NYR,EC,AT,1,SC,84,52,24,8.0,,112,,,299,231,New York Rangers,1688.0,20.0,96.0,417.0,5.0,67.0,435.0,20.0
+1993,NHL,OTT,OTT,EC,NE,7,,84,14,61,9.0,,37,,,201,397,Ottawa Senators,1710.0,22.0,63.0,435.0,14.0,110.0,412.0,9.0
+1993,NHL,PHI,PHI,EC,AT,6,,84,35,39,10.0,,80,,,294,314,Philadelphia Flyers,1697.0,32.0,80.0,385.0,14.0,80.0,414.0,9.0
+1993,NHL,PIT,PIT,EC,NE,1,CQF,84,44,27,13.0,,101,,,299,285,Pittsburgh Penguins,1624.0,20.0,76.0,404.0,11.0,72.0,401.0,6.0
+1993,NHL,QUE,COL,EC,NE,5,,84,34,42,8.0,,76,,,277,292,Quebec Nordiques,1625.0,18.0,67.0,430.0,18.0,87.0,426.0,10.0
+1993,NHL,SJS,SJS,WC,PC,3,CSF,84,33,35,16.0,,82,,,252,265,San Jose Sharks,1343.0,26.0,68.0,424.0,13.0,77.0,360.0,6.0
+1993,NHL,STL,STL,WC,CE,4,CQF,84,40,33,11.0,,91,,,270,283,St. Louis Blues,1659.0,20.0,86.0,420.0,14.0,73.0,388.0,17.0
+1993,NHL,TBL,TBL,EC,AT,7,,84,30,43,11.0,,71,,,224,251,Tampa Bay Lightning,1579.0,6.0,57.0,388.0,20.0,58.0,335.0,7.0
+1993,NHL,TOR,TOR,WC,CE,2,CF,84,43,29,12.0,,98,,,280,243,Toronto Maple Leafs,1877.0,8.0,88.0,459.0,9.0,74.0,409.0,8.0
+1993,NHL,VAN,VAN,WC,PC,2,F,84,41,40,3.0,,85,,,279,276,Vancouver Canucks,1923.0,16.0,83.0,441.0,11.0,84.0,458.0,14.0
+1993,NHL,WAS,WAS,EC,AT,3,CSF,84,39,35,10.0,,88,,,277,263,Washington Capitals,2007.0,24.0,70.0,386.0,12.0,74.0,403.0,8.0
+1993,NHL,WIN,PHO,WC,CE,6,,84,24,51,9.0,,57,,,245,344,Winnipeg Jets,2143.0,8.0,82.0,423.0,17.0,91.0,445.0,13.0
+1994,NHL,ANA,ANA,WC,PC,6,,48,16,27,5.0,,37,,,125,164,Mighty Ducks of Anaheim,731.0,16.0,23.0,202.0,8.0,47.0,193.0,4.0
+1994,NHL,BOS,BOS,EC,NE,3,CQF,48,27,18,3.0,,57,,,150,127,Boston Bruins,793.0,6.0,46.0,211.0,4.0,24.0,183.0,3.0
+1994,NHL,BUF,BUF,EC,NE,4,CQF,48,22,19,7.0,,51,,,130,119,Buffalo Sabres,1022.0,4.0,45.0,242.0,7.0,32.0,220.0,13.0
+1994,NHL,CAL,CAL,WC,PC,1,CQF,48,24,17,7.0,,55,,,163,135,Calgary Flames,1249.0,18.0,39.0,211.0,3.0,37.0,249.0,7.0
+1994,NHL,CHI,CHI,WC,CE,3,CF,48,24,19,5.0,,53,,,156,115,Chicago Blackhawks,1123.0,8.0,52.0,212.0,3.0,36.0,228.0,7.0
+1994,NHL,DAL,DAL,WC,CE,5,CQF,48,17,23,8.0,,42,,,136,135,Dallas Stars,1117.0,10.0,39.0,248.0,7.0,34.0,218.0,4.0
+1994,NHL,DET,DET,WC,CE,1,F,48,33,11,4.0,,70,,,180,117,Detroit Red Wings,932.0,10.0,52.0,215.0,7.0,28.0,206.0,5.0
+1994,NHL,EDM,EDM,WC,PC,5,,48,17,27,4.0,,38,,,136,183,Edmonton Oilers,1183.0,12.0,42.0,259.0,8.0,52.0,233.0,8.0
+1994,NHL,FLO,FLO,EC,AT,5,,48,20,22,6.0,,46,,,115,127,Florida Panthers,770.0,8.0,29.0,222.0,6.0,32.0,191.0,1.0
+1994,NHL,HAR,CAR,EC,NE,5,,48,19,24,5.0,,43,,,127,141,Hartford Whalers,915.0,2.0,30.0,174.0,6.0,37.0,185.0,3.0
+1994,NHL,LAK,LAK,WC,PC,4,,48,16,23,9.0,,41,,,142,174,Los Angeles Kings,978.0,18.0,35.0,200.0,8.0,42.0,221.0,5.0
+1994,NHL,MTL,MTL,EC,NE,6,,48,18,23,7.0,,43,,,125,148,Montreal Canadiens,840.0,10.0,28.0,172.0,3.0,37.0,191.0,1.0
+1994,NHL,NJD,NJD,EC,AT,2,SC,48,22,18,8.0,,52,,,136,121,New Jersey Devils,787.0,14.0,22.0,164.0,3.0,28.0,149.0,3.0
+1994,NHL,NYI,NYI,EC,AT,7,,48,15,28,5.0,,35,,,126,158,New York Islanders,901.0,4.0,28.0,178.0,11.0,46.0,213.0,4.0
+1994,NHL,NYR,NYR,EC,AT,4,CSF,48,22,23,3.0,,47,,,139,134,New York Rangers,781.0,4.0,40.0,200.0,3.0,34.0,211.0,5.0
+1994,NHL,OTT,OTT,EC,NE,7,,48,9,34,5.0,,23,,,117,174,Ottawa Senators,749.0,8.0,31.0,215.0,6.0,39.0,199.0,1.0
+1994,NHL,PHI,PHI,EC,AT,1,CF,48,28,16,4.0,,60,,,150,132,Philadelphia Flyers,741.0,6.0,40.0,204.0,9.0,37.0,193.0,2.0
+1994,NHL,PIT,PIT,EC,NE,2,CSF,48,29,16,3.0,,61,,,181,158,Pittsburgh Penguins,1036.0,10.0,42.0,221.0,4.0,46.0,229.0,8.0
+1994,NHL,QUE,COL,EC,NE,1,CQF,48,30,13,5.0,,65,,,185,134,Quebec Nordiques,770.0,4.0,45.0,186.0,3.0,38.0,203.0,9.0
+1994,NHL,SJS,SJS,WC,PC,3,CSF,48,19,25,4.0,,42,,,129,161,San Jose Sharks,840.0,18.0,24.0,203.0,5.0,39.0,208.0,6.0
+1994,NHL,STL,STL,WC,CE,2,CQF,48,28,15,5.0,,61,,,178,135,St. Louis Blues,1077.0,16.0,36.0,220.0,2.0,46.0,233.0,7.0
+1994,NHL,TBL,TBL,EC,AT,6,,48,17,28,3.0,,37,,,120,144,Tampa Bay Lightning,1040.0,10.0,25.0,177.0,5.0,32.0,205.0,6.0
+1994,NHL,TOR,TOR,WC,CE,4,CQF,48,21,19,8.0,,50,,,135,146,Toronto Maple Leafs,744.0,12.0,37.0,218.0,5.0,28.0,185.0,5.0
+1994,NHL,VAN,VAN,WC,PC,2,CSF,48,18,18,12.0,,48,,,153,148,Vancouver Canucks,1093.0,6.0,47.0,238.0,10.0,39.0,236.0,7.0
+1994,NHL,WAS,WAS,EC,AT,3,CQF,48,22,18,8.0,,52,,,136,120,Washington Capitals,1144.0,16.0,45.0,226.0,2.0,34.0,220.0,13.0
+1994,NHL,WIN,PHO,WC,CE,6,,48,16,25,7.0,,39,,,157,177,Winnipeg Jets,1141.0,16.0,42.0,219.0,6.0,40.0,235.0,7.0
+1995,NHL,ANA,ANA,WC,PC,4,,82,35,39,8.0,,78,,,234,247,Mighty Ducks of Anaheim,1707.0,22.0,60.0,426.0,5.0,81.0,423.0,10.0
+1995,NHL,BOS,BOS,EC,NE,2,CQF,82,40,31,11.0,,91,,,282,269,Boston Bruins,1039.0,10.0,68.0,363.0,7.0,67.0,341.0,13.0
+1995,NHL,BUF,BUF,EC,NE,5,,82,33,42,7.0,,73,,,247,262,Buffalo Sabres,2195.0,14.0,76.0,477.0,12.0,74.0,461.0,10.0
+1995,NHL,CAL,CAL,WC,PC,2,CQF,82,34,37,11.0,,79,,,241,240,Calgary Flames,1524.0,24.0,71.0,386.0,9.0,80.0,402.0,11.0
+1995,NHL,CHI,CHI,WC,CE,2,CSF,82,40,28,14.0,,94,,,273,220,Chicago Blackhawks,1880.0,20.0,63.0,356.0,7.0,65.0,447.0,13.0
+1995,NHL,COL,COL,WC,PC,1,SC,82,47,25,10.0,,104,,,326,240,Colorado Avalanche,1536.0,22.0,86.0,404.0,22.0,71.0,439.0,21.0
+1995,NHL,DAL,DAL,WC,CE,6,,82,26,42,14.0,,66,,,227,280,Dallas Stars,1652.0,12.0,67.0,443.0,20.0,82.0,418.0,8.0
+1995,NHL,DET,DET,WC,CE,1,CF,82,62,13,7.0,,131,,,325,181,Detroit Red Wings,1551.0,18.0,97.0,455.0,9.0,44.0,375.0,17.0
+1995,NHL,EDM,EDM,WC,PC,5,,82,30,44,8.0,,68,,,240,304,Edmonton Oilers,1709.0,12.0,72.0,452.0,12.0,80.0,417.0,10.0
+1995,NHL,FLO,FLO,EC,AT,3,F,82,41,31,10.0,,92,,,254,234,Florida Panthers,1494.0,16.0,81.0,468.0,12.0,63.0,370.0,11.0
+1995,NHL,HAR,CAR,EC,NE,4,,82,34,39,9.0,,77,,,237,259,Hartford Whalers,1844.0,18.0,67.0,372.0,9.0,83.0,429.0,8.0
+1995,NHL,LAK,LAK,WC,PC,6,,82,24,40,18.0,,66,,,256,302,Los Angeles Kings,1460.0,18.0,72.0,401.0,18.0,72.0,381.0,12.0
+1995,NHL,MTL,MTL,EC,NE,3,CQF,82,40,32,10.0,,90,,,265,248,Montreal Canadiens,1847.0,34.0,77.0,405.0,11.0,68.0,382.0,15.0
+1995,NHL,NJD,NJD,EC,AT,6,,82,37,33,12.0,,86,,,215,202,New Jersey Devils,1486.0,4.0,55.0,368.0,9.0,49.0,319.0,11.0
+1995,NHL,NYI,NYI,EC,AT,7,,82,22,50,10.0,,54,,,229,315,New York Islanders,1669.0,14.0,70.0,372.0,15.0,90.0,414.0,8.0
+1995,NHL,NYR,NYR,EC,AT,2,CSF,82,41,27,14.0,,96,,,272,237,New York Rangers,1849.0,16.0,85.0,429.0,11.0,89.0,495.0,6.0
+1995,NHL,OTT,OTT,EC,NE,6,,82,18,59,5.0,,41,,,191,291,Ottawa Senators,1553.0,16.0,53.0,430.0,14.0,83.0,375.0,6.0
+1995,NHL,PHI,PHI,EC,AT,1,CSF,82,45,24,13.0,,103,,,282,208,Philadelphia Flyers,1785.0,20.0,82.0,417.0,7.0,62.0,437.0,12.0
+1995,NHL,PIT,PIT,EC,NE,1,CF,82,49,29,4.0,,102,,,362,284,Pittsburgh Penguins,1623.0,12.0,109.0,420.0,12.0,78.0,467.0,18.0
+1995,NHL,SJS,SJS,WC,PC,7,,82,20,55,7.0,,47,,,252,357,San Jose Sharks,1480.0,20.0,62.0,385.0,20.0,93.0,397.0,15.0
+1995,NHL,STL,STL,WC,CE,4,CSF,82,32,34,16.0,,80,,,219,248,St. Louis Blues,1823.0,26.0,74.0,448.0,8.0,82.0,482.0,11.0
+1995,NHL,TBL,TBL,EC,AT,5,CQF,82,38,32,12.0,,88,,,238,248,Tampa Bay Lightning,1628.0,14.0,83.0,400.0,13.0,68.0,439.0,6.0
+1995,NHL,TOR,TOR,WC,CE,3,CQF,82,34,36,12.0,,80,,,247,252,Toronto Maple Leafs,1742.0,18.0,83.0,438.0,9.0,70.0,403.0,11.0
+1995,NHL,VAN,VAN,WC,PC,3,CQF,82,32,35,15.0,,79,,,278,278,Vancouver Canucks,1546.0,18.0,69.0,411.0,13.0,78.0,418.0,18.0
+1995,NHL,WAS,WAS,EC,AT,4,CQF,82,39,32,11.0,,89,,,234,204,Washington Capitals,1553.0,14.0,63.0,403.0,7.0,67.0,385.0,12.0
+1995,NHL,WIN,PHO,WC,CE,5,CQF,82,36,40,6.0,,78,,,275,291,Winnipeg Jets,1622.0,18.0,82.0,417.0,12.0,88.0,430.0,10.0
+1996,NHL,ANA,ANA,WC,PC,2,CSF,82,36,33,13.0,,85,,,245,233,Mighty Ducks of Anaheim,1710.0,22.0,56.0,333.0,11.0,62.0,336.0,9.0
+1996,NHL,BOS,BOS,EC,NE,6,,82,26,47,9.0,,61,,,234,300,Boston Bruins,1369.0,4.0,46.0,310.0,6.0,56.0,308.0,15.0
+1996,NHL,BUF,BUF,EC,NE,1,CSF,82,40,30,12.0,,92,,,237,208,Buffalo Sabres,1840.0,12.0,43.0,326.0,4.0,59.0,364.0,16.0
+1996,NHL,CAL,CAL,WC,PC,5,,82,32,41,9.0,,73,,,214,239,Calgary Flames,1444.0,16.0,61.0,361.0,19.0,58.0,345.0,11.0
+1996,NHL,CHI,CHI,WC,CE,5,CQF,82,34,35,13.0,,81,,,223,210,Chicago Blackhawks,1763.0,14.0,45.0,304.0,9.0,59.0,374.0,5.0
+1996,NHL,COL,COL,WC,PC,1,CF,82,49,24,9.0,,107,,,277,205,Colorado Avalanche,1361.0,24.0,83.0,403.0,12.0,42.0,339.0,14.0
+1996,NHL,DAL,DAL,WC,CE,1,CQF,82,48,26,8.0,,104,,,252,198,Dallas Stars,1325.0,10.0,46.0,314.0,9.0,51.0,308.0,11.0
+1996,NHL,DET,DET,WC,CE,2,SC,82,38,26,18.0,,94,,,253,197,Detroit Red Wings,1582.0,12.0,66.0,368.0,8.0,46.0,346.0,10.0
+1996,NHL,EDM,EDM,WC,PC,3,CSF,82,36,37,9.0,,81,,,252,247,Edmonton Oilers,1368.0,18.0,73.0,406.0,13.0,59.0,338.0,9.0
+1996,NHL,FLO,FLO,EC,AT,3,CQF,82,35,28,19.0,,89,,,221,201,Florida Panthers,1628.0,20.0,50.0,352.0,17.0,50.0,346.0,5.0
+1996,NHL,HAR,CAR,EC,NE,5,,82,32,39,11.0,,75,,,226,256,Hartford Whalers,1513.0,18.0,58.0,321.0,11.0,51.0,332.0,12.0
+1996,NHL,LAK,LAK,WC,PC,6,,82,28,43,11.0,,67,,,214,268,Los Angeles Kings,1638.0,8.0,46.0,338.0,14.0,45.0,352.0,5.0
+1996,NHL,MTL,MTL,EC,NE,4,CQF,82,31,36,15.0,,77,,,249,276,Montreal Canadiens,1469.0,24.0,53.0,337.0,11.0,71.0,347.0,10.0
+1996,NHL,NJD,NJD,EC,AT,1,CSF,82,45,23,14.0,,104,,,231,182,New Jersey Devils,1135.0,4.0,40.0,288.0,9.0,28.0,235.0,4.0
+1996,NHL,NYI,NYI,EC,AT,7,,82,29,41,12.0,,70,,,240,250,New York Islanders,1640.0,18.0,48.0,346.0,9.0,53.0,319.0,14.0
+1996,NHL,NYR,NYR,EC,AT,4,CF,82,38,34,10.0,,86,,,258,231,New York Rangers,1481.0,14.0,63.0,287.0,5.0,69.0,344.0,15.0
+1996,NHL,OTT,OTT,EC,NE,3,CQF,82,31,36,15.0,,77,,,226,234,Ottawa Senators,1087.0,10.0,56.0,336.0,12.0,48.0,265.0,9.0
+1996,NHL,PHI,PHI,EC,AT,2,F,82,45,24,13.0,,103,,,274,217,Philadelphia Flyers,1699.0,8.0,53.0,362.0,8.0,49.0,342.0,11.0
+1996,NHL,PHO,PHO,WC,CE,3,CQF,82,38,37,7.0,,83,,,240,243,Phoenix Coyotes,1582.0,16.0,65.0,359.0,14.0,47.0,334.0,9.0
+1996,NHL,PIT,PIT,EC,NE,2,CQF,82,38,36,8.0,,84,,,285,280,Pittsburgh Penguins,1498.0,12.0,74.0,339.0,12.0,64.0,338.0,11.0
+1996,NHL,SJS,SJS,WC,PC,7,,82,27,47,8.0,,62,,,211,278,San Jose Sharks,2085.0,6.0,50.0,349.0,11.0,66.0,409.0,9.0
+1996,NHL,STL,STL,WC,CE,4,CQF,82,36,35,11.0,,83,,,236,239,St. Louis Blues,1336.0,24.0,50.0,327.0,8.0,55.0,332.0,9.0
+1996,NHL,TBL,TBL,EC,AT,6,,82,32,40,10.0,,74,,,217,247,Tampa Bay Lightning,1686.0,10.0,47.0,340.0,9.0,55.0,361.0,13.0
+1996,NHL,TOR,TOR,WC,CE,6,,82,30,44,8.0,,68,,,230,273,Toronto Maple Leafs,1331.0,12.0,48.0,309.0,8.0,59.0,328.0,11.0
+1996,NHL,VAN,VAN,WC,PC,4,,82,35,40,7.0,,77,,,257,273,Vancouver Canucks,1607.0,22.0,51.0,303.0,8.0,66.0,344.0,12.0
+1996,NHL,WAS,WAS,EC,AT,5,,82,33,40,9.0,,75,,,214,231,Washington Capitals,1652.0,28.0,51.0,322.0,10.0,54.0,354.0,8.0
+1997,NHL,ANA,ANA,WC,PC,6,,82,26,43,13.0,,65,,,205,261,Mighty Ducks of Anaheim,1843.0,10.0,46.0,392.0,10.0,72.0,396.0,9.0
+1997,NHL,BOS,BOS,EC,NE,2,CQF,82,39,30,13.0,,91,,,221,194,Boston Bruins,1117.0,12.0,62.0,359.0,3.0,44.0,285.0,5.0
+1997,NHL,BUF,BUF,EC,NE,3,CF,82,36,29,17.0,,89,,,211,187,Buffalo Sabres,1768.0,16.0,51.0,396.0,12.0,65.0,413.0,15.0
+1997,NHL,CAL,CAL,WC,PC,5,,82,26,41,15.0,,67,,,217,252,Calgary Flames,1859.0,10.0,43.0,356.0,13.0,69.0,430.0,18.0
+1997,NHL,CAR,CAR,EC,NE,6,,82,33,41,8.0,,74,,,200,219,Carolina Hurricanes,1455.0,12.0,50.0,378.0,10.0,58.0,391.0,8.0
+1997,NHL,CHI,CHI,WC,CE,5,,82,30,39,13.0,,73,,,192,199,Chicago Blackhawks,1546.0,12.0,47.0,364.0,5.0,58.0,381.0,13.0
+1997,NHL,COL,COL,WC,PC,1,CQF,82,39,26,17.0,,95,,,231,205,Colorado Avalanche,1729.0,24.0,74.0,425.0,12.0,53.0,410.0,8.0
+1997,NHL,DAL,DAL,WC,CE,1,CF,82,49,22,11.0,,109,,,242,167,Dallas Stars,1301.0,14.0,77.0,385.0,9.0,42.0,351.0,11.0
+1997,NHL,DET,DET,WC,CE,2,SC,82,44,23,15.0,,103,,,250,196,Detroit Red Wings,1346.0,12.0,67.0,381.0,7.0,51.0,376.0,8.0
+1997,NHL,EDM,EDM,WC,PC,3,CSF,82,35,37,10.0,,80,,,215,224,Edmonton Oilers,1690.0,10.0,77.0,483.0,11.0,66.0,406.0,10.0
+1997,NHL,FLO,FLO,EC,AT,6,,82,24,43,15.0,,63,,,203,256,Florida Panthers,1676.0,20.0,55.0,409.0,16.0,82.0,403.0,12.0
+1997,NHL,LAK,LAK,WC,PC,2,CQF,82,38,33,11.0,,87,,,227,225,Los Angeles Kings,1763.0,22.0,52.0,366.0,12.0,63.0,399.0,10.0
+1997,NHL,MTL,MTL,EC,NE,4,CSF,82,37,32,13.0,,87,,,235,208,Montreal Canadiens,1547.0,16.0,68.0,372.0,8.0,62.0,401.0,13.0
+1997,NHL,NJD,NJD,EC,AT,1,CQF,82,48,23,11.0,,107,,,225,166,New Jersey Devils,1488.0,8.0,63.0,333.0,9.0,41.0,309.0,4.0
+1997,NHL,NYI,NYI,EC,AT,4,,82,30,41,11.0,,71,,,212,225,New York Islanders,1646.0,10.0,61.0,364.0,16.0,54.0,384.0,11.0
+1997,NHL,NYR,NYR,EC,AT,5,,82,25,39,18.0,,68,,,197,231,New York Rangers,1548.0,12.0,62.0,351.0,13.0,55.0,376.0,0.0
+1997,NHL,OTT,OTT,EC,NE,5,CSF,82,34,33,15.0,,83,,,193,200,Ottawa Senators,1091.0,14.0,48.0,375.0,9.0,47.0,303.0,6.0
+1997,NHL,PHI,PHI,EC,AT,2,CQF,82,42,29,11.0,,95,,,242,193,Philadelphia Flyers,1766.0,18.0,71.0,399.0,9.0,51.0,382.0,7.0
+1997,NHL,PHO,PHO,WC,CE,4,CQF,82,35,35,12.0,,82,,,224,227,Phoenix Coyotes,1602.0,20.0,57.0,384.0,6.0,66.0,408.0,10.0
+1997,NHL,PIT,PIT,EC,NE,1,CQF,82,40,24,18.0,,98,,,228,188,Pittsburgh Penguins,1225.0,10.0,67.0,407.0,16.0,46.0,338.0,11.0
+1997,NHL,SJS,SJS,WC,PC,4,CQF,82,34,38,10.0,,78,,,210,216,San Jose Sharks,1417.0,20.0,54.0,400.0,5.0,59.0,398.0,10.0
+1997,NHL,STL,STL,WC,CE,3,CSF,82,45,29,8.0,,98,,,256,204,St. Louis Blues,1414.0,8.0,62.0,368.0,4.0,49.0,367.0,12.0
+1997,NHL,TBL,TBL,EC,AT,7,,82,17,55,10.0,,44,,,151,269,Tampa Bay Lightning,1823.0,12.0,33.0,353.0,16.0,72.0,410.0,11.0
+1997,NHL,TOR,TOR,WC,CE,6,,82,30,43,9.0,,69,,,194,237,Toronto Maple Leafs,1481.0,6.0,41.0,359.0,13.0,50.0,372.0,5.0
+1997,NHL,VAN,VAN,WC,PC,7,,82,25,43,14.0,,64,,,224,273,Vancouver Canucks,2166.0,18.0,48.0,373.0,12.0,77.0,432.0,19.0
+1997,NHL,WAS,WAS,EC,AT,3,F,82,40,30,12.0,,92,,,219,202,Washington Capitals,1198.0,2.0,55.0,350.0,4.0,39.0,361.0,14.0
+1998,NHL,ANA,ANA,WC,PC,3,CQF,82,35,34,13.0,,83,,,215,206,Mighty Ducks of Anaheim,1323.0,14.0,83.0,378.0,7.0,60.0,387.0,6.0
+1998,NHL,BOS,BOS,EC,NE,3,CSF,82,39,30,13.0,,91,,,214,181,Boston Bruins,1182.0,6.0,65.0,368.0,9.0,33.0,305.0,3.0
+1998,NHL,BUF,BUF,EC,NE,4,F,82,37,28,17.0,,91,,,207,175,Buffalo Sabres,1561.0,16.0,49.0,363.0,7.0,55.0,399.0,6.0
+1998,NHL,CAL,CAL,WC,NW,3,,82,30,40,12.0,,72,,,211,234,Calgary Flames,1389.0,8.0,51.0,357.0,6.0,78.0,386.0,12.0
+1998,NHL,CAR,CAR,EC,SE,1,CQF,82,34,30,18.0,,86,,,210,202,Carolina Hurricanes,1158.0,10.0,42.0,382.0,6.0,51.0,346.0,5.0
+1998,NHL,CHI,CHI,WC,CE,3,,82,29,41,12.0,,70,,,202,248,Chicago Blackhawks,1807.0,8.0,50.0,335.0,10.0,80.0,405.0,8.0
+1998,NHL,COL,COL,WC,NW,1,CF,82,44,28,10.0,,98,,,239,205,Colorado Avalanche,1619.0,14.0,71.0,375.0,12.0,63.0,386.0,7.0
+1998,NHL,DAL,DAL,WC,PC,1,SC,82,51,19,12.0,,114,,,236,168,Dallas Stars,1108.0,8.0,74.0,393.0,4.0,43.0,319.0,6.0
+1998,NHL,DET,DET,WC,CE,1,CSF,82,43,32,7.0,,93,,,245,202,Detroit Red Wings,1202.0,10.0,67.0,415.0,7.0,45.0,355.0,14.0
+1998,NHL,EDM,EDM,WC,NW,2,CQF,82,33,37,12.0,,78,,,230,226,Edmonton Oilers,1373.0,12.0,63.0,438.0,10.0,67.0,374.0,8.0
+1998,NHL,FLO,FLO,EC,SE,2,,82,30,34,18.0,,78,,,210,228,Florida Panthers,1522.0,18.0,51.0,380.0,11.0,67.0,370.0,10.0
+1998,NHL,LAK,LAK,WC,PC,5,,82,32,45,5.0,,69,,,189,222,Los Angeles Kings,1383.0,14.0,43.0,327.0,11.0,47.0,330.0,12.0
+1998,NHL,MTL,MTL,EC,NE,5,,82,32,39,11.0,,75,,,184,209,Montreal Canadiens,1299.0,14.0,50.0,344.0,10.0,44.0,344.0,8.0
+1998,NHL,NAS,NAS,WC,CE,4,,82,28,47,7.0,,63,,,190,261,Nashville Predators,1420.0,14.0,40.0,324.0,10.0,75.0,357.0,7.0
+1998,NHL,NJD,NJD,EC,AT,1,CQF,82,47,24,11.0,,105,,,248,196,New Jersey Devils,1355.0,14.0,60.0,304.0,5.0,47.0,325.0,7.0
+1998,NHL,NYI,NYI,EC,AT,5,,82,24,48,10.0,,58,,,194,244,New York Islanders,1111.0,22.0,54.0,341.0,7.0,60.0,363.0,8.0
+1998,NHL,NYR,NYR,EC,AT,4,,82,33,38,11.0,,77,,,217,227,New York Rangers,1087.0,14.0,71.0,348.0,9.0,48.0,336.0,7.0
+1998,NHL,OTT,OTT,EC,NE,1,CQF,82,44,23,15.0,,103,,,239,179,Ottawa Senators,892.0,12.0,59.0,397.0,13.0,44.0,317.0,6.0
+1998,NHL,PHI,PHI,EC,AT,2,CQF,82,37,26,19.0,,93,,,231,196,Philadelphia Flyers,1075.0,12.0,65.0,386.0,7.0,53.0,333.0,4.0
+1998,NHL,PHO,PHO,WC,PC,2,CQF,82,39,31,12.0,,90,,,205,197,Phoenix Coyotes,1412.0,12.0,41.0,342.0,5.0,45.0,348.0,8.0
+1998,NHL,PIT,PIT,EC,AT,3,CSF,82,38,30,14.0,,90,,,242,225,Pittsburgh Penguins,977.0,12.0,65.0,363.0,14.0,56.0,302.0,10.0
+1998,NHL,SJS,SJS,WC,PC,4,CQF,82,31,33,18.0,,80,,,196,191,San Jose Sharks,1423.0,10.0,53.0,399.0,4.0,61.0,407.0,8.0
+1998,NHL,STL,STL,WC,CE,2,CSF,82,37,32,13.0,,87,,,237,209,St. Louis Blues,1308.0,6.0,61.0,301.0,4.0,47.0,387.0,7.0
+1998,NHL,TBL,TBL,EC,SE,4,,82,19,54,9.0,,47,,,179,292,Tampa Bay Lightning,1316.0,10.0,43.0,310.0,10.0,68.0,387.0,11.0
+1998,NHL,TOR,TOR,EC,NE,2,CF,82,45,30,7.0,,97,,,268,231,Toronto Maple Leafs,1095.0,16.0,53.0,367.0,6.0,64.0,325.0,7.0
+1998,NHL,VAN,VAN,WC,NW,4,,82,23,47,12.0,,58,,,192,258,Vancouver Canucks,1764.0,16.0,57.0,358.0,9.0,77.0,450.0,17.0
+1998,NHL,WAS,WAS,EC,SE,3,,82,31,45,6.0,,68,,,200,218,Washington Capitals,1381.0,6.0,52.0,301.0,7.0,55.0,353.0,8.0
+1999,NHL,ANA,ANA,WC,PC,5,,82,34,33,12.0,3.0,83,,,217,227,Mighty Ducks of Anaheim,926.0,8.0,55.0,332.0,8.0,62.0,296.0,4.0
+1999,NHL,ATL,WPG,EC,SE,5,,82,14,57,7.0,4.0,39,,,170,313,Atlanta Thrashers,1422.0,16.0,44.0,348.0,13.0,76.0,386.0,6.0
+1999,NHL,BOS,BOS,EC,NE,5,,82,24,33,19.0,6.0,73,,,210,248,Boston Bruins,865.0,6.0,51.0,355.0,4.0,55.0,268.0,0.0
+1999,NHL,BUF,BUF,EC,NE,3,CQF,82,35,32,11.0,4.0,85,,,213,204,Buffalo Sabres,1173.0,10.0,37.0,351.0,10.0,54.0,361.0,8.0
+1999,NHL,CAL,CAL,WC,NW,4,,82,31,36,10.0,5.0,77,,,211,256,Calgary Flames,1267.0,8.0,59.0,330.0,8.0,74.0,365.0,4.0
+1999,NHL,CAR,CAR,EC,SE,3,,82,37,35,10.0,0.0,84,,,217,216,Carolina Hurricanes,799.0,4.0,58.0,342.0,7.0,40.0,253.0,3.0
+1999,NHL,CHI,CHI,WC,CE,3,,82,33,37,10.0,2.0,78,,,242,245,Chicago Blackhawks,1444.0,20.0,52.0,325.0,13.0,58.0,355.0,10.0
+1999,NHL,COL,COL,WC,NW,1,CF,82,42,28,11.0,1.0,96,,,233,201,Colorado Avalanche,1118.0,18.0,59.0,302.0,7.0,52.0,335.0,3.0
+1999,NHL,DAL,DAL,WC,PC,1,F,82,43,23,10.0,6.0,102,,,211,184,Dallas Stars,1029.0,12.0,54.0,343.0,9.0,33.0,307.0,9.0
+1999,NHL,DET,DET,WC,CE,2,CSF,82,48,22,10.0,2.0,108,,,278,210,Detroit Red Wings,1014.0,20.0,69.0,338.0,6.0,44.0,311.0,15.0
+1999,NHL,EDM,EDM,WC,NW,2,CQF,82,32,26,16.0,8.0,88,,,226,212,Edmonton Oilers,1344.0,16.0,53.0,336.0,4.0,54.0,369.0,9.0
+1999,NHL,FLO,FLO,EC,SE,2,CQF,82,43,27,6.0,6.0,98,,,244,209,Florida Panthers,1329.0,18.0,58.0,338.0,8.0,47.0,323.0,2.0
+1999,NHL,LAK,LAK,WC,PC,2,CQF,82,39,27,12.0,4.0,94,,,245,228,Los Angeles Kings,1313.0,4.0,60.0,356.0,12.0,66.0,373.0,4.0
+1999,NHL,MTL,MTL,EC,NE,4,,82,35,34,9.0,4.0,83,,,196,194,Montreal Canadiens,1067.0,14.0,54.0,323.0,8.0,40.0,302.0,7.0
+1999,NHL,NAS,NAS,WC,CE,4,,82,28,40,7.0,7.0,70,,,199,240,Nashville Predators,946.0,14.0,41.0,304.0,11.0,46.0,309.0,9.0
+1999,NHL,NJD,NJD,EC,AT,2,SC,82,45,24,8.0,5.0,103,,,251,203,New Jersey Devils,1313.0,22.0,55.0,274.0,9.0,39.0,313.0,9.0
+1999,NHL,NYI,NYI,EC,AT,5,,82,24,48,9.0,1.0,58,,,194,275,New York Islanders,1376.0,8.0,45.0,319.0,8.0,84.0,419.0,8.0
+1999,NHL,NYR,NYR,EC,AT,4,,82,29,38,12.0,3.0,73,,,218,246,New York Rangers,916.0,4.0,55.0,325.0,9.0,49.0,292.0,5.0
+1999,NHL,OTT,OTT,EC,NE,2,CQF,82,41,28,11.0,2.0,95,,,244,210,Ottawa Senators,850.0,14.0,52.0,310.0,8.0,34.0,273.0,6.0
+1999,NHL,PHI,PHI,EC,AT,1,CF,82,45,22,12.0,3.0,105,,,237,179,Philadelphia Flyers,1233.0,8.0,69.0,340.0,7.0,42.0,316.0,7.0
+1999,NHL,PHO,PHO,WC,PC,3,CQF,82,39,31,8.0,4.0,90,,,232,228,Phoenix Coyotes,940.0,12.0,37.0,310.0,7.0,43.0,306.0,14.0
+1999,NHL,PIT,PIT,EC,AT,3,CSF,82,37,31,8.0,6.0,88,,,241,236,Pittsburgh Penguins,1221.0,16.0,54.0,346.0,11.0,56.0,321.0,7.0
+1999,NHL,SJS,SJS,WC,PC,4,CSF,82,35,30,10.0,7.0,87,,,225,214,San Jose Sharks,1292.0,6.0,62.0,377.0,4.0,61.0,372.0,16.0
+1999,NHL,STL,STL,WC,CE,1,CQF,82,51,19,11.0,1.0,114,,,248,165,St. Louis Blues,1139.0,22.0,61.0,342.0,3.0,42.0,345.0,13.0
+1999,NHL,TBL,TBL,EC,SE,4,,82,19,47,9.0,7.0,54,,,204,310,Tampa Bay Lightning,1733.0,20.0,51.0,365.0,7.0,77.0,399.0,9.0
+1999,NHL,TOR,TOR,EC,NE,1,CSF,82,45,27,7.0,3.0,100,,,246,222,Toronto Maple Leafs,1103.0,12.0,57.0,321.0,5.0,58.0,330.0,11.0
+1999,NHL,VAN,VAN,WC,NW,3,,82,30,29,15.0,8.0,83,,,227,237,Vancouver Canucks,1047.0,22.0,51.0,323.0,7.0,63.0,322.0,9.0
+1999,NHL,WAS,WAS,EC,SE,1,CQF,82,44,24,12.0,2.0,102,,,227,194,Washington Capitals,994.0,14.0,43.0,286.0,3.0,47.0,340.0,9.0
+2000,NHL,ANA,ANA,WC,PC,5,,82,25,41,11.0,5.0,66,,,188,245,Mighty Ducks of Anaheim,1136.0,12.0,66.0,373.0,13.0,71.0,390.0,6.0
+2000,NHL,ATL,WPG,EC,SE,4,,82,23,45,12.0,2.0,60,,,211,289,Atlanta Thrashers,1500.0,6.0,54.0,395.0,8.0,90.0,408.0,9.0
+2000,NHL,BOS,BOS,EC,NE,4,,82,36,30,8.0,8.0,88,,,227,249,Boston Bruins,1325.0,18.0,64.0,390.0,7.0,65.0,377.0,8.0
+2000,NHL,BUF,BUF,EC,NE,2,CSF,82,46,30,5.0,1.0,98,,,218,184,Buffalo Sabres,1249.0,8.0,60.0,373.0,5.0,40.0,334.0,6.0
+2000,NHL,CAL,CAL,WC,NW,4,,82,27,36,15.0,4.0,73,,,197,236,Calgary Flames,1376.0,14.0,65.0,435.0,11.0,76.0,378.0,3.0
+2000,NHL,CAR,CAR,EC,SE,2,CQF,82,38,32,9.0,3.0,88,,,212,225,Carolina Hurricanes,1083.0,10.0,72.0,382.0,16.0,45.0,351.0,6.0
+2000,NHL,CBS,CBS,WC,CE,5,,82,28,39,9.0,6.0,71,,,190,233,Columbus Blue Jackets,1234.0,20.0,56.0,381.0,8.0,70.0,363.0,3.0
+2000,NHL,CHI,CHI,WC,CE,4,,82,29,40,8.0,5.0,71,,,210,246,Chicago Blackhawks,1001.0,24.0,41.0,318.0,12.0,52.0,323.0,15.0
+2000,NHL,COL,COL,WC,NW,1,SC,82,52,16,10.0,4.0,118,,,270,192,Colorado Avalanche,1138.0,16.0,80.0,363.0,11.0,59.0,342.0,11.0
+2000,NHL,DAL,DAL,WC,PC,1,CSF,82,48,24,8.0,2.0,106,,,241,187,Dallas Stars,1041.0,10.0,72.0,367.0,7.0,49.0,355.0,7.0
+2000,NHL,DET,DET,WC,CE,1,CQF,82,49,20,9.0,4.0,111,,,253,202,Detroit Red Wings,1082.0,20.0,85.0,384.0,7.0,55.0,385.0,10.0
+2000,NHL,EDM,EDM,WC,NW,2,CQF,82,39,28,12.0,3.0,93,,,243,222,Edmonton Oilers,1287.0,10.0,59.0,398.0,4.0,62.0,382.0,13.0
+2000,NHL,FLO,FLO,EC,SE,3,,82,22,38,13.0,9.0,66,,,200,246,Florida Panthers,1509.0,10.0,46.0,353.0,13.0,64.0,398.0,8.0
+2000,NHL,LAK,LAK,WC,PC,3,CSF,82,38,28,13.0,3.0,92,,,252,228,Los Angeles Kings,1196.0,20.0,71.0,367.0,6.0,72.0,382.0,14.0
+2000,NHL,MIN,MIN,WC,NW,5,,82,25,39,13.0,5.0,68,,,168,210,Minnesota Wild,1200.0,26.0,36.0,374.0,14.0,57.0,373.0,13.0
+2000,NHL,MTL,MTL,EC,NE,5,,82,28,40,8.0,6.0,70,,,206,232,Montreal Canadiens,1020.0,18.0,68.0,421.0,3.0,60.0,337.0,5.0
+2000,NHL,NAS,NAS,WC,CE,3,,82,34,36,9.0,3.0,80,,,186,200,Nashville Predators,944.0,8.0,51.0,361.0,4.0,49.0,331.0,7.0
+2000,NHL,NJD,NJD,EC,AT,1,F,82,48,19,12.0,3.0,111,,,295,195,New Jersey Devils,1235.0,18.0,71.0,310.0,6.0,49.0,320.0,9.0
+2000,NHL,NYI,NYI,EC,AT,5,,82,21,51,7.0,3.0,52,,,185,268,New York Islanders,1339.0,14.0,51.0,386.0,14.0,79.0,445.0,9.0
+2000,NHL,NYR,NYR,EC,AT,4,,82,33,43,5.0,1.0,72,,,250,290,New York Rangers,1522.0,18.0,65.0,363.0,12.0,86.0,400.0,16.0
+2000,NHL,OTT,OTT,EC,NE,1,CQF,82,48,21,9.0,4.0,109,,,274,205,Ottawa Senators,1062.0,10.0,71.0,381.0,5.0,49.0,361.0,10.0
+2000,NHL,PHI,PHI,EC,AT,2,CQF,82,43,25,11.0,3.0,100,,,240,207,Philadelphia Flyers,1183.0,8.0,55.0,350.0,9.0,55.0,314.0,11.0
+2000,NHL,PHO,PHO,WC,PC,4,,82,35,27,17.0,3.0,90,,,214,212,Phoenix Coyotes,1337.0,12.0,57.0,343.0,6.0,64.0,432.0,9.0
+2000,NHL,PIT,PIT,EC,AT,3,CF,82,42,28,9.0,3.0,96,,,281,256,Pittsburgh Penguins,1585.0,12.0,76.0,375.0,11.0,78.0,405.0,7.0
+2000,NHL,SJS,SJS,WC,PC,2,CQF,82,40,27,12.0,3.0,95,,,217,192,San Jose Sharks,1364.0,10.0,57.0,406.0,10.0,61.0,441.0,8.0
+2000,NHL,STL,STL,WC,CE,2,CF,82,43,22,12.0,5.0,103,,,249,195,St. Louis Blues,1345.0,14.0,72.0,385.0,7.0,57.0,389.0,15.0
+2000,NHL,TBL,TBL,EC,SE,5,,82,24,47,6.0,5.0,59,,,201,280,Tampa Bay Lightning,1404.0,20.0,53.0,424.0,11.0,72.0,422.0,9.0
+2000,NHL,TOR,TOR,EC,NE,3,CSF,82,37,29,11.0,5.0,90,,,232,207,Toronto Maple Leafs,1430.0,6.0,57.0,355.0,9.0,55.0,366.0,2.0
+2000,NHL,VAN,VAN,WC,NW,3,CQF,82,36,28,11.0,7.0,90,,,239,238,Vancouver Canucks,1113.0,22.0,71.0,416.0,11.0,74.0,387.0,12.0
+2000,NHL,WAS,WAS,EC,SE,1,CQF,82,41,27,10.0,4.0,96,,,233,211,Washington Capitals,1141.0,10.0,75.0,353.0,7.0,62.0,391.0,6.0
+2001,NHL,ANA,ANA,WC,PC,5,,82,29,42,8.0,3.0,69,,,175,198,Mighty Ducks of Anaheim,1254.0,14.0,43.0,373.0,9.0,46.0,330.0,4.0
+2001,NHL,ATL,WPG,EC,SE,5,,82,19,47,11.0,5.0,54,,,187,288,Atlanta Thrashers,1290.0,22.0,37.0,306.0,12.0,65.0,358.0,3.0
+2001,NHL,BOS,BOS,EC,NE,1,CQF,82,43,24,6.0,9.0,101,,,236,201,Boston Bruins,1454.0,12.0,39.0,283.0,5.0,45.0,348.0,14.0
+2001,NHL,BUF,BUF,EC,NE,5,,82,35,35,11.0,1.0,82,,,213,200,Buffalo Sabres,1217.0,16.0,50.0,374.0,6.0,41.0,304.0,7.0
+2001,NHL,CAL,CAL,WC,NW,4,,82,32,35,12.0,3.0,79,,,201,220,Calgary Flames,1586.0,12.0,55.0,364.0,5.0,66.0,356.0,10.0
+2001,NHL,CAR,CAR,EC,SE,1,F,82,35,26,16.0,5.0,91,,,217,217,Carolina Hurricanes,1022.0,12.0,63.0,390.0,11.0,54.0,332.0,4.0
+2001,NHL,CBS,CBS,WC,CE,5,,82,22,47,8.0,5.0,57,,,164,255,Columbus Blue Jackets,1198.0,14.0,50.0,356.0,8.0,52.0,306.0,3.0
+2001,NHL,CHI,CHI,WC,CE,3,CQF,82,41,27,13.0,1.0,96,,,216,207,Chicago Blackhawks,1234.0,10.0,54.0,302.0,2.0,63.0,340.0,4.0
+2001,NHL,COL,COL,WC,NW,1,CF,82,45,28,8.0,1.0,99,,,212,169,Colorado Avalanche,1007.0,10.0,62.0,344.0,7.0,41.0,315.0,7.0
+2001,NHL,DAL,DAL,WC,PC,4,,82,36,28,13.0,5.0,90,,,215,213,Dallas Stars,959.0,12.0,60.0,350.0,8.0,59.0,319.0,7.0
+2001,NHL,DET,DET,WC,CE,1,SC,82,51,17,10.0,4.0,116,,,251,187,Detroit Red Wings,1053.0,10.0,73.0,359.0,7.0,48.0,343.0,9.0
+2001,NHL,EDM,EDM,WC,NW,3,,82,38,28,12.0,4.0,92,,,205,182,Edmonton Oilers,1267.0,6.0,51.0,333.0,7.0,50.0,348.0,12.0
+2001,NHL,FLO,FLO,EC,SE,4,,82,22,44,10.0,6.0,60,,,180,250,Florida Panthers,1994.0,26.0,50.0,341.0,7.0,76.0,393.0,8.0
+2001,NHL,LAK,LAK,WC,PC,3,CQF,82,40,27,11.0,4.0,95,,,214,190,Los Angeles Kings,1348.0,16.0,73.0,353.0,6.0,49.0,366.0,5.0
+2001,NHL,MIN,MIN,WC,NW,5,,82,26,35,12.0,9.0,73,,,195,238,Minnesota Wild,1209.0,16.0,55.0,373.0,9.0,62.0,362.0,11.0
+2001,NHL,MTL,MTL,EC,NE,4,CSF,82,36,31,12.0,3.0,87,,,207,209,Montreal Canadiens,974.0,24.0,45.0,301.0,4.0,38.0,276.0,7.0
+2001,NHL,NAS,NAS,WC,CE,4,,82,28,41,13.0,0.0,69,,,196,230,Nashville Predators,1071.0,20.0,48.0,337.0,8.0,50.0,354.0,6.0
+2001,NHL,NJD,NJD,EC,AT,3,CQF,82,41,28,9.0,4.0,95,,,205,187,New Jersey Devils,1010.0,18.0,44.0,261.0,8.0,43.0,264.0,2.0
+2001,NHL,NYI,NYI,EC,AT,2,CQF,82,42,28,8.0,4.0,96,,,239,220,New York Islanders,1255.0,14.0,59.0,363.0,10.0,52.0,366.0,17.0
+2001,NHL,NYR,NYR,EC,AT,4,,82,36,38,4.0,4.0,80,,,227,258,New York Rangers,1753.0,10.0,48.0,326.0,5.0,80.0,398.0,8.0
+2001,NHL,OTT,OTT,EC,NE,3,CSF,82,39,27,9.0,7.0,94,,,243,208,Ottawa Senators,1347.0,16.0,55.0,331.0,5.0,48.0,307.0,11.0
+2001,NHL,PHI,PHI,EC,AT,1,CQF,82,42,27,10.0,3.0,97,,,234,192,Philadelphia Flyers,1242.0,16.0,39.0,299.0,10.0,40.0,293.0,8.0
+2001,NHL,PHO,PHO,WC,PC,2,CQF,82,40,27,9.0,6.0,95,,,228,210,Phoenix Coyotes,1154.0,16.0,53.0,341.0,6.0,60.0,356.0,8.0
+2001,NHL,PIT,PIT,EC,AT,5,,82,28,41,8.0,5.0,69,,,198,249,Pittsburgh Penguins,1248.0,16.0,47.0,335.0,10.0,57.0,352.0,5.0
+2001,NHL,SJS,SJS,WC,PC,1,CSF,82,44,27,8.0,3.0,99,,,248,199,San Jose Sharks,1249.0,8.0,59.0,368.0,6.0,54.0,380.0,15.0
+2001,NHL,STL,STL,WC,CE,2,CSF,82,43,27,8.0,4.0,98,,,227,188,St. Louis Blues,1343.0,26.0,62.0,356.0,7.0,56.0,379.0,5.0
+2001,NHL,TBL,TBL,EC,SE,3,,82,27,40,11.0,4.0,69,,,178,219,Tampa Bay Lightning,1072.0,22.0,46.0,311.0,9.0,40.0,273.0,6.0
+2001,NHL,TOR,TOR,EC,NE,2,CF,82,43,25,10.0,4.0,100,,,249,207,Toronto Maple Leafs,1212.0,12.0,54.0,349.0,6.0,51.0,328.0,9.0
+2001,NHL,VAN,VAN,WC,NW,2,CQF,82,42,30,7.0,3.0,94,,,254,211,Vancouver Canucks,1342.0,28.0,69.0,372.0,9.0,57.0,379.0,3.0
+2001,NHL,WAS,WAS,EC,SE,2,,82,36,33,11.0,2.0,85,,,228,240,Washington Capitals,1043.0,6.0,58.0,299.0,8.0,58.0,325.0,2.0
+2002,NHL,ANA,ANA,WC,PC,2,F,82,40,27,9.0,6.0,95,,,203,193,Mighty Ducks of Anaheim,954.0,20.0,56.0,348.0,5.0,42.0,333.0,8.0
+2002,NHL,ATL,WPG,EC,SE,3,,82,31,39,7.0,5.0,74,,,226,284,Atlanta Thrashers,1253.0,26.0,64.0,371.0,14.0,65.0,355.0,8.0
+2002,NHL,BOS,BOS,EC,NE,3,CQF,82,36,31,11.0,4.0,87,,,245,237,Boston Bruins,1370.0,24.0,59.0,325.0,11.0,65.0,375.0,10.0
+2002,NHL,BUF,BUF,EC,NE,5,,82,27,37,10.0,8.0,72,,,190,219,Buffalo Sabres,1276.0,30.0,51.0,354.0,11.0,53.0,363.0,8.0
+2002,NHL,CAL,CAL,WC,NW,5,,82,29,36,13.0,4.0,75,,,186,228,Calgary Flames,1391.0,22.0,47.0,389.0,10.0,65.0,389.0,5.0
+2002,NHL,CAR,CAR,EC,SE,5,,82,22,43,11.0,6.0,61,,,171,240,Carolina Hurricanes,1208.0,16.0,58.0,420.0,9.0,71.0,392.0,6.0
+2002,NHL,CBS,CBS,WC,CE,5,,82,29,42,8.0,3.0,69,,,213,263,Columbus Blue Jackets,1505.0,28.0,71.0,410.0,9.0,60.0,409.0,12.0
+2002,NHL,CHI,CHI,WC,CE,3,,82,30,33,13.0,6.0,79,,,207,226,Chicago Blackhawks,1189.0,30.0,39.0,308.0,8.0,56.0,369.0,8.0
+2002,NHL,COL,COL,WC,NW,1,CQF,82,42,19,13.0,8.0,105,,,251,194,Colorado Avalanche,1084.0,24.0,68.0,363.0,6.0,63.0,359.0,5.0
+2002,NHL,DAL,DAL,WC,PC,1,CSF,82,46,17,15.0,4.0,111,,,245,169,Dallas Stars,1166.0,28.0,62.0,327.0,6.0,50.0,346.0,9.0
+2002,NHL,DET,DET,WC,CE,1,CQF,82,48,20,10.0,4.0,110,,,269,203,Detroit Red Wings,1214.0,26.0,76.0,319.0,4.0,55.0,377.0,11.0
+2002,NHL,EDM,EDM,WC,NW,4,CQF,82,36,26,11.0,9.0,92,,,231,230,Edmonton Oilers,1203.0,16.0,56.0,386.0,8.0,61.0,351.0,13.0
+2002,NHL,FLO,FLO,EC,SE,4,,82,24,36,13.0,9.0,70,,,176,237,Florida Panthers,1127.0,26.0,49.0,347.0,9.0,66.0,356.0,7.0
+2002,NHL,LAK,LAK,WC,PC,3,,82,33,37,6.0,6.0,78,,,203,221,Los Angeles Kings,1146.0,50.0,52.0,354.0,4.0,62.0,371.0,8.0
+2002,NHL,MIN,MIN,WC,NW,3,CF,82,42,29,10.0,1.0,95,,,198,178,Minnesota Wild,1063.0,28.0,52.0,366.0,5.0,43.0,308.0,9.0
+2002,NHL,MTL,MTL,EC,NE,4,,82,30,35,8.0,9.0,77,,,206,234,Montreal Canadiens,900.0,22.0,44.0,315.0,6.0,58.0,317.0,2.0
+2002,NHL,NAS,NAS,WC,CE,4,,82,27,35,13.0,7.0,74,,,183,206,Nashville Predators,969.0,20.0,58.0,418.0,8.0,61.0,353.0,2.0
+2002,NHL,NJD,NJD,EC,AT,1,SC,82,46,20,10.0,6.0,108,,,216,166,New Jersey Devils,938.0,18.0,36.0,303.0,4.0,32.0,264.0,7.0
+2002,NHL,NYI,NYI,EC,AT,3,CQF,82,35,34,11.0,2.0,83,,,224,231,New York Islanders,1244.0,30.0,58.0,384.0,5.0,67.0,405.0,12.0
+2002,NHL,NYR,NYR,EC,AT,4,,82,32,36,10.0,4.0,78,,,210,231,New York Rangers,1308.0,14.0,55.0,339.0,8.0,73.0,388.0,8.0
+2002,NHL,OTT,OTT,EC,NE,1,CF,82,52,21,8.0,1.0,113,,,263,182,Ottawa Senators,1135.0,22.0,83.0,391.0,8.0,50.0,332.0,4.0
+2002,NHL,PHI,PHI,EC,AT,2,CSF,82,45,20,13.0,4.0,107,,,211,166,Philadelphia Flyers,1003.0,30.0,47.0,328.0,8.0,50.0,338.0,8.0
+2002,NHL,PHO,PHO,WC,PC,4,,82,31,35,11.0,5.0,78,,,204,230,Phoenix Coyotes,1433.0,24.0,55.0,385.0,11.0,77.0,412.0,4.0
+2002,NHL,PIT,PIT,EC,AT,5,,82,27,44,6.0,5.0,65,,,189,255,Pittsburgh Penguins,1125.0,32.0,66.0,360.0,10.0,58.0,352.0,3.0
+2002,NHL,SJS,SJS,WC,PC,5,,82,28,37,9.0,8.0,73,,,214,239,San Jose Sharks,1112.0,30.0,68.0,375.0,10.0,68.0,358.0,5.0
+2002,NHL,STL,STL,WC,CE,2,CQF,82,41,24,11.0,6.0,99,,,253,222,St. Louis Blues,1618.0,16.0,80.0,391.0,7.0,71.0,389.0,11.0
+2002,NHL,TBL,TBL,EC,SE,1,CSF,82,36,25,16.0,5.0,93,,,219,210,Tampa Bay Lightning,1079.0,30.0,70.0,391.0,5.0,55.0,316.0,6.0
+2002,NHL,TOR,TOR,EC,NE,2,CQF,82,44,28,7.0,3.0,98,,,236,208,Toronto Maple Leafs,1390.0,22.0,63.0,359.0,7.0,56.0,426.0,11.0
+2002,NHL,VAN,VAN,WC,NW,2,CSF,82,45,23,13.0,1.0,104,,,264,208,Vancouver Canucks,1178.0,36.0,87.0,419.0,10.0,62.0,389.0,12.0
+2002,NHL,WAS,WAS,EC,SE,2,CQF,82,39,29,8.0,6.0,92,,,224,220,Washington Capitals,1268.0,22.0,57.0,331.0,4.0,72.0,384.0,8.0
+2003,NHL,ANA,ANA,WC,PC,4,,82,29,35,10.0,8.0,76,,,184,213,Mighty Ducks of Anaheim,1131.0,14.0,56.0,310.0,4.0,54.0,353.0,5.0
+2003,NHL,ATL,WPG,EC,SE,2,,82,33,37,8.0,4.0,78,,,214,243,Atlanta Thrashers,1505.0,32.0,60.0,410.0,7.0,58.0,391.0,11.0
+2003,NHL,BOS,BOS,EC,NE,1,CQF,82,41,19,15.0,7.0,104,,,209,188,Boston Bruins,1208.0,22.0,48.0,300.0,13.0,55.0,335.0,7.0
+2003,NHL,BUF,BUF,EC,NE,5,,82,37,34,7.0,4.0,85,,,220,221,Buffalo Sabres,1289.0,28.0,58.0,367.0,9.0,53.0,348.0,7.0
+2003,NHL,CAL,CAL,WC,NW,3,F,82,42,30,7.0,3.0,94,,,200,176,Calgary Flames,1428.0,42.0,54.0,357.0,2.0,53.0,346.0,11.0
+2003,NHL,CAR,CAR,EC,SE,3,,82,28,34,14.0,6.0,76,,,172,209,Carolina Hurricanes,1102.0,16.0,41.0,384.0,9.0,66.0,359.0,9.0
+2003,NHL,CBS,CBS,WC,CE,4,,82,25,45,8.0,4.0,62,,,177,238,Columbus Blue Jackets,1209.0,22.0,58.0,401.0,14.0,50.0,337.0,5.0
+2003,NHL,CHI,CHI,WC,CE,5,,82,20,43,11.0,8.0,59,,,188,259,Chicago Blackhawks,1318.0,18.0,55.0,349.0,14.0,63.0,383.0,5.0
+2003,NHL,COL,COL,WC,NW,2,CSF,82,40,22,13.0,7.0,100,,,236,198,Colorado Avalanche,1293.0,28.0,74.0,363.0,14.0,58.0,357.0,7.0
+2003,NHL,DAL,DAL,WC,PC,2,CQF,82,41,26,13.0,2.0,97,,,194,175,Dallas Stars,1143.0,20.0,52.0,328.0,11.0,44.0,311.0,5.0
+2003,NHL,DET,DET,WC,CE,1,CSF,82,48,21,11.0,2.0,109,,,255,189,Detroit Red Wings,966.0,22.0,63.0,314.0,5.0,42.0,317.0,15.0
+2003,NHL,EDM,EDM,WC,NW,4,,82,36,29,12.0,5.0,89,,,221,208,Edmonton Oilers,1220.0,22.0,44.0,338.0,8.0,66.0,350.0,13.0
+2003,NHL,FLO,FLO,EC,SE,4,,82,28,35,15.0,4.0,75,,,188,221,Florida Panthers,1192.0,22.0,52.0,310.0,12.0,51.0,373.0,7.0
+2003,NHL,LAK,LAK,WC,PC,3,,82,28,29,16.0,9.0,81,,,205,217,Los Angeles Kings,1163.0,6.0,50.0,356.0,4.0,65.0,336.0,9.0
+2003,NHL,MIN,MIN,WC,NW,5,,82,30,29,20.0,3.0,83,,,188,183,Minnesota Wild,1035.0,44.0,46.0,339.0,7.0,44.0,285.0,7.0
+2003,NHL,MTL,MTL,EC,NE,4,CSF,82,41,30,7.0,4.0,93,,,208,192,Montreal Canadiens,1039.0,16.0,55.0,319.0,6.0,55.0,314.0,5.0
+2003,NHL,NAS,NAS,WC,CE,3,CQF,82,38,29,11.0,4.0,91,,,216,217,Nashville Predators,1360.0,28.0,72.0,428.0,8.0,64.0,351.0,14.0
+2003,NHL,NJD,NJD,EC,AT,2,CQF,82,43,25,12.0,2.0,100,,,213,164,New Jersey Devils,894.0,14.0,51.0,312.0,5.0,39.0,266.0,8.0
+2003,NHL,NYI,NYI,EC,AT,3,CQF,82,38,29,11.0,4.0,91,,,237,210,New York Islanders,1168.0,16.0,54.0,325.0,5.0,52.0,359.0,11.0
+2003,NHL,NYR,NYR,EC,AT,4,,82,27,40,7.0,8.0,69,,,206,250,New York Rangers,1459.0,30.0,46.0,322.0,8.0,80.0,388.0,6.0
+2003,NHL,OTT,OTT,EC,NE,3,CQF,82,43,23,10.0,6.0,102,,,262,189,Ottawa Senators,1270.0,20.0,80.0,370.0,8.0,57.0,347.0,6.0
+2003,NHL,PHI,PHI,EC,AT,1,CF,82,40,21,15.0,6.0,101,,,229,186,Philadelphia Flyers,1357.0,22.0,65.0,314.0,3.0,58.0,348.0,7.0
+2003,NHL,PHO,PHO,WC,PC,5,,82,22,36,18.0,6.0,68,,,188,245,Phoenix Coyotes,1300.0,24.0,51.0,358.0,8.0,71.0,398.0,9.0
+2003,NHL,PIT,PIT,EC,AT,5,,82,23,47,8.0,4.0,58,,,190,303,Pittsburgh Penguins,1270.0,32.0,65.0,360.0,15.0,84.0,369.0,7.0
+2003,NHL,SJS,SJS,WC,PC,1,CF,82,43,21,12.0,6.0,104,,,219,183,San Jose Sharks,1091.0,18.0,56.0,337.0,9.0,47.0,319.0,9.0
+2003,NHL,STL,STL,WC,CE,2,CQF,82,39,30,11.0,2.0,91,,,191,198,St. Louis Blues,1274.0,28.0,61.0,341.0,11.0,57.0,369.0,7.0
+2003,NHL,TBL,TBL,EC,SE,1,SC,82,46,22,8.0,6.0,106,,,245,192,Tampa Bay Lightning,985.0,34.0,55.0,339.0,4.0,42.0,278.0,15.0
+2003,NHL,TOR,TOR,EC,NE,2,CSF,82,45,24,10.0,3.0,103,,,242,204,Toronto Maple Leafs,1452.0,20.0,75.0,373.0,8.0,64.0,386.0,8.0
+2003,NHL,VAN,VAN,WC,NW,1,CQF,82,43,24,10.0,5.0,101,,,235,194,Vancouver Canucks,1274.0,28.0,56.0,376.0,8.0,50.0,360.0,5.0
+2003,NHL,WAS,WAS,EC,SE,5,,82,23,46,10.0,3.0,59,,,186,253,Washington Capitals,1282.0,12.0,64.0,334.0,5.0,75.0,401.0,4.0
+2005,NHL,ANA,ANA,WC,PC,3,CF,82,43,27,,12.0,98,3.0,7.0,254,229,Mighty Ducks of Anaheim,1459.0,14.0,87.0,480.0,13.0,84.0,510.0,9.0
+2005,NHL,ATL,WPG,EC,SE,3,,82,41,33,,8.0,90,5.0,5.0,281,275,Atlanta Thrashers,1344.0,26.0,100.0,527.0,10.0,102.0,492.0,13.0
+2005,NHL,BOS,BOS,EC,NE,5,,82,29,37,,16.0,74,2.0,8.0,230,266,Boston Bruins,1174.0,12.0,62.0,418.0,10.0,78.0,479.0,9.0
+2005,NHL,BUF,BUF,EC,NE,2,CF,82,52,24,,6.0,110,5.0,5.0,281,239,Buffalo Sabres,1164.0,20.0,101.0,477.0,17.0,59.0,439.0,10.0
+2005,NHL,CAL,CAL,WC,NW,1,CQF,82,46,25,,11.0,103,2.0,7.0,218,200,Calgary Flames,1482.0,18.0,87.0,478.0,7.0,80.0,508.0,8.0
+2005,NHL,CAR,CAR,EC,SE,1,SC,82,52,22,,8.0,112,8.0,2.0,294,260,Carolina Hurricanes,1125.0,18.0,95.0,531.0,13.0,81.0,445.0,17.0
+2005,NHL,CBS,CBS,WC,CE,3,,82,35,43,,4.0,74,8.0,3.0,223,279,Columbus Blue Jackets,1416.0,20.0,64.0,451.0,8.0,95.0,523.0,10.0
+2005,NHL,CHI,CHI,WC,CE,4,,82,26,43,,13.0,65,2.0,6.0,211,285,Chicago Blackhawks,1544.0,26.0,51.0,417.0,12.0,88.0,547.0,6.0
+2005,NHL,COL,COL,WC,NW,2,CSF,82,43,30,,9.0,95,3.0,6.0,283,257,Colorado Avalanche,1178.0,26.0,89.0,473.0,12.0,69.0,448.0,11.0
+2005,NHL,DAL,DAL,WC,PC,1,CQF,82,53,23,,6.0,112,12.0,1.0,265,218,Dallas Stars,1496.0,12.0,88.0,498.0,7.0,82.0,504.0,10.0
+2005,NHL,DET,DET,WC,CE,1,CQF,82,58,16,,8.0,124,4.0,3.0,305,209,Detroit Red Wings,1117.0,14.0,102.0,461.0,10.0,67.0,461.0,7.0
+2005,NHL,EDM,EDM,WC,NW,3,F,82,41,28,,13.0,95,7.0,9.0,256,251,Edmonton Oilers,1204.0,22.0,88.0,485.0,5.0,76.0,478.0,15.0
+2005,NHL,FLO,FLO,EC,SE,4,,82,37,34,,11.0,85,4.0,5.0,240,257,Florida Panthers,1279.0,24.0,63.0,411.0,12.0,91.0,514.0,5.0
+2005,NHL,LAK,LAK,WC,PC,4,,82,42,35,,5.0,89,6.0,1.0,249,270,Los Angeles Kings,1474.0,34.0,77.0,541.0,12.0,104.0,489.0,15.0
+2005,NHL,MIN,MIN,WC,NW,5,,82,38,36,,8.0,84,5.0,3.0,231,215,Minnesota Wild,1209.0,20.0,77.0,454.0,7.0,55.0,436.0,11.0
+2005,NHL,MTL,MTL,EC,NE,3,CQF,82,42,31,,9.0,93,2.0,3.0,243,247,Montreal Canadiens,1336.0,22.0,89.0,463.0,6.0,91.0,481.0,10.0
+2005,NHL,NAS,NAS,WC,CE,2,CQF,82,49,25,,8.0,106,6.0,3.0,259,227,Nashville Predators,1533.0,16.0,94.0,512.0,13.0,82.0,533.0,12.0
+2005,NHL,NJD,NJD,EC,AT,1,CSF,82,46,27,,9.0,101,9.0,4.0,242,229,New Jersey Devils,948.0,10.0,78.0,441.0,6.0,63.0,349.0,3.0
+2005,NHL,NYI,NYI,EC,AT,4,,82,36,40,,6.0,78,9.0,3.0,230,278,New York Islanders,1266.0,18.0,76.0,450.0,15.0,99.0,476.0,5.0
+2005,NHL,NYR,NYR,EC,AT,3,CQF,82,44,26,,12.0,100,7.0,4.0,257,215,New York Rangers,1194.0,12.0,83.0,442.0,9.0,79.0,486.0,4.0
+2005,NHL,OTT,OTT,EC,NE,1,CSF,82,52,21,,9.0,113,2.0,6.0,314,211,Ottawa Senators,1462.0,20.0,102.0,490.0,11.0,73.0,476.0,25.0
+2005,NHL,PHI,PHI,EC,AT,2,CQF,82,45,26,,11.0,101,4.0,6.0,267,259,Philadelphia Flyers,1201.0,14.0,80.0,444.0,6.0,97.0,465.0,19.0
+2005,NHL,PHO,PHO,WC,PC,5,,82,38,39,,5.0,81,4.0,3.0,246,271,Phoenix Coyotes,1511.0,18.0,96.0,541.0,11.0,98.0,513.0,9.0
+2005,NHL,PIT,PIT,EC,AT,5,,82,22,46,,14.0,58,1.0,6.0,244,316,Pittsburgh Penguins,1559.0,20.0,94.0,495.0,16.0,113.0,533.0,13.0
+2005,NHL,SJS,SJS,WC,PC,2,CSF,82,44,27,,11.0,99,1.0,7.0,266,242,San Jose Sharks,1058.0,14.0,91.0,500.0,11.0,77.0,399.0,10.0
+2005,NHL,STL,STL,WC,CE,5,,82,21,46,,15.0,57,4.0,8.0,197,292,St. Louis Blues,1373.0,18.0,75.0,512.0,8.0,82.0,461.0,6.0
+2005,NHL,TBL,TBL,EC,SE,2,CQF,82,43,33,,6.0,92,6.0,4.0,252,260,Tampa Bay Lightning,959.0,22.0,81.0,485.0,11.0,72.0,391.0,11.0
+2005,NHL,TOR,TOR,EC,NE,4,,82,41,33,,8.0,90,3.0,7.0,257,270,Toronto Maple Leafs,1398.0,20.0,107.0,501.0,12.0,99.0,496.0,14.0
+2005,NHL,VAN,VAN,WC,NW,4,,82,42,32,,8.0,92,4.0,4.0,256,255,Vancouver Canucks,1477.0,12.0,96.0,526.0,10.0,93.0,512.0,6.0
+2005,NHL,WAS,WAS,EC,SE,5,,82,29,41,,12.0,70,7.0,6.0,237,306,Washington Capitals,1499.0,26.0,72.0,490.0,18.0,116.0,550.0,15.0
+2006,NHL,AND,ANA,WC,PC,1,SC,82,48,20,,14.0,110,4.0,10.0,258,208,Anaheim Ducks,1457.0,30.0,89.0,398.0,4.0,61.0,410.0,4.0
+2006,NHL,ATL,WPG,EC,SE,1,CQF,82,43,28,,11.0,97,7.0,4.0,246,245,Atlanta Thrashers,1097.0,26.0,67.0,407.0,10.0,79.0,391.0,9.0
+2006,NHL,BOS,BOS,EC,NE,5,,82,35,41,,6.0,76,9.0,4.0,219,289,Boston Bruins,1256.0,24.0,71.0,412.0,18.0,81.0,442.0,8.0
+2006,NHL,BUF,BUF,EC,NE,1,CF,82,53,22,,7.0,113,10.0,4.0,308,242,Buffalo Sabres,1200.0,18.0,71.0,407.0,13.0,72.0,386.0,8.0
+2006,NHL,CAL,CAL,WC,NW,3,CQF,82,43,29,,10.0,96,3.0,5.0,258,226,Calgary Flames,1204.0,22.0,73.0,401.0,5.0,81.0,414.0,15.0
+2006,NHL,CAR,CAR,EC,SE,3,,82,40,34,,8.0,88,0.0,5.0,241,253,Carolina Hurricanes,1021.0,14.0,67.0,447.0,8.0,61.0,395.0,12.0
+2006,NHL,CBS,CBS,WC,CE,4,,82,33,42,,7.0,73,5.0,5.0,201,249,Columbus Blue Jackets,1357.0,20.0,65.0,438.0,10.0,85.0,453.0,6.0
+2006,NHL,CHI,CHI,WC,CE,5,,82,31,42,,9.0,71,6.0,7.0,201,258,Chicago Blackhawks,1332.0,16.0,43.0,364.0,6.0,77.0,443.0,12.0
+2006,NHL,COL,COL,WC,NW,4,,82,44,31,,7.0,95,5.0,4.0,272,251,Colorado Avalanche,884.0,20.0,79.0,374.0,9.0,70.0,353.0,7.0
+2006,NHL,DAL,DAL,WC,PC,3,CQF,82,50,25,,7.0,107,9.0,4.0,226,197,Dallas Stars,1133.0,22.0,79.0,427.0,6.0,59.0,377.0,3.0
+2006,NHL,DET,DET,WC,CE,1,CF,82,50,19,,13.0,113,2.0,8.0,254,199,Detroit Red Wings,982.0,24.0,68.0,401.0,11.0,63.0,408.0,12.0
+2006,NHL,EDM,EDM,WC,NW,5,,82,32,43,,7.0,71,3.0,3.0,195,248,Edmonton Oilers,1285.0,22.0,53.0,373.0,4.0,59.0,382.0,6.0
+2006,NHL,FLO,FLO,EC,SE,4,,82,35,31,,16.0,86,2.0,8.0,247,257,Florida Panthers,1181.0,18.0,61.0,337.0,6.0,78.0,443.0,5.0
+2006,NHL,LAK,LAK,WC,PC,4,,82,27,41,,14.0,68,4.0,6.0,227,283,Los Angeles Kings,1239.0,24.0,81.0,442.0,6.0,91.0,411.0,6.0
+2006,NHL,MIN,MIN,WC,NW,2,CQF,82,48,26,,8.0,104,10.0,7.0,235,191,Minnesota Wild,862.0,12.0,72.0,380.0,8.0,48.0,342.0,9.0
+2006,NHL,MTL,MTL,EC,NE,4,,82,42,34,,6.0,90,6.0,5.0,245,256,Montreal Canadiens,1133.0,14.0,86.0,378.0,6.0,69.0,419.0,17.0
+2006,NHL,NAS,NAS,WC,CE,2,CQF,82,51,23,,8.0,110,6.0,5.0,272,212,Nashville Predators,1179.0,24.0,71.0,408.0,2.0,55.0,390.0,8.0
+2006,NHL,NJD,NJD,EC,AT,1,CSF,82,49,24,,9.0,107,10.0,8.0,216,201,New Jersey Devils,830.0,8.0,65.0,367.0,11.0,40.0,271.0,4.0
+2006,NHL,NYI,NYI,EC,AT,4,CQF,82,40,30,,12.0,92,8.0,5.0,248,240,New York Islanders,1062.0,24.0,63.0,348.0,9.0,79.0,433.0,7.0
+2006,NHL,NYR,NYR,EC,AT,3,CSF,82,42,30,,10.0,94,9.0,5.0,242,216,New York Rangers,1109.0,22.0,75.0,406.0,6.0,65.0,400.0,11.0
+2006,NHL,OTT,OTT,EC,NE,2,F,82,48,25,,9.0,105,2.0,6.0,288,222,Ottawa Senators,1173.0,12.0,72.0,403.0,12.0,61.0,394.0,17.0
+2006,NHL,PHI,PHI,EC,AT,5,,82,22,48,,12.0,56,1.0,6.0,214,303,Philadelphia Flyers,1301.0,16.0,53.0,376.0,14.0,65.0,420.0,15.0
+2006,NHL,PHO,PHO,WC,PC,5,,82,31,46,,5.0,67,5.0,2.0,216,284,Phoenix Coyotes,1445.0,28.0,66.0,400.0,13.0,92.0,425.0,5.0
+2006,NHL,PIT,PIT,EC,AT,2,CQF,82,47,24,,11.0,105,10.0,6.0,277,246,Pittsburgh Penguins,1249.0,38.0,94.0,463.0,13.0,75.0,419.0,14.0
+2006,NHL,SJS,SJS,WC,PC,2,CSF,82,51,26,,5.0,107,2.0,2.0,258,199,San Jose Sharks,955.0,16.0,92.0,410.0,4.0,55.0,330.0,7.0
+2006,NHL,STL,STL,WC,CE,3,,82,34,35,,13.0,81,6.0,6.0,214,254,St. Louis Blues,1223.0,20.0,46.0,381.0,10.0,83.0,414.0,7.0
+2006,NHL,TBL,TBL,EC,SE,2,CQF,82,44,33,,5.0,93,10.0,2.0,253,261,Tampa Bay Lightning,897.0,6.0,69.0,374.0,11.0,66.0,305.0,14.0
+2006,NHL,TOR,TOR,EC,NE,3,,82,40,31,,11.0,91,4.0,7.0,258,269,Toronto Maple Leafs,1139.0,12.0,71.0,401.0,11.0,90.0,418.0,3.0
+2006,NHL,VAN,VAN,WC,NW,1,CSF,82,49,26,,7.0,105,5.0,4.0,222,201,Vancouver Canucks,1206.0,16.0,70.0,407.0,8.0,57.0,436.0,5.0
+2006,NHL,WAS,WAS,EC,SE,5,,82,28,40,,14.0,70,1.0,11.0,235,286,Washington Capitals,1233.0,16.0,67.0,408.0,14.0,82.0,414.0,12.0
+2007,NHL,AND,ANA,WC,PC,2,CQF,82,47,27,,8.0,102,8.0,7.0,205,191,Anaheim Ducks,1481.0,16.0,60.0,361.0,7.0,69.0,408.0,8.0
+2007,NHL,ATL,WPG,EC,SE,4,,82,34,40,,8.0,76,9.0,6.0,216,272,Atlanta Thrashers,1077.0,20.0,52.0,316.0,10.0,75.0,354.0,13.0
+2007,NHL,BOS,BOS,EC,NE,3,CQF,82,41,29,,12.0,94,6.0,7.0,212,222,Boston Bruins,1069.0,18.0,56.0,319.0,6.0,71.0,332.0,9.0
+2007,NHL,BUF,BUF,EC,NE,4,,82,39,31,,12.0,90,4.0,9.0,255,242,Buffalo Sabres,1004.0,14.0,66.0,366.0,8.0,56.0,333.0,9.0
+2007,NHL,CAL,CAL,WC,NW,3,CQF,82,42,30,,10.0,94,3.0,3.0,229,227,Calgary Flames,1342.0,14.0,59.0,352.0,8.0,72.0,388.0,9.0
+2007,NHL,CAR,CAR,EC,SE,2,,82,43,33,,6.0,92,2.0,3.0,252,249,Carolina Hurricanes,1183.0,18.0,79.0,420.0,13.0,75.0,355.0,4.0
+2007,NHL,CBS,CBS,WC,CE,4,,82,34,36,,12.0,80,3.0,8.0,193,218,Columbus Blue Jackets,1325.0,22.0,53.0,356.0,5.0,63.0,378.0,8.0
+2007,NHL,CHI,CHI,WC,CE,3,,82,40,34,,8.0,88,5.0,4.0,239,235,Chicago Blackhawks,1383.0,12.0,58.0,365.0,6.0,69.0,385.0,17.0
+2007,NHL,COL,COL,WC,NW,2,CSF,82,44,31,,7.0,95,7.0,3.0,231,219,Colorado Avalanche,995.0,22.0,49.0,335.0,5.0,56.0,301.0,2.0
+2007,NHL,DAL,DAL,WC,PC,3,CF,82,45,30,,7.0,97,5.0,3.0,242,207,Dallas Stars,1178.0,16.0,64.0,354.0,8.0,51.0,354.0,13.0
+2007,NHL,DET,DET,WC,CE,1,SC,82,54,21,,7.0,115,5.0,5.0,257,184,Detroit Red Wings,937.0,4.0,81.0,391.0,7.0,57.0,357.0,5.0
+2007,NHL,EDM,EDM,WC,NW,4,,82,41,35,,6.0,88,15.0,4.0,235,251,Edmonton Oilers,1175.0,26.0,57.0,344.0,10.0,56.0,366.0,7.0
+2007,NHL,FLO,FLO,EC,SE,3,,82,38,35,,9.0,85,5.0,6.0,216,226,Florida Panthers,1026.0,24.0,60.0,313.0,3.0,66.0,374.0,4.0
+2007,NHL,LAK,LAK,WC,PC,5,,82,32,43,,7.0,71,5.0,3.0,231,266,Los Angeles Kings,954.0,24.0,64.0,366.0,4.0,68.0,309.0,11.0
+2007,NHL,MIN,MIN,WC,NW,1,CQF,82,44,28,,10.0,98,3.0,8.0,223,218,Minnesota Wild,1098.0,12.0,64.0,338.0,10.0,49.0,330.0,3.0
+2007,NHL,MTL,MTL,EC,NE,1,CSF,82,47,25,,10.0,104,5.0,6.0,262,222,Montreal Canadiens,1090.0,18.0,90.0,374.0,3.0,60.0,342.0,8.0
+2007,NHL,NAS,NAS,WC,CE,2,CQF,82,41,32,,9.0,91,3.0,5.0,230,229,Nashville Predators,1027.0,12.0,53.0,358.0,10.0,49.0,335.0,7.0
+2007,NHL,NJD,NJD,EC,AT,2,CQF,82,46,29,,7.0,99,8.0,4.0,206,197,New Jersey Devils,974.0,18.0,50.0,320.0,7.0,54.0,314.0,6.0
+2007,NHL,NYI,NYI,EC,AT,5,,82,35,38,,9.0,79,5.0,3.0,194,243,New York Islanders,1041.0,18.0,48.0,330.0,15.0,68.0,375.0,10.0
+2007,NHL,NYR,NYR,EC,AT,3,CSF,82,42,27,,13.0,97,8.0,9.0,213,199,New York Rangers,1154.0,12.0,61.0,370.0,6.0,53.0,343.0,4.0
+2007,NHL,OTT,OTT,EC,NE,2,CQF,82,43,31,,8.0,94,3.0,5.0,261,247,Ottawa Senators,1175.0,22.0,60.0,328.0,6.0,72.0,380.0,18.0
+2007,NHL,PHI,PHI,EC,AT,4,CF,82,42,29,,11.0,95,3.0,6.0,248,233,Philadelphia Flyers,1471.0,14.0,84.0,385.0,6.0,65.0,388.0,13.0
+2007,NHL,PHO,PHO,WC,PC,4,,82,38,37,,7.0,83,5.0,6.0,214,231,Phoenix Coyotes,1193.0,18.0,63.0,339.0,12.0,64.0,332.0,11.0
+2007,NHL,PIT,PIT,EC,AT,1,F,82,47,27,,8.0,102,7.0,4.0,247,216,Pittsburgh Penguins,1179.0,24.0,77.0,378.0,10.0,68.0,357.0,6.0
+2007,NHL,SJS,SJS,WC,PC,1,CSF,82,49,23,,10.0,108,6.0,6.0,222,193,San Jose Sharks,1075.0,14.0,70.0,374.0,9.0,44.0,310.0,7.0
+2007,NHL,STL,STL,WC,CE,5,,82,33,36,,13.0,79,3.0,5.0,205,237,St. Louis Blues,1153.0,16.0,47.0,334.0,13.0,56.0,359.0,3.0
+2007,NHL,TBL,TBL,EC,SE,5,,82,31,42,,9.0,71,2.0,1.0,223,267,Tampa Bay Lightning,1038.0,16.0,57.0,296.0,7.0,56.0,312.0,7.0
+2007,NHL,TOR,TOR,EC,NE,5,,82,36,35,,11.0,83,3.0,4.0,231,260,Toronto Maple Leafs,1087.0,8.0,61.0,343.0,10.0,77.0,352.0,4.0
+2007,NHL,VAN,VAN,WC,NW,5,,82,39,33,,10.0,88,6.0,9.0,213,215,Vancouver Canucks,1474.0,16.0,63.0,369.0,7.0,64.0,368.0,8.0
+2007,NHL,WAS,WAS,EC,SE,1,CQF,82,43,31,,8.0,94,4.0,4.0,242,231,Washington Capitals,975.0,22.0,65.0,346.0,8.0,68.0,349.0,5.0
+2008,NHL,AND,ANA,WC,PC,2,CSF,82,42,33,,7.0,91,7.0,3.0,245,238,Anaheim Ducks,1426.0,8.0,73.0,309.0,8.0,78.0,385.0,6.0
+2008,NHL,ATL,WPG,EC,SE,4,,82,35,41,,6.0,76,7.0,1.0,257,280,Atlanta Thrashers,1256.0,12.0,69.0,357.0,10.0,88.0,366.0,13.0
+2008,NHL,BOS,BOS,EC,NE,1,CSF,82,53,19,,10.0,116,4.0,6.0,274,196,Boston Bruins,1028.0,12.0,74.0,313.0,7.0,54.0,306.0,8.0
+2008,NHL,BUF,BUF,EC,NE,3,,82,41,32,,9.0,91,8.0,5.0,250,234,Buffalo Sabres,1121.0,16.0,75.0,358.0,5.0,61.0,336.0,7.0
+2008,NHL,CAL,CAL,WC,NW,2,CQF,82,46,30,,6.0,98,3.0,2.0,254,248,Calgary Flames,1299.0,18.0,61.0,358.0,15.0,58.0,349.0,6.0
+2008,NHL,CAR,CAR,EC,SE,2,CF,82,45,30,,7.0,97,3.0,5.0,239,226,Carolina Hurricanes,802.0,16.0,70.0,374.0,9.0,59.0,301.0,8.0
+2008,NHL,CBS,CBS,WC,CE,4,CQF,82,41,31,,10.0,92,6.0,7.0,226,230,Columbus Blue Jackets,1227.0,20.0,41.0,322.0,12.0,62.0,346.0,8.0
+2008,NHL,CHI,CHI,WC,CE,2,CF,82,46,24,,12.0,104,4.0,7.0,264,216,Chicago Blackhawks,1157.0,28.0,70.0,363.0,6.0,64.0,330.0,10.0
+2008,NHL,COL,COL,WC,NW,5,,82,32,45,,5.0,69,9.0,4.0,199,257,Colorado Avalanche,1062.0,18.0,50.0,318.0,8.0,64.0,318.0,4.0
+2008,NHL,DAL,DAL,WC,PC,3,,82,36,35,,11.0,83,6.0,6.0,230,257,Dallas Stars,1144.0,10.0,54.0,351.0,4.0,70.0,327.0,2.0
+2008,NHL,DET,DET,WC,CE,1,F,82,51,21,,10.0,112,6.0,4.0,295,244,Detroit Red Wings,824.0,14.0,90.0,353.0,4.0,71.0,327.0,6.0
+2008,NHL,EDM,EDM,WC,NW,4,,82,38,35,,9.0,85,6.0,4.0,234,248,Edmonton Oilers,1247.0,20.0,60.0,354.0,8.0,76.0,338.0,3.0
+2008,NHL,FLO,FLO,EC,SE,3,,82,41,30,,11.0,93,3.0,8.0,234,231,Florida Panthers,900.0,16.0,51.0,308.0,9.0,54.0,311.0,7.0
+2008,NHL,LAK,LAK,WC,PC,5,,82,34,37,,11.0,79,5.0,8.0,207,234,Los Angeles Kings,1207.0,16.0,69.0,360.0,8.0,62.0,362.0,4.0
+2008,NHL,MIN,MIN,WC,NW,3,,82,40,33,,9.0,89,5.0,3.0,219,200,Minnesota Wild,889.0,20.0,66.0,328.0,6.0,36.0,291.0,9.0
+2008,NHL,MTL,MTL,EC,NE,2,CQF,82,41,30,,11.0,93,7.0,7.0,249,247,Montreal Canadiens,1229.0,6.0,72.0,374.0,11.0,65.0,370.0,10.0
+2008,NHL,NAS,NAS,WC,CE,5,,82,40,34,,8.0,88,6.0,5.0,213,233,Nashville Predators,994.0,12.0,50.0,318.0,8.0,59.0,338.0,9.0
+2008,NHL,NJD,NJD,EC,AT,1,CQF,82,51,27,,4.0,106,6.0,2.0,244,209,New Jersey Devils,1058.0,20.0,58.0,307.0,4.0,65.0,324.0,12.0
+2008,NHL,NYI,NYI,EC,AT,5,,82,26,47,,9.0,61,3.0,5.0,201,279,New York Islanders,1216.0,18.0,54.0,320.0,5.0,73.0,361.0,12.0
+2008,NHL,NYR,NYR,EC,AT,4,CQF,82,43,30,,9.0,95,10.0,6.0,210,218,New York Rangers,1199.0,24.0,48.0,346.0,14.0,40.0,329.0,9.0
+2008,NHL,OTT,OTT,EC,NE,4,,82,36,35,,11.0,83,4.0,6.0,217,237,Ottawa Senators,1098.0,14.0,66.0,339.0,5.0,64.0,346.0,8.0
+2008,NHL,PHI,PHI,EC,AT,3,CQF,82,44,27,,11.0,99,4.0,6.0,264,238,Philadelphia Flyers,1434.0,26.0,71.0,316.0,1.0,67.0,393.0,16.0
+2008,NHL,PHO,PHO,WC,PC,4,,82,36,39,,7.0,79,3.0,3.0,208,252,Phoenix Coyotes,1092.0,18.0,50.0,344.0,4.0,68.0,293.0,5.0
+2008,NHL,PIT,PIT,EC,AT,2,SC,82,45,28,,9.0,99,6.0,6.0,264,239,Pittsburgh Penguins,1114.0,8.0,62.0,360.0,13.0,60.0,347.0,7.0
+2008,NHL,SJS,SJS,WC,PC,1,CQF,82,53,18,,11.0,117,6.0,5.0,257,204,San Jose Sharks,1053.0,16.0,87.0,360.0,11.0,51.0,306.0,12.0
+2008,NHL,STL,STL,WC,CE,3,CQF,82,41,31,,10.0,92,6.0,6.0,233,233,St. Louis Blues,1248.0,22.0,72.0,351.0,8.0,58.0,357.0,10.0
+2008,NHL,TBL,TBL,EC,SE,5,,82,24,40,,18.0,66,3.0,10.0,210,279,Tampa Bay Lightning,1306.0,26.0,61.0,343.0,9.0,89.0,405.0,4.0
+2008,NHL,TOR,TOR,EC,NE,5,,82,34,35,,13.0,81,6.0,7.0,250,293,Toronto Maple Leafs,1125.0,12.0,62.0,330.0,7.0,78.0,308.0,6.0
+2008,NHL,VAN,VAN,WC,NW,1,CSF,82,45,27,,10.0,100,3.0,7.0,246,220,Vancouver Canucks,1351.0,28.0,67.0,357.0,5.0,69.0,371.0,7.0
+2008,NHL,WAS,WAS,EC,SE,1,CSF,82,50,24,,8.0,108,4.0,5.0,272,245,Washington Capitals,1041.0,20.0,85.0,337.0,11.0,75.0,387.0,7.0
+2009,NHL,AND,ANA,WC,PC,4,,82,39,32,,11.0,89,5.0,8.0,238,251,Anaheim Ducks,1321.0,4.0,63.0,300.0,9.0,67.0,324.0,8.0
+2009,NHL,ATL,WPG,EC,SE,2,,82,35,34,,13.0,83,4.0,6.0,234,256,Atlanta Thrashers,1053.0,8.0,51.0,316.0,4.0,57.0,320.0,9.0
+2009,NHL,BOS,BOS,EC,NE,3,CSF,82,39,30,,13.0,91,10.0,9.0,206,200,Boston Bruins,953.0,24.0,44.0,265.0,4.0,37.0,272.0,6.0
+2009,NHL,BUF,BUF,EC,NE,1,CQF,82,45,27,,10.0,100,4.0,6.0,235,207,Buffalo Sabres,918.0,16.0,55.0,313.0,3.0,38.0,284.0,4.0
+2009,NHL,CAL,CAL,WC,NW,3,,82,40,32,,10.0,90,3.0,7.0,204,210,Calgary Flames,1143.0,14.0,43.0,268.0,2.0,54.0,305.0,8.0
+2009,NHL,CAR,CAR,EC,SE,3,,82,35,37,,10.0,80,4.0,5.0,230,256,Carolina Hurricanes,966.0,22.0,56.0,332.0,8.0,62.0,320.0,7.0
+2009,NHL,CBS,CBS,WC,CE,5,,82,32,35,,15.0,79,2.0,10.0,216,259,Columbus Blue Jackets,1086.0,16.0,56.0,308.0,9.0,61.0,334.0,6.0
+2009,NHL,CHI,CHI,WC,CE,1,SC,82,52,22,,8.0,112,9.0,6.0,271,209,Chicago Blackhawks,924.0,16.0,52.0,294.0,4.0,39.0,265.0,13.0
+2009,NHL,COL,COL,WC,NW,2,CQF,82,43,30,,9.0,95,7.0,5.0,244,233,Colorado Avalanche,1027.0,26.0,56.0,310.0,9.0,60.0,303.0,8.0
+2009,NHL,DAL,DAL,WC,PC,5,,82,37,31,,14.0,88,7.0,10.0,237,254,Dallas Stars,963.0,8.0,61.0,328.0,8.0,65.0,288.0,9.0
+2009,NHL,DET,DET,WC,CE,2,CSF,82,44,24,,14.0,102,6.0,9.0,229,216,Detroit Red Wings,723.0,16.0,59.0,307.0,1.0,43.0,267.0,8.0
+2009,NHL,EDM,EDM,WC,NW,5,,82,27,47,,8.0,62,8.0,6.0,214,284,Edmonton Oilers,1133.0,18.0,52.0,301.0,5.0,67.0,305.0,6.0
+2009,NHL,FLO,FLO,EC,SE,5,,82,32,37,,13.0,77,6.0,10.0,208,244,Florida Panthers,977.0,16.0,44.0,309.0,8.0,59.0,287.0,7.0
+2009,NHL,LAK,LAK,WC,PC,3,CQF,82,46,27,,9.0,101,10.0,8.0,241,219,Los Angeles Kings,979.0,16.0,64.0,307.0,6.0,60.0,304.0,4.0
+2009,NHL,MIN,MIN,WC,NW,4,,82,38,36,,8.0,84,5.0,7.0,219,246,Minnesota Wild,924.0,10.0,59.0,309.0,13.0,53.0,306.0,4.0
+2009,NHL,MTL,MTL,EC,NE,4,CF,82,39,33,,10.0,88,7.0,5.0,217,223,Montreal Canadiens,936.0,16.0,57.0,261.0,8.0,53.0,311.0,4.0
+2009,NHL,NAS,NAS,WC,CE,3,CQF,82,47,29,,6.0,100,8.0,4.0,225,225,Nashville Predators,710.0,12.0,47.0,286.0,6.0,59.0,258.0,5.0
+2009,NHL,NJD,NJD,EC,AT,1,CQF,82,48,27,,7.0,103,6.0,5.0,222,191,New Jersey Devils,859.0,16.0,51.0,273.0,5.0,41.0,239.0,7.0
+2009,NHL,NYI,NYI,EC,AT,5,,82,34,37,,11.0,79,8.0,6.0,222,264,New York Islanders,950.0,22.0,49.0,306.0,3.0,71.0,300.0,7.0
+2009,NHL,NYR,NYR,EC,AT,4,,82,38,33,,11.0,87,3.0,4.0,222,218,New York Rangers,1159.0,22.0,55.0,301.0,7.0,50.0,318.0,5.0
+2009,NHL,OTT,OTT,EC,NE,2,CQF,82,44,32,,6.0,94,5.0,5.0,225,238,Ottawa Senators,1141.0,26.0,49.0,290.0,4.0,50.0,318.0,6.0
+2009,NHL,PHI,PHI,EC,AT,3,F,82,41,35,,6.0,88,4.0,3.0,236,225,Philadelphia Flyers,1362.0,12.0,68.0,317.0,8.0,57.0,335.0,6.0
+2009,NHL,PHO,PHO,WC,PC,2,CQF,82,50,25,,7.0,107,14.0,6.0,225,202,Phoenix Coyotes,925.0,20.0,46.0,314.0,7.0,49.0,317.0,3.0
+2009,NHL,PIT,PIT,EC,AT,2,CSF,82,47,28,,7.0,101,8.0,2.0,257,237,Pittsburgh Penguins,1195.0,12.0,56.0,326.0,8.0,52.0,327.0,7.0
+2009,NHL,SJS,SJS,WC,PC,1,CF,82,51,20,,11.0,113,7.0,6.0,264,215,San Jose Sharks,1155.0,18.0,65.0,309.0,9.0,49.0,327.0,8.0
+2009,NHL,STL,STL,WC,CE,4,,82,40,32,,10.0,90,7.0,5.0,225,223,St. Louis Blues,1318.0,22.0,52.0,307.0,6.0,45.0,342.0,7.0
+2009,NHL,TBL,TBL,EC,SE,4,,82,34,36,,12.0,80,4.0,7.0,217,260,Tampa Bay Lightning,1377.0,20.0,63.0,326.0,6.0,67.0,336.0,2.0
+2009,NHL,TOR,TOR,EC,NE,5,,82,30,38,,14.0,74,4.0,4.0,214,267,Toronto Maple Leafs,1091.0,20.0,44.0,315.0,7.0,73.0,288.0,4.0
+2009,NHL,VAN,VAN,WC,NW,1,CSF,82,49,28,,5.0,103,4.0,4.0,272,222,Vancouver Canucks,1269.0,8.0,68.0,325.0,6.0,59.0,320.0,9.0
+2009,NHL,WAS,WAS,EC,SE,1,CQF,82,54,15,,13.0,121,5.0,6.0,318,233,Washington Capitals,940.0,20.0,79.0,313.0,8.0,67.0,316.0,4.0

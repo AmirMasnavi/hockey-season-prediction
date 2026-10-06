@@ -24,5 +24,8 @@ First understand the files, schemas, sample rows, coverage, missingness, relatio
 ## Evaluation plan for later
 Ranking: MAE for numeric target, within-season Spearman correlation and ranking error; clarify expected league/conference/division ordering and tie policy first. Coach changes: precision, recall, F1, PR-AUC and calibrated probabilities, compared with prevalence/majority baselines. Threshold choice must use validation data only.
 
+## Course reference
+The user supplied a Titanic supervised-learning Colab lab. Apply its data inspection, class imbalance, cutoff-based feature selection and training-only preprocessing principles. For hockey, adapt validation to future seasons with chronological splits. This introductory EDA covers development history, so the historical 2009 illustration is not an untouched final test.
+
 ## Open questions
 Official test season and league scope; ranking scope and official tie policy; whether coach changes mean during-season replacement or include offseason turnover; handling new teams and gaps; task (c). Only development CSVs have been supplied so far.
