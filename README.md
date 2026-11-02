@@ -11,8 +11,7 @@ Start with [the executed introductory notebook](notebooks/01_data_understanding.
 - `hockey_development_data/`: original 22 CSVs; preserve unchanged.
 - `notebooks/01_data_understanding.ipynb`: intent → code → findings for every analysis step.
 - `notebooks/02_data_preparation.ipynb`: data quality, integration (DuckDB SQL), feature engineering, outliers, imputation, redundancy and training-era choice.
-- `data/processed/modeling_table.csv`: leakage-safe modeling table with train/validation/test split.
-- `reports/prep/`: preparation reports and feature dictionary.
+- `data/processed/modeling_table.csv`: modeling table with train/validation/test split.
 - `reports/eda/`: reproducible profiles, join checks, provisional coach labels and learning preview.
 
 ## Run locally
@@ -40,7 +39,7 @@ Open the `.ipynb` in Colab and place `hockey_development_data/` directly in `/co
 
 ## Current decisions
 
-No instructor is available to clarify the assignment, so the team adopted these decisions (details in `docs/prd.md`): NHL only; 2009 is the final test season, with earlier seasons used for chronological validation; ranking is predicted points per game sorted league-wide (division rank secondary); a coach change means more than one coach during the season. All predictions must use information available the day before the target season begins.
+The team adopted these decisions (details in `docs/prd.md`): NHL only; 2009 is the final test season, with earlier seasons used for chronological validation; ranking is predicted points per game sorted league-wide (division rank secondary); a coach change means more than one coach during the season. All predictions must use information available the day before the target season begins.
 
 
 ## Independent review

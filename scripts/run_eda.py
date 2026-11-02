@@ -52,7 +52,7 @@ for index, cell in enumerate(notebook.cells):
     assert cell.execution_count is not None, f'Unexecuted cell: {index}'
     assert not any(output.output_type == 'error' for output in cell.outputs), f'Cell error: {index}'
     figure_count += sum('image/png' in output.get('data', {}) for output in cell.outputs)
-assert notebook.cells[-1].source.startswith('## Final conclusion')
+assert 'conclusion' in notebook.cells[-1].source.splitlines()[0].lower()
 assert all(hashlib.sha256((ROOT / 'hockey_development_data' / name).read_bytes()).hexdigest() == expected
            for name, expected in manifest.items())
 print(f'Verified {code_count} executed code cells, {figure_count} figures, markdown sandwiches, '

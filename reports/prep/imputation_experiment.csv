@@ -1,6 +1,0 @@
-method,masked_values,rmse_in_training_sd
-iterative: random forest,429,0.761
-iterative: Bayesian ridge regression,429,0.788
-KNN (k=10),429,0.825
-mean,429,0.969
-median,429,0.972

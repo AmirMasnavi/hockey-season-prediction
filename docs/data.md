@@ -105,4 +105,4 @@ reports/eda/table_inventory.csv, column_profile.csv, text_cleaning_audit.csv, jo
 - Goalie shots against exist from 1983 (6/2,180 missing), so save percentage is missing before then. Special-teams fields are complete from 1967.
 - Lag rule: previous completed NHL season of the same franchise. 2005 uses 2003 (prev_gap = 2). WHA franchises joining in 1979 (EDM, CAR, COL, PHO) share franchID across leagues but are new entrants in NHL lags.
 - Opening-day coach (stint 1 of season t) is treated as known at the cutoff; later stints and all season-t coach results are not.
-- Modeling table: data/processed/modeling_table.csv, NHL target seasons 1967–2009, 938 rows, 26 features (dictionary in reports/prep/feature_dictionary.csv). Coach-change rate: train 21.6%, validation 17.5%, test 10.0%.
+- Modeling table: data/processed/modeling_table.csv, NHL target seasons 1967–2009, 938 rows × 39 columns, 22 features (team stats as within-season z-scores plus five opening-day coach features). Coach-change rate: train 21.6%, validation 17.5%, test 10.0%.

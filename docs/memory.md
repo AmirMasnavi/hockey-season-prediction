@@ -62,3 +62,7 @@ Starting milestone committed as 0b2e6a3. GitHub authentication works with networ
 - Validation 2005–2008: persistence Spearman 0.514; Ridge with all 26 features 0.485 (feature selection needed). Coach PR-AUC about 0.20 vs prevalence 0.175 (hard task).
 - Environment: this machine has Python 3.11; .venv recreated; requirements.txt changed from macOS/3.14 pins to top-level minimum versions (adds scikit-learn, scipy, duckdb).
 - Next step: modeling notebook (03): baselines, 4+ algorithms, systematic tuning, fold-internal imputation, class weights/SMOTE and filter+wrapper feature selection, significance tests, overfitting analysis, feature importance. Keep 2009 untouched until final evaluation.
+
+## Notebook 02 rewrite (2026-11-02)
+- User rewrote notebook 02 in a simpler, plainer style; AI use is allowed in the course. Keep code short, comments minimal and markdown plain, with numbers in every findings cell.
+- Current version: 12 quality checks across six dimensions, match rates, five coach features, tenure × standing heatmap, outliers (z, IQR, Isolation Forest), imputation test (iterative 0.813 SD error vs mean 1.026), 22 features after dropping gd and pythag, growing-window test (all seasons since 1967: Spearman 0.506 vs persistence 0.514; coach PR-AUC 0.259 vs 0.175). reports/prep removed; the notebook only writes data/processed/modeling_table.csv.
