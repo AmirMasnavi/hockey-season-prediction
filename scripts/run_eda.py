@@ -1,4 +1,4 @@
-"""Execute and verify the introductory notebook, or check its saved outputs."""
+"""Execute and verify a project notebook, or check its saved outputs."""
 from pathlib import Path
 import argparse
 import hashlib
@@ -8,6 +8,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('notebook', nargs='?', default='notebooks/01_data_understanding.ipynb',
+                    help='Notebook path relative to the project root (default: the introductory EDA)')
 parser.add_argument('--check', action='store_true', help='Verify saved outputs without execution')
 args = parser.parse_args()
 for folder in [ROOT / '.mplconfig', ROOT / '.jupyter' / 'ipython', ROOT / '.jupyter' / 'runtime']:
@@ -22,7 +24,7 @@ manifest = json.loads((ROOT / 'reports/eda/source_sha256.json').read_text())
 for filename, expected in manifest.items():
     actual = hashlib.sha256((ROOT / 'hockey_development_data' / filename).read_bytes()).hexdigest()
     assert actual == expected, f'Source data differs from baseline: {filename}'
-path = ROOT / 'notebooks/01_data_understanding.ipynb'
+path = ROOT / args.notebook
 notebook = nbformat.read(path, as_version=4)
 if not args.check:
     from jupyter_client import KernelManager
@@ -31,7 +33,7 @@ if not args.check:
     manager = KernelManager(kernel_name='python3')
     manager.kernel_spec.argv = [sys.executable, '-m', 'ipykernel_launcher', '-f', '{connection_file}']
     try:
-        NotebookClient(notebook, km=manager, timeout=120,
+        NotebookClient(notebook, km=manager, timeout=600,
                        resources={'metadata': {'path': str(ROOT)}}).execute()
     finally:
         manager.shutdown_kernel(now=True)

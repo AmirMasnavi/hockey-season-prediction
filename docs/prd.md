@@ -35,11 +35,13 @@ No instructor is available to clarify the assignment; these team decisions repla
 - **Tools:** Python, plus SQLite or DuckDB for data preparation queries.
 
 ## Current scope
-Phase 1 (EDA, notebooks/01_data_understanding.ipynb) is complete. Next: data preparation (quality, outliers, feature engineering, era selection), then modeling with chronological validation, baselines, several algorithms, tuning, significance tests and feature importance.
+Phase 1 (EDA, notebooks/01_data_understanding.ipynb) and phase 2 (data preparation, notebooks/02_data_preparation.ipynb) are complete. Training era: target seasons 1967–2003; validation 2005–2008; test 2009. Next: modeling with expanding-window validation, baselines, several algorithms, fold-internal imputation/resampling/feature selection, tuning, significance tests and feature importance.
 
 ## Deliverables / acceptance
 - docs/prd.md, docs/agent.md, docs/memory.md, docs/data.md and a root AGENTS.md entry point.
 - Executed notebooks/01_data_understanding.ipynb with real data previews, coverage, quality audit, target exploration, plots, and a leakage-safe lag example.
+- Executed notebooks/02_data_preparation.ipynb with six-dimension quality checks, integration, feature engineering, outliers, imputation experiment, redundancy removal and era selection.
+- data/processed/modeling_table.csv and preparation reports under reports/prep/ (quality checks, match rates, imputation experiment, sample growth, feature dictionary).
 - Reproducible environment requirements and small EDA audit exports under reports/eda/.
 - Raw data unchanged; no notebook execution errors; every code cell has markdown before and after; findings grounded in output.
 
@@ -50,4 +52,4 @@ Ranking: MAE for points per game, within-season Spearman correlation and mean ab
 The user supplied a Titanic supervised-learning Colab lab. Apply its data inspection, class imbalance, cutoff-based feature selection and training-only preprocessing principles. For hockey, adapt validation to future seasons with chronological splits. 2009 was inspected descriptively during EDA; it remains the final test because no model is fitted or tuned on it.
 
 ## Open questions
-Task (c). Fallback policy for new teams and seasons without a prior year.
+Task (c). New entrants are kept with missing lags and a has_prev indicator; no new franchise appears in validation or test.

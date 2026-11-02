@@ -10,11 +10,14 @@ Start with [the executed introductory notebook](notebooks/01_data_understanding.
 - `docs/data.md`: table inventory, relationships, field meanings, quality findings and cutoff rules.
 - `hockey_development_data/`: original 22 CSVs; preserve unchanged.
 - `notebooks/01_data_understanding.ipynb`: intent → code → findings for every analysis step.
+- `notebooks/02_data_preparation.ipynb`: data quality, integration (DuckDB SQL), feature engineering, outliers, imputation, redundancy and training-era choice.
+- `data/processed/modeling_table.csv`: leakage-safe modeling table with train/validation/test split.
+- `reports/prep/`: preparation reports and feature dictionary.
 - `reports/eda/`: reproducible profiles, join checks, provisional coach labels and learning preview.
 
 ## Run locally
 
-The notebook was verified with Python 3.14. Create a virtual environment, install `requirements.txt`, and select its Python interpreter as the notebook kernel in your notebook editor. The current workspace already has `.venv` prepared.
+Notebook 01 was verified with Python 3.14 (macOS); both notebooks were verified with Python 3.11 (Linux). Create a virtual environment, install `requirements.txt`, and select its Python interpreter as the notebook kernel in your notebook editor. The current workspace already has `.venv` prepared.
 
 ```bash
 python3 -m venv .venv
@@ -24,11 +27,12 @@ python3 -m venv .venv
 Run all cells from the project root or `notebooks/`. Outputs are saved in `reports/eda/`. To execute and verify the notebook using the current Python environment:
 
 ```bash
-.venv/bin/python scripts/run_eda.py
-.venv/bin/python scripts/run_eda.py --check
+.venv/bin/python scripts/run_eda.py                                       # notebook 01
+.venv/bin/python scripts/run_eda.py notebooks/02_data_preparation.ipynb   # notebook 02
+.venv/bin/python scripts/run_eda.py notebooks/02_data_preparation.ipynb --check
 ```
 
-The first command executes every cell and checks structure, errors and source checksums. The second checks saved notebook outputs without rerunning them. Local notebook execution requires permission to open localhost kernel ports. Other Python versions may need compatible dependency versions; the pinned requirements capture the tested environment.
+The first command executes every cell and checks structure, errors and source checksums. The second checks saved notebook outputs without rerunning them. Local notebook execution requires permission to open localhost kernel ports. `requirements.txt` lists top-level packages with minimum versions.
 
 ## Run on Colab
 

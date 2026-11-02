@@ -54,4 +54,11 @@ Starting milestone committed as 0b2e6a3. GitHub authentication works with networ
 - User has no instructor to ask, so they accepted the proposed decisions; recorded in prd.md (business goals, data mining goals, adopted decisions). NHL only; 2009 final test; points per game sorted league-wide (division secondary); coach change = in-season (>1 stint); Python plus SQLite/DuckDB. Task (c) still TBA.
 - User shared the course grading rubric (CRISP-DM BU/DU/DP/modeling, project management, tools, presentation). Use it to guide remaining work: richer multivariate EDA, 6 data-quality dimensions, outliers, fold-internal imputation/resampling/feature selection, 4+ algorithms with systematic tuning, baselines, significance tests, overfitting analysis, feature importance, and a project-management tool.
 - User dislikes redundant documentation; only add docs that carry new information.
-- Next step: data preparation notebook.
+- Data preparation notebook completed (see below).
+
+## Data preparation milestone (2026-11-02)
+- notebooks/02_data_preparation.ipynb executed and verified (10 code cells, 5 figures). Exports: data/processed/modeling_table.csv (938 × 45) and reports/prep/*.csv. scripts/run_eda.py now takes a notebook path.
+- Key results: six quality dimensions; shootout goals explain all GF/GA mismatches; Phoenix 2009 coach corrected in derived copy; 100% entity match rates; within-season z-scaling; outliers kept, continuous z capped at ±3, 1994 short-season flag; iterative imputation best (RF 0.761, Bayesian ridge 0.788 vs mean 0.969) and goes inside modeling folds; 3 redundant features dropped (26 kept); training era from 1967.
+- Validation 2005–2008: persistence Spearman 0.514; Ridge with all 26 features 0.485 (feature selection needed). Coach PR-AUC about 0.20 vs prevalence 0.175 (hard task).
+- Environment: this machine has Python 3.11; .venv recreated; requirements.txt changed from macOS/3.14 pins to top-level minimum versions (adds scikit-learn, scipy, duckdb).
+- Next step: modeling notebook (03): baselines, 4+ algorithms, systematic tuning, fold-internal imputation, class weights/SMOTE and filter+wrapper feature selection, significance tests, overfitting analysis, feature importance. Keep 2009 untouched until final evaluation.
