@@ -1,6 +1,6 @@
 # Project memory
 
-Last updated: 2026-10-06 (Europe/Lisbon)
+Last updated: 2026-11-02 (Europe/Lisbon)
 
 ## User preferences
 Concise communication; all analysis in Python; start with casual EDA; code sandwiched between intent and findings markdown; maintain project docs/memory; make frequent milestone commits.
@@ -48,3 +48,10 @@ Starting milestone committed as 0b2e6a3. GitHub authentication works with networ
 - Added scripts/run_eda.py: execute with the active Python interpreter or use --check for saved-output verification. Verified 12 executed code cells, five figures, intent/findings sandwiches, complete final conclusion and 22 source checksums. Eight CSV reports plus source checksum JSON. Colab remains unverified.
 - Created new private repository: https://github.com/AmirMasnavi/hockey-season-prediction. Reviewed implementation committed as 9ad882d and successfully pushed to origin/main. GitHub confirmed isPrivate=true and default branch main. This publication-status note is committed afterward; use git log for the latest documentation commit. Working tree was clean after the implementation push.
 - Next substantive work: confirm targets/test membership; choose training era and gap/entrant policy; build chronological baseline evaluation before model comparison. Reviewer found no remaining blockers to publication.
+
+
+## Adopted decisions (2026-11-02)
+- User has no instructor to ask, so they accepted the proposed decisions; recorded in prd.md (business goals, data mining goals, adopted decisions). NHL only; 2009 final test; points per game sorted league-wide (division secondary); coach change = in-season (>1 stint); Python plus SQLite/DuckDB. Task (c) still TBA.
+- User shared the course grading rubric (CRISP-DM BU/DU/DP/modeling, project management, tools, presentation). Use it to guide remaining work: richer multivariate EDA, 6 data-quality dimensions, outliers, fold-internal imputation/resampling/feature selection, 4+ algorithms with systematic tuning, baselines, significance tests, overfitting analysis, feature importance, and a project-management tool.
+- User dislikes redundant documentation; only add docs that carry new information.
+- Next step: data preparation notebook.

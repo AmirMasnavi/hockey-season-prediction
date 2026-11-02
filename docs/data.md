@@ -76,9 +76,9 @@ Grains below describe intended observation units; only the main keys tested in t
 
 ## Target and feature contract
 
-For regression, exploratory targets are target_points, target_points_per_game and target_points_rank_tied. target_stored_rank is included for inspection only until ranking scope is confirmed. Rank 1 means best. Points ties use minimum rank (e.g. 1, 2, 2, 4); no official tie-breaks are claimed.
+For regression, exploratory targets are target_points, target_points_per_game and target_points_rank_tied. Adopted target: points per game, sorted within season into league-wide rank (primary) and division rank (secondary). target_stored_rank is division-scoped in 2009 and kept for comparison. Rank 1 means best. Points ties use minimum rank (e.g. 1, 2, 2, 4); no official tie-breaks are claimed.
 
-For classification, inseason_change_proxy = 1 when the team has more than one distinct coach stint in year t. Shared coaches within one stint do not create an additional change. Missing coverage/stints must remain unknown. offseason_change_proxy compares first coach set in t against final coach set in t−1 and is unknown without exact prior-year coverage. Assignment semantics are still unclarified, as confirmed by the user.
+For classification, inseason_change_proxy = 1 when the team has more than one distinct coach stint in year t. Shared coaches within one stint do not create an additional change. Missing coverage/stints must remain unknown. offseason_change_proxy compares first coach set in t against final coach set in t−1 and is unknown without exact prior-year coverage. Adopted target: inseason_change_proxy. offseason_change_proxy is retained for analysis only, since an offseason hire is known before the prediction day.
 
 The learning preview is descriptive, not ready-made X: whitelist prev_* feature columns only. Current-season team name/ID/franchise identify the row; year is a temporal index; current outcomes and all labels must be excluded from predictive inputs. Season-t rosters, games, splits, scoring, awards and postseason tables are unavailable at the cutoff. Prior-season outcomes may be used when finalized before that cutoff. Career end, death, future awards/HOF and final roster usage cannot be used retrospectively as if known preseason.
 

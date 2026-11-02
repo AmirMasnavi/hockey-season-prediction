@@ -36,7 +36,7 @@ Open the `.ipynb` in Colab and place `hockey_development_data/` directly in `/co
 
 ## Current decisions
 
-Initial detailed EDA uses NHL, with all leagues inventoried. The assignment has not clarified the coach-change definition; both in-season and offseason candidates are retained. Final test season and ranking scope are still unconfirmed. The 2009 example is historical and already inspected, so it is not an untouched final evaluation set. All predictions must use information available the day before the target season begins.
+No instructor is available to clarify the assignment, so the team adopted these decisions (details in `docs/prd.md`): NHL only; 2009 is the final test season, with earlier seasons used for chronological validation; ranking is predicted points per game sorted league-wide (division rank secondary); a coach change means more than one coach during the season. All predictions must use information available the day before the target season begins.
 
 
 ## Independent review
