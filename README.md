@@ -1,6 +1,6 @@
 # Hockey prediction project
 
-Start with [the executed introductory notebook](notebooks/01_data_understanding.ipynb). It inspects the supplied tables, explores ranking and coach-change targets, documents cleaning decisions, and builds an exact prior-year feature example. It contains saved tables and plots; no models have been trained yet.
+Start with [notebook 01](notebooks/01_data_understanding.ipynb): business understanding and data understanding, including regression to the mean, hypothesis tests on coach changes, and team styles (PCA and k-means). [Notebook 02](notebooks/02_data_preparation.ipynb) prepares the modeling table. No models have been trained yet.
 
 ## Project map
 
@@ -12,18 +12,18 @@ Start with [the executed introductory notebook](notebooks/01_data_understanding.
 - `notebooks/01_data_understanding.ipynb`: intent → code → findings for every analysis step.
 - `notebooks/02_data_preparation.ipynb`: data quality, integration (DuckDB SQL), feature engineering, outliers, imputation, redundancy and training-era choice.
 - `data/processed/modeling_table.csv`: modeling table with train/validation/test split.
-- `reports/eda/`: reproducible profiles, join checks, provisional coach labels and learning preview.
+- `reports/eda/source_sha256.json`: checksums used to confirm the raw CSVs are unchanged.
 
 ## Run locally
 
-Notebook 01 was verified with Python 3.14 (macOS); both notebooks were verified with Python 3.11 (Linux). Create a virtual environment, install `requirements.txt`, and select its Python interpreter as the notebook kernel in your notebook editor. The current workspace already has `.venv` prepared.
+Both notebooks were verified with Python 3.11 (Linux). Create a virtual environment, install `requirements.txt`, and select its Python interpreter as the notebook kernel in your notebook editor. The current workspace already has `.venv` prepared.
 
 ```bash
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 ```
 
-Run all cells from the project root or `notebooks/`. Outputs are saved in `reports/eda/`. To execute and verify the notebook using the current Python environment:
+Run all cells from the project root or `notebooks/`. To execute and verify the notebook using the current Python environment:
 
 ```bash
 .venv/bin/python scripts/run_eda.py                                       # notebook 01

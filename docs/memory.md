@@ -66,3 +66,8 @@ Starting milestone committed as 0b2e6a3. GitHub authentication works with networ
 ## Notebook 02 rewrite (2026-11-02)
 - User rewrote notebook 02 in a simpler, plainer style; AI use is allowed in the course. Keep code short, comments minimal and markdown plain, with numbers in every findings cell.
 - Current version: 12 quality checks across six dimensions, match rates, five coach features, tenure × standing heatmap, outliers (z, IQR, Isolation Forest), imputation test (iterative 0.813 SD error vs mean 1.026), 22 features after dropping gd and pythag, growing-window test (all seasons since 1967: Spearman 0.506 vs persistence 0.514; coach PR-AUC 0.259 vs 0.175). reports/prep removed; the notebook only writes data/processed/modeling_table.csv.
+
+## Notebook 01 rewrite (2026-11-03)
+- Rewritten in the plain notebook-02 style, 11 code cells, 7 figures, no report exports (stale reports/eda CSVs removed; source_sha256.json kept). Added business understanding (stakeholders, hockey context, goals, DM-goal table) and three DU analyses; rank example uses 2008, not the 2009 test season.
+- Findings (1967/1968-2008): regression-to-mean slope 0.62; last season's luck vs points change r = -0.27 (luckiest quarter -0.24 SD, unluckiest +0.26). Coach changes follow last season's points (Mann-Whitney p = 0.0005; chi-square p = 0.003, bottom third 27.6% vs top 16.4%) but not luck (p = 0.62). PCA PC1 39% defence/goaltending, PC2 20% offence; k-means silhouette low (0.22 at k=2), k=4 used for readability: dominant, defensive, open, weak; open and weak teams change coach more next season (21.4%, 23.9%).
+- Implication for modeling: luck should help beat persistence; style features may help coach-change prediction.

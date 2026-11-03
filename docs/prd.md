@@ -39,10 +39,10 @@ Phase 1 (EDA, notebooks/01_data_understanding.ipynb) and phase 2 (data preparati
 
 ## Deliverables / acceptance
 - docs/prd.md, docs/agent.md, docs/memory.md, docs/data.md and a root AGENTS.md entry point.
-- Executed notebooks/01_data_understanding.ipynb with real data previews, coverage, quality audit, target exploration, plots, and a leakage-safe lag example.
+- Executed notebooks/01_data_understanding.ipynb with business understanding, data overview, era structure, target exploration, regression to the mean, hypothesis tests on coach changes, and PCA/k-means team styles.
 - Executed notebooks/02_data_preparation.ipynb with six-dimension quality checks, integration, feature engineering, outliers, imputation experiment, redundancy removal and era selection.
 - data/processed/modeling_table.csv (938 rows, 22 features, targets and split).
-- Reproducible environment requirements and small EDA audit exports under reports/eda/.
+- Reproducible environment requirements; reports/eda/source_sha256.json for raw-data verification.
 - Raw data unchanged; no notebook execution errors; every code cell has markdown before and after; findings grounded in output.
 
 ## Evaluation plan for later
