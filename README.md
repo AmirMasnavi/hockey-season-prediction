@@ -1,6 +1,6 @@
 # Hockey prediction project
 
-Start with [notebook 1](notebooks/1_eda.ipynb): business understanding, data understanding and data preparation for all three tasks: (a) team ranking, (b) in-season coach changes, (c) penalty minutes per player. It exports the two modeling tables. Modeling notebooks (2_regression, 3_classification, 4_feature_selection) come next.
+Start with [notebook 1](notebooks/1_eda.ipynb): business understanding, data understanding and data preparation for all three tasks: (a) team ranking, (b) in-season coach changes, (c) penalty minutes per player. It exports the two modeling tables. [Notebook 2](notebooks/2_regression.ipynb) models the two regression tasks: Part A ranks the teams (task a), Part B predicts each player's penalty minutes (task c). Notebooks 3_classification (task b) and 4_feature_selection come next.
 
 ## Project map
 
@@ -10,8 +10,10 @@ Start with [notebook 1](notebooks/1_eda.ipynb): business understanding, data und
 - `docs/data.md`: table inventory, relationships, field meanings, quality findings and cutoff rules.
 - `hockey_development_data/`: original 22 CSVs; preserve unchanged.
 - `notebooks/1_eda.ipynb`: intent → code → findings for every analysis step; DuckDB SQL for integration and quality checks.
+- `notebooks/2_regression.ipynb`: baselines, algorithm comparison, tuning, significance tests, feature importance, white-box models and the 2009 test for tasks (a) and (c).
 - `data/processed/modeling_table.csv`: modeling table with train/validation/test split.
 - `data/processed/player_pim_table.csv`: player-season table for task (c), penalty minutes per player.
+- `data/processed/predictions_2009_ranking.csv`, `data/processed/predictions_2009_pim.csv`: final 2009 predictions of notebook 2.
 - `reports/eda/source_sha256.json`: checksums used to confirm the raw CSVs are unchanged.
 
 ## Run locally
@@ -25,9 +27,12 @@ python -m pip install -r requirements.txt
 Run all cells from the project root or `notebooks/`. To execute and verify the notebook with the current Python:
 
 ```bash
-python scripts/run_eda.py            # executes notebooks/1_eda.ipynb and checks it
-python scripts/run_eda.py --check    # checks the saved outputs without rerunning
+python scripts/run_eda.py                                   # executes notebooks/1_eda.ipynb and checks it
+python scripts/run_eda.py notebooks/2_regression.ipynb      # same for notebook 2
+python scripts/run_eda.py notebooks/2_regression.ipynb --check   # checks the saved outputs without rerunning
 ```
+
+Notebook 1 runs in under a minute. Notebook 2 computes for about 6 minutes on a fast 8-core desktop (grid searches run in parallel on all cores); expect two to three times longer on a laptop. Run notebook 1 first, since notebook 2 reads its exported tables.
 
 The checker verifies that every code cell ran without errors and sits between markdown cells, that the notebook ends with the conclusion, and that the raw CSVs match their checksums (line endings are normalised, so Windows checkouts pass). Local notebook execution requires permission to open localhost kernel ports. `requirements.txt` lists top-level packages with minimum versions.
 
