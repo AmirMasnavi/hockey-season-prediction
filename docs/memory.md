@@ -69,9 +69,12 @@ Starting milestone committed as 0b2e6a3. GitHub authentication works with networ
 
 ## Task (c) added to notebooks/1_eda.ipynb (2026-11-21)
 - Teachers announced task (c): PIM per player in the regular season. Team decisions recorded in prd.md (player-season grain, stints summed, all players with GP > 0, total PIM target). User should confirm them.
-- Added 1.2/1.3 rows (G4), 2.15 distribution, 2.16 persistence, 3.12 player table export (data/processed/player_pim_table.csv, 29,689 x 33, 22 features), 3.13 rolling-origin baselines, conclusion rows 13-15. Also added a missing findings cell between the two 3.1 code cells.
+- Added 1.2/1.3 rows (G4), 2.13 distribution, 2.14 persistence, 3.12 player table export (data/processed/player_pim_table.csv, 29,689 x 25, 15 features), 3.13 rolling-origin baselines, conclusion rows 13-15. Also added a missing findings cell between the two 3.1 code cells.
 - scripts/run_eda.py now defaults to notebooks/1_eda.ipynb and hashes CSVs with CRLF normalised (Windows autocrlf checkouts failed the checksum). Verified: 36 code cells, 31 figures, sandwiches, 22 unchanged sources. Python 3.12 global env on this Windows machine (no .venv).
-- Next: model task (c) in 2_regression (Poisson/Tweedie losses, trees), beat MAE 19.26.
+- Trim pass (same day): removed the 2.10 pair plot, merged 3.5 boxplots, dropped the repeated Kruskal-Wallis in 3.4; renumbered section 2 (task c = 2.13-2.14, knowledge = 2.15). Task (c) code simplified to step-wise SQL and 15 features (boosted Poisson MAE 19.08 vs persistence 20.97, 13/13 seasons). Table renamed everywhere to modeling_table.csv.
+- Added 3.10.1: none / class weights / random oversampling / SMOTE inside imblearn pipelines, rolling origin. No treatment best (pooled PR-AUC 0.272, top-quarter recall 42.5%); resampling doubles predicted probabilities. Covers the rubric's SMOTE-correctly row.
+- User goal: "beyond expectations" on the EDA rubric; prefers trimming repetition over cutting evidence. Remaining rubric gap: feature selection (filter + wrapper inside folds) lives in notebook 4.
+- Next: model task (c) in 2_regression (Poisson/Tweedie losses, trees), beat MAE 19.08.
 
 ## Notebook 01 rewrite (2026-11-03)
 - Rewritten in the plain notebook-02 style, 11 code cells, 7 figures, no report exports (stale reports/eda CSVs removed; source_sha256.json kept). Added business understanding (stakeholders, hockey context, goals, DM-goal table) and three DU analyses; rank example uses 2008, not the 2009 test season.
