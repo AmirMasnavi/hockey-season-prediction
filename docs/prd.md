@@ -1,7 +1,7 @@
 # Hockey prediction project
 
 ## Objective
-Use the supplied historical hockey database to predict, for a designated new season, (a) final regular-season team ranking and (b) the set of teams that change coaches. Task (c) is TBA.
+Use the supplied historical hockey database to predict, for a designated new season, (a) final regular-season team ranking and (b) the set of teams that change coaches and (c) how many penalty minutes (PIM) each player will accumulate during the regular season.
 
 All predictions are made the day before the first game of that season. The dataset's year denotes the starting year (2005 means 2005–06).
 
@@ -23,6 +23,7 @@ All predictions are made the day before the first game of that season. The datas
 |---|---|---|
 | 1. Standing | Regression of each team's points per game, then sort within the season into a ranking | Spearman correlation and mean absolute rank error per season, vs last-season-order baseline |
 | 2. Coach change | Binary classification: will the team have more than one coach stint this season | PR-AUC, precision, recall and F1, vs majority/prevalence baselines |
+| 3. Player PIM | Count regression per player-season: total regular-season PIM | MAE (primary), RMSE, Spearman, vs persistence (last season's PIM) |
 
 ## Adopted decisions (2026-11-02)
 No instructor is available to clarify the assignment; these team decisions replace the former open questions.
@@ -31,7 +32,7 @@ No instructor is available to clarify the assignment; these team decisions repla
 - **Ranking:** predict points per game and sort teams within the season. League-wide rank is the primary output; division rank (matching stored Teams.rank in 2009) is secondary. Ties use minimum rank; official tie-breakers are not implemented.
 - **Coach change:** more than one distinct coach stint in the target season (in-season replacement). An offseason hire is already known the day before the season, so it is not a prediction target. Co-coaches sharing a stint do not count as a change.
 - **Joins:** prior-season features join on (league, franchise) with exact year t−1; teams without that season keep missing lags rather than borrowing older seasons.
-- **Task (c):** ignored until announced.
+- **Task (c) (adopted 2026-11-21):** one row per player and NHL season, stints on several teams summed; every player with at least one regular-season game in season t, goalies included; target = total regular-season PIM. Features: previous NHL season of the player, career before t, biography, opening team (first stint in t) and its prior-season PIM level. Games played in t is never a feature. The player list of season t stands in for opening-day rosters. Same splits/folds as the team tasks. Table: data/processed/player_pim_table.csv.
 - **Tools:** Python, plus SQLite or DuckDB for data preparation queries.
 
 ## Current scope
@@ -52,4 +53,4 @@ Ranking: MAE for points per game, within-season Spearman correlation and mean ab
 The user supplied a Titanic supervised-learning Colab lab. Apply its data inspection, class imbalance, cutoff-based feature selection and training-only preprocessing principles. For hockey, adapt validation to future seasons with chronological splits. 2009 was inspected descriptively during EDA; it remains the final test because no model is fitted or tuned on it.
 
 ## Open questions
-Task (c). New entrants are kept with missing lags and a has_prev indicator; no new franchise appears in validation or test.
+New entrants are kept with missing lags and a has_prev indicator; no new franchise appears in validation or test.

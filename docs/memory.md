@@ -67,6 +67,12 @@ Starting milestone committed as 0b2e6a3. GitHub authentication works with networ
 - User rewrote notebook 02 in a simpler, plainer style; AI use is allowed in the course. Keep code short, comments minimal and markdown plain, with numbers in every findings cell.
 - Current version: 12 quality checks across six dimensions, match rates, five coach features, tenure × standing heatmap, outliers (z, IQR, Isolation Forest), imputation test (iterative 0.813 SD error vs mean 1.026), 22 features after dropping gd and pythag, growing-window test (all seasons since 1967: Spearman 0.506 vs persistence 0.514; coach PR-AUC 0.259 vs 0.175). reports/prep removed; the notebook only writes data/processed/modeling_table.csv.
 
+## Task (c) added to notebooks/1_eda.ipynb (2026-11-21)
+- Teachers announced task (c): PIM per player in the regular season. Team decisions recorded in prd.md (player-season grain, stints summed, all players with GP > 0, total PIM target). User should confirm them.
+- Added 1.2/1.3 rows (G4), 2.15 distribution, 2.16 persistence, 3.12 player table export (data/processed/player_pim_table.csv, 29,689 x 33, 22 features), 3.13 rolling-origin baselines, conclusion rows 13-15. Also added a missing findings cell between the two 3.1 code cells.
+- scripts/run_eda.py now defaults to notebooks/1_eda.ipynb and hashes CSVs with CRLF normalised (Windows autocrlf checkouts failed the checksum). Verified: 36 code cells, 31 figures, sandwiches, 22 unchanged sources. Python 3.12 global env on this Windows machine (no .venv).
+- Next: model task (c) in 2_regression (Poisson/Tweedie losses, trees), beat MAE 19.26.
+
 ## Notebook 01 rewrite (2026-11-03)
 - Rewritten in the plain notebook-02 style, 11 code cells, 7 figures, no report exports (stale reports/eda CSVs removed; source_sha256.json kept). Added business understanding (stakeholders, hockey context, goals, DM-goal table) and three DU analyses; rank example uses 2008, not the 2009 test season.
 - Findings (1967/1968-2008): regression-to-mean slope 0.62; last season's luck vs points change r = -0.27 (luckiest quarter -0.24 SD, unluckiest +0.26). Coach changes follow last season's points (Mann-Whitney p = 0.0005; chi-square p = 0.003, bottom third 27.6% vs top 16.4%) but not luck (p = 0.62). PCA PC1 39% defence/goaltending, PC2 20% offence; k-means silhouette low (0.22 at k=2), k=4 used for readability: dominant, defensive, open, weak; open and weak teams change coach more next season (21.4%, 23.9%).

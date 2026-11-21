@@ -10,4 +10,4 @@
 - Use chronological validation, not shuffled team rows. Keep all teams from a season together. Fit cleaning/imputation only on training data once modeling starts.
 - Update memory.md after meaningful milestones, with decisions, unresolved questions, verification, and the next step. Update data.md when new data facts are established.
 - Make small commits at completed milestones, as requested by the user. Stage intended project files only; do not commit environments, caches, or secrets. Do not push unless requested.
-- Task (c) is TBA: do not invent it. Targets, league and test season follow the adopted decisions in prd.md; describe them as team decisions, not official definitions.
+- Task (c) (player PIM) was announced by the teachers; its unit, population and target are team decisions in prd.md. Targets, league and test season follow the adopted decisions in prd.md; describe them as team decisions, not official definitions.

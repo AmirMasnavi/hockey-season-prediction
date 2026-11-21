@@ -8,7 +8,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument('notebook', nargs='?', default='notebooks/01_data_understanding.ipynb',
+parser.add_argument('notebook', nargs='?', default='notebooks/1_eda.ipynb',
                     help='Notebook path relative to the project root (default: the introductory EDA)')
 parser.add_argument('--check', action='store_true', help='Verify saved outputs without execution')
 args = parser.parse_args()
@@ -20,9 +20,15 @@ os.environ.setdefault('JUPYTER_RUNTIME_DIR', str(ROOT / '.jupyter' / 'runtime'))
 
 import nbformat
 
+def digest(name):
+    # CRLF -> LF, so a Windows checkout (git autocrlf) hashes like the committed files
+    data = (ROOT / 'hockey_development_data' / name).read_bytes()
+    return hashlib.sha256(data.replace(b'\r\n', b'\n')).hexdigest()
+
+
 manifest = json.loads((ROOT / 'reports/eda/source_sha256.json').read_text())
 for filename, expected in manifest.items():
-    actual = hashlib.sha256((ROOT / 'hockey_development_data' / filename).read_bytes()).hexdigest()
+    actual = digest(filename)
     assert actual == expected, f'Source data differs from baseline: {filename}'
 path = ROOT / args.notebook
 notebook = nbformat.read(path, as_version=4)
@@ -53,7 +59,6 @@ for index, cell in enumerate(notebook.cells):
     assert not any(output.output_type == 'error' for output in cell.outputs), f'Cell error: {index}'
     figure_count += sum('image/png' in output.get('data', {}) for output in cell.outputs)
 assert 'conclusion' in notebook.cells[-1].source.splitlines()[0].lower()
-assert all(hashlib.sha256((ROOT / 'hockey_development_data' / name).read_bytes()).hexdigest() == expected
-           for name, expected in manifest.items())
+assert all(digest(name) == expected for name, expected in manifest.items())
 print(f'Verified {code_count} executed code cells, {figure_count} figures, markdown sandwiches, '
       f'final conclusion, and {len(manifest)} unchanged source files.')

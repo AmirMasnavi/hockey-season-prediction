@@ -82,6 +82,12 @@ For classification, inseason_change_proxy = 1 when the team has more than one di
 
 The learning preview is descriptive, not ready-made X: whitelist prev_* feature columns only. Current-season team name/ID/franchise identify the row; year is a temporal index; current outcomes and all labels must be excluded from predictive inputs. Season-t rosters, games, splits, scoring, awards and postseason tables are unavailable at the cutoff. Prior-season outcomes may be used when finalized before that cutoff. Career end, death, future awards/HOF and final roster usage cannot be used retrospectively as if known preseason.
 
+## Task (c) player PIM findings (2026-11-21)
+- Population: Scoring NHL rows with GP > 0, summed to (playerID, year). 136 rows (1967-2008) have blank GP and PIM: playoff-only appearances, excluded. 9.4% of player-seasons span 2+ teams. Position from Master.pos (complete; G = goalie, D* = defence, else forward).
+- PIM is an overdispersed count: variance/mean 48-60 for skaters, 16 for goalies; 40% of goalie seasons have 0 PIM. League skater PIM per game 0.65 (1967), peak 1.44 (1987), 0.75 (2008).
+- PIM per game is stable year to year (slope 0.815, rho 0.81, skaters with 20+ GP both seasons); games played is not (rho 0.55). 21.4% of player-seasons have no previous NHL season (rookies 4,869; returning after a gap 1,292).
+- Validation 1995-2008 rolling origin: persistence MAE 20.97, untuned HistGradientBoosting (Poisson loss) 19.26, lower in 12/13 seasons.
+
 ## Field reminders
 
 Identifiers: playerID / coachID / hofID identify people in different roles; tmID is a seasonal team code; franchID links franchise history; lgID/confID/divID describe competition membership. stint orders appearances within a season. GP and team G count games; player G counts goals; A assists; Pts points; GF/GA goals for/against; SA shots against; SOG shots on goal; PIM penalty minutes; SHO shutouts; Min minutes; PPG/PPA power-play goals/assists; SHG/SHA short-handed goals/assists in scoring. In Teams, SHA refers to short-handed goals against under the assignment glossary. PPC/PKC and PKG require explicit confirmation before deriving special-teams rates. Coaches.t should not automatically be interpreted identically to Teams.T across eras. Goalies T/OL combines categories. Master height/weight units are not supplied explicitly: values suggest inches/pounds, but this remains an inference.

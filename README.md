@@ -12,6 +12,7 @@ Start with [notebook 01](notebooks/01_data_understanding.ipynb): business unders
 - `notebooks/01_data_understanding.ipynb`: intent → code → findings for every analysis step.
 - `notebooks/02_data_preparation.ipynb`: data quality, integration (DuckDB SQL), feature engineering, outliers, imputation, redundancy and training-era choice.
 - `data/processed/modeling_table.csv`: modeling table with train/validation/test split.
+- `data/processed/player_pim_table.csv`: player-season table for task (c), penalty minutes per player.
 - `reports/eda/source_sha256.json`: checksums used to confirm the raw CSVs are unchanged.
 
 ## Run locally
