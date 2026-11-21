@@ -74,7 +74,8 @@ Starting milestone committed as 0b2e6a3. GitHub authentication works with networ
 - Trim pass (same day): removed the 2.10 pair plot, merged 3.5 boxplots, dropped the repeated Kruskal-Wallis in 3.4; renumbered section 2 (task c = 2.13-2.14, knowledge = 2.15). Task (c) code simplified to step-wise SQL and 15 features (boosted Poisson MAE 19.08 vs persistence 20.97, 13/13 seasons). Table renamed everywhere to modeling_table.csv.
 - Added 3.10.1: none / class weights / random oversampling / SMOTE inside imblearn pipelines, rolling origin. No treatment best (pooled PR-AUC 0.272, top-quarter recall 42.5%); resampling doubles predicted probabilities. Covers the rubric's SMOTE-correctly row.
 - User goal: "beyond expectations" on the EDA rubric; prefers trimming repetition over cutting evidence. Remaining rubric gap: feature selection (filter + wrapper inside folds) lives in notebook 4.
-- Next: model task (c) in 2_regression (Poisson/Tweedie losses, trees), beat MAE 19.08.
+- Full audit (same day): every findings cell checked against executed output; all numbers matched. Fixed: 2.6/2.15 wrongly called persistence a weak ranking baseline (uniform shrinkage does not change the order); 6 unlabeled lowercase paragraphs now "**Interpretation:**"; 3.10 plan aligned with 3.10.1. Task (c) persistence now scaled to schedule (48-game 1994 season): MAE 20.81. prd.md and README.md updated to 1_eda.ipynb and the 1995-2008 folds.
+- Next: model task (c) in 2_regression (Poisson/Tweedie losses, trees), beat MAE 19.08 (persistence 20.81).
 
 ## Notebook 01 rewrite (2026-11-03)
 - Rewritten in the plain notebook-02 style, 11 code cells, 7 figures, no report exports (stale reports/eda CSVs removed; source_sha256.json kept). Added business understanding (stakeholders, hockey context, goals, DM-goal table) and three DU analyses; rank example uses 2008, not the 2009 test season.

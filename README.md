@@ -1,6 +1,6 @@
 # Hockey prediction project
 
-Start with [notebook 01](notebooks/01_data_understanding.ipynb): business understanding and data understanding, including regression to the mean, hypothesis tests on coach changes, and team styles (PCA and k-means). [Notebook 02](notebooks/02_data_preparation.ipynb) prepares the modeling table. No models have been trained yet.
+Start with [notebook 1](notebooks/1_eda.ipynb): business understanding, data understanding and data preparation for all three tasks: (a) team ranking, (b) in-season coach changes, (c) penalty minutes per player. It exports the two modeling tables. Modeling notebooks (2_regression, 3_classification, 4_feature_selection) come next.
 
 ## Project map
 
@@ -9,42 +9,39 @@ Start with [notebook 01](notebooks/01_data_understanding.ipynb): business unders
 - `docs/memory.md`: current status, decisions and next steps.
 - `docs/data.md`: table inventory, relationships, field meanings, quality findings and cutoff rules.
 - `hockey_development_data/`: original 22 CSVs; preserve unchanged.
-- `notebooks/01_data_understanding.ipynb`: intent → code → findings for every analysis step.
-- `notebooks/02_data_preparation.ipynb`: data quality, integration (DuckDB SQL), feature engineering, outliers, imputation, redundancy and training-era choice.
+- `notebooks/1_eda.ipynb`: intent → code → findings for every analysis step; DuckDB SQL for integration and quality checks.
 - `data/processed/modeling_table.csv`: modeling table with train/validation/test split.
 - `data/processed/player_pim_table.csv`: player-season table for task (c), penalty minutes per player.
 - `reports/eda/source_sha256.json`: checksums used to confirm the raw CSVs are unchanged.
 
 ## Run locally
 
-Both notebooks were verified with Python 3.11 (Linux). Create a virtual environment, install `requirements.txt`, and select its Python interpreter as the notebook kernel in your notebook editor. The current workspace already has `.venv` prepared.
+Verified with Python 3.12 on Windows. Install `requirements.txt` (in a virtual environment if you like) and select that Python as the notebook kernel.
 
 ```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-Run all cells from the project root or `notebooks/`. To execute and verify the notebook using the current Python environment:
+Run all cells from the project root or `notebooks/`. To execute and verify the notebook with the current Python:
 
 ```bash
-.venv/bin/python scripts/run_eda.py                                       # notebook 01
-.venv/bin/python scripts/run_eda.py notebooks/02_data_preparation.ipynb   # notebook 02
-.venv/bin/python scripts/run_eda.py notebooks/02_data_preparation.ipynb --check
+python scripts/run_eda.py            # executes notebooks/1_eda.ipynb and checks it
+python scripts/run_eda.py --check    # checks the saved outputs without rerunning
 ```
 
-The first command executes every cell and checks structure, errors and source checksums. The second checks saved notebook outputs without rerunning them. Local notebook execution requires permission to open localhost kernel ports. `requirements.txt` lists top-level packages with minimum versions.
+The checker verifies that every code cell ran without errors and sits between markdown cells, that the notebook ends with the conclusion, and that the raw CSVs match their checksums (line endings are normalised, so Windows checkouts pass). Local notebook execution requires permission to open localhost kernel ports. `requirements.txt` lists top-level packages with minimum versions.
 
 ## Run on Colab
 
-Open the `.ipynb` in Colab and place `hockey_development_data/` directly in `/content/` (or change ROOT to the folder containing it). The notebook then runs with Colab's available pandas/numpy/matplotlib; local paths or a local `.venv` are not required there. Colab execution has not been verified in this project.
+Open the `.ipynb` in Colab and place `hockey_development_data/` directly in `/content/` (or change ROOT to the folder containing it). Install the two packages Colab lacks first (`!pip install duckdb imbalanced-learn`). Colab execution has not been verified in this project.
 
 ## Current decisions
 
-The team adopted these decisions (details in `docs/prd.md`): NHL only; 2009 is the final test season, with earlier seasons used for chronological validation; ranking is predicted points per game sorted league-wide (division rank secondary); a coach change means more than one coach during the season. All predictions must use information available the day before the target season begins.
+The team adopted these decisions (details in `docs/prd.md`): NHL only; 2009 is the final test season, with earlier seasons used for chronological validation; ranking is predicted points per game sorted league-wide (division rank secondary); a coach change means more than one coach during the season; task (c) predicts each player's total regular-season PIM (one row per player-season, all teams summed). All predictions must use information available the day before the target season begins.
 
 
 ## Independent review
 
-A second agent reviewed the EDA before publication. The review and accepted improvements are recorded in `docs/review.md`. The notebook finishes with a consolidated conclusion covering findings, target ambiguities, feature availability and ordered next steps. Modern-era-only modeling has only 120 matched rows over four seasons, so the next modeling decision must weigh historical comparability against sample size.
+A second agent reviewed the earlier EDA notebooks (since replaced by `1_eda.ipynb`); the review and accepted improvements are in `docs/review.md`. The current notebook was audited on 2026-11-21: every findings cell was checked against its executed output.
 
 Private project repository: [AmirMasnavi/hockey-season-prediction](https://github.com/AmirMasnavi/hockey-season-prediction).

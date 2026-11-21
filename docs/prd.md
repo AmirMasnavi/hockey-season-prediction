@@ -11,10 +11,12 @@ All predictions are made the day before the first game of that season. The datas
 **Business goals**
 1. Anticipate each team's competitive standing before the season, to set expectations, budgets and marketing.
 2. Anticipate which teams will replace their coach during the season, so staff, agents and media can plan.
+3. Anticipate how many penalty minutes each player will accumulate in the regular season (coaching staff, fantasy markets).
 
 **Success criteria**
 1. Predicted standings are clearly closer to the real final standings than repeating last season's order.
 2. Coach changes are flagged with useful precision and recall, better than predicting "no change" or picking teams at random.
+3. Player PIM predictions have a mean absolute error at least 5% below "same PIM as last season" (scaled to the schedule), in the mean and in more than half of the validation seasons.
 
 **Constraint:** only information available the day before the season's first game may be used.
 
@@ -36,18 +38,18 @@ No instructor is available to clarify the assignment; these team decisions repla
 - **Tools:** Python, plus SQLite or DuckDB for data preparation queries.
 
 ## Current scope
-Phase 1 (EDA, notebooks/01_data_understanding.ipynb) and phase 2 (data preparation, notebooks/02_data_preparation.ipynb) are complete. Training era: target seasons 1967–2003; validation 2005–2008; test 2009. Next: modeling with expanding-window validation, baselines, several algorithms, fold-internal imputation/resampling/feature selection, tuning, significance tests and feature importance.
+Business understanding, data understanding and data preparation are complete in one notebook, notebooks/1_eda.ipynb (tasks a, b and c). Target seasons from 1967. Validation: rolling origin, one season ahead, 13 folds 1995–2008, each trained on all earlier seasons (expanding window); split column: train_pool ≤ 1994, validation 1995–2008, test 2009. Planned notebooks: 2_regression (tasks a and c), 3_classification (task b), 4_feature_selection. Next: modeling with expanding-window validation, baselines, several algorithms, fold-internal imputation/resampling/feature selection, tuning, significance tests and feature importance.
 
 ## Deliverables / acceptance
 - docs/prd.md, docs/agent.md, docs/memory.md, docs/data.md and a root AGENTS.md entry point.
-- Executed notebooks/01_data_understanding.ipynb with business understanding, data overview, era structure, target exploration, regression to the mean, hypothesis tests on coach changes, and PCA/k-means team styles.
-- Executed notebooks/02_data_preparation.ipynb with six-dimension quality checks, integration, feature engineering, outliers, imputation experiment, redundancy removal and era selection.
-- data/processed/modeling_table.csv (938 rows, 22 features, targets and split).
+- Executed notebooks/1_eda.ipynb: business understanding, data understanding (statistical tests, regression to the mean, logistic regression, PCA, k-means, mutual information, player PIM analysis) and data preparation (integration, six quality dimensions, feature engineering, transformation, outliers, imputation experiment, redundancy removal, sampling, imbalance comparison with SMOTE inside folds).
+- data/processed/modeling_table.csv (938 team-seasons, 27 features: 24 plus 3 missing indicators; targets, split and fold columns).
+- data/processed/player_pim_table.csv (29,689 player-seasons, 15 features, target_pim; same split and folds).
 - Reproducible environment requirements; reports/eda/source_sha256.json for raw-data verification.
 - Raw data unchanged; no notebook execution errors; every code cell has markdown before and after; findings grounded in output.
 
 ## Evaluation plan for later
-Ranking: MAE for points per game, within-season Spearman correlation and mean absolute rank error, league-wide (primary) and by division (secondary). Coach changes: precision, recall, F1, PR-AUC and calibrated probabilities, compared with prevalence/majority baselines. Threshold choice must use validation data only.
+Ranking: MAE for points per game, within-season Spearman correlation and mean absolute rank error, league-wide (primary) and by division (secondary). Coach changes: precision, recall, F1, PR-AUC and calibrated probabilities, compared with prevalence/majority baselines. Threshold choice must use validation data only. Player PIM: MAE (primary), RMSE and Spearman per season, vs persistence (MAE 20.81 on validation) and position mean.
 
 ## Course reference
 The user supplied a Titanic supervised-learning Colab lab. Apply its data inspection, class imbalance, cutoff-based feature selection and training-only preprocessing principles. For hockey, adapt validation to future seasons with chronological splits. 2009 was inspected descriptively during EDA; it remains the final test because no model is fitted or tuned on it.
