@@ -38,7 +38,7 @@ No instructor is available to clarify the assignment; these team decisions repla
 - **Tools:** Python, plus SQLite or DuckDB for data preparation queries.
 
 ## Current scope
-Business understanding, data understanding and data preparation are complete in one notebook, notebooks/1_eda.ipynb (tasks a, b and c). Target seasons from 1967. Validation: rolling origin, one season ahead, 13 folds 1995–2008, each trained on all earlier seasons (expanding window); split column: train_pool ≤ 1994, validation 1995–2008, test 2009. Planned notebooks: 2_regression (tasks a and c), 3_classification (task b), 4_feature_selection. Next: modeling with expanding-window validation, baselines, several algorithms, fold-internal imputation/resampling/feature selection, tuning, significance tests and feature importance.
+Business understanding, data understanding and data preparation are complete in one notebook, notebooks/1_eda.ipynb (tasks a, b and c). Target seasons from 1967. Validation: rolling origin, one season ahead, 13 folds 1995–2008, each trained on all earlier seasons (expanding window); choices are made on folds 1995–2001, folds 2002–2008 only compare and test; split column: train_pool ≤ 1994, validation 1995–2008, test 2009. Planned notebooks: 2_regression (tasks a and c), 3_classification (task b), 4_feature_selection. Next: modeling with expanding-window validation, baselines, several algorithms, fold-internal imputation/resampling/feature selection, tuning, significance tests and feature importance.
 
 ## Deliverables / acceptance
 - docs/prd.md, docs/agent.md, docs/memory.md, docs/data.md and a root AGENTS.md entry point.
