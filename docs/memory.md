@@ -96,3 +96,10 @@ Starting milestone committed as 0b2e6a3. GitHub authentication works with networ
 - Added the G2 check (top-quarter share) and grid-search timing; 'career points share' terminology. Selection rule: best pooled tuning PR-AUC, per-season tie-break within 0.005 (user chose option a); with the new feature order boosting is best on pooled alone (0.299 vs tree 0.295), disclosure kept in limitations.
 - Results: boosting eval pooled PR-AUC 0.331 vs baseline 0.310 (Friedman p 0.90, bootstrap +0.021 [-0.129, 0.158]); top-quarter share 0.417 (G2 met narrowly); 2009 catches none of 3 changes. Cell compute about 2.3 min.
 - Task (c) does not belong in notebook 3 (regression, done in notebook 2). Next: notebook 4.
+
+## Notebook 4_feature_selection & Task (c) improvement (2026-11-23)
+- Created, executed and verified `notebooks/4_feature_selection.ipynb` (23 cells: 7 code cells, 3 figures, intent/findings sandwiches, conclusion) using `.venv` (Python 3.12) and `scripts/run_eda.py`.
+- Covers inside-fold **filter** (`SelectKBest` with `f_regression`/`f_classif`, `mutual_info_*`), **wrapper** (`RFE`, `SequentialFeatureSelector`), and **combined filter -> wrapper** pipelines for all three tasks (plus a leakage demonstration in Section 1).
+- Task (a): `Combined MI(18)->RFE(10) (Lasso)` beats `All 27` on `TUNE` (0.6200 vs 0.6152 Spearman) and matches closely on `EVAL` (0.5404 vs 0.5455, Wilcoxon p=0.562; `Combined f_reg(18)->RFE(10)` 0.5576).
+- Task (b): `All 27 (GB)` outperforms all reduced subsets on `TUNE` (0.2992 vs 0.2212) and `EVAL` (0.3315 vs 0.2434).
+- Task (c) + Model Improvement: Retaining all 15 features is best, and `HGB 500 (lr=0.05) + Goalie rule` (schedule-scaled persistence for returning goalies) improves MAE over Notebook 2 on `TUNE` (20.6540 vs 20.7391), `EVAL` (17.350 vs 17.389), and `2009` (15.219 vs 15.330, Goalie MAE 2.773 -> 2.271).
