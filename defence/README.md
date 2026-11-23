@@ -5,6 +5,7 @@ Preparation for the presentation and the questions afterwards. One sheet per not
 - [1_eda_defence.md](1_eda_defence.md): business understanding, data understanding, data preparation (all three tasks)
 - [2_regression_defence.md](2_regression_defence.md): task (a) team ranking and task (c) penalty minutes
 - [3_classification_defence.md](3_classification_defence.md): task (b) in-season coach changes
+- [4_feature_selection_defence.md](4_feature_selection_defence.md): filter, wrapper and combined feature selection (tasks a, b, c) plus task (c) goalie improvement
 
 Each sheet has:
 1. **The story in five lines**: what to say if you only get one minute.

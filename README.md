@@ -1,6 +1,6 @@
 # Hockey prediction project
 
-Start with [notebook 1](notebooks/1_eda.ipynb): business understanding, data understanding and data preparation for all three tasks: (a) team ranking, (b) in-season coach changes, (c) penalty minutes per player. It exports the two modeling tables. [Notebook 2](notebooks/2_regression.ipynb) models the two regression tasks: Part A ranks the teams (task a), Part B predicts each player's penalty minutes (task c). [Notebook 3](notebooks/3_classification.ipynb) models task (b), the in-season coach changes. Notebook 4_feature_selection comes next.
+Start with [notebook 1](notebooks/1_eda.ipynb): business understanding, data understanding and data preparation for all three tasks: (a) team ranking, (b) in-season coach changes, (c) penalty minutes per player. It exports the two modeling tables. [Notebook 2](notebooks/2_regression.ipynb) models the two regression tasks: Part A ranks the teams (task a), Part B predicts each player's penalty minutes (task c). [Notebook 3](notebooks/3_classification.ipynb) models task (b), the in-season coach changes. [Notebook 4](notebooks/4_feature_selection.ipynb) tests filter, wrapper and combined feature selection inside the rolling-origin folds across all three tasks, plus the goalie model improvement for task (c).
 
 ## Project map
 
@@ -12,6 +12,7 @@ Start with [notebook 1](notebooks/1_eda.ipynb): business understanding, data und
 - `notebooks/1_eda.ipynb`: intent → code → findings for every analysis step; DuckDB SQL for integration and quality checks.
 - `notebooks/2_regression.ipynb`: baselines, algorithm comparison, tuning, significance tests, feature importance, white-box models and the 2009 test for tasks (a) and (c).
 - `notebooks/3_classification.ipynb`: the same for task (b), plus imbalance handling inside the folds (with a SMOTE leakage demonstration), threshold selection and calibration.
+- `notebooks/4_feature_selection.ipynb`: inside-fold filter, wrapper and combined filter → wrapper feature selection for tasks (a), (b) and (c), plus the goalie persistence improvement for task (c).
 - `data/processed/modeling_table.csv`: modeling table with train/validation/test split.
 - `data/processed/player_pim_table.csv`: player-season table for task (c), penalty minutes per player.
 - `data/processed/predictions_2009_ranking.csv`, `data/processed/predictions_2009_pim.csv`, `data/processed/predictions_2009_coach.csv`: final 2009 predictions of notebooks 2 and 3.
